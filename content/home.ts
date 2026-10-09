@@ -8,6 +8,14 @@ export type ImageData = {
 };
 
 export const images = {
+  possibilities: {
+    src: "/images/contemporary-possibilities-concept.png",
+    alt: "Light contemporary living room with pale oak integrated shelving, a window seat, and linen seating beside a leafy garden",
+    width: 1536,
+    height: 1024,
+    caption: "A lighter language. The same considered approach.",
+    type: "concept",
+  },
   idea: {
     src: "/images/idea-threshold-concept.png",
     alt: "Oak doorway framing a quiet study with integrated shelving, a writing desk, and soft window light",

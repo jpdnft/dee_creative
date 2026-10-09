@@ -83,6 +83,9 @@ h1 { font-size: var(--display); line-height: .97; letter-spacing: -.027em; }
 .promise-copy p { font-size: 1rem; }
 .possibilities { border-top: 1px solid var(--rule); display: grid; grid-template-columns: 1fr 1.35fr; gap: 6rem; padding-top: 4rem; }
 .section-heading h2 { margin-top: 2rem; }
+.possibilities-study { margin-top: 2rem; }
+.possibilities-study .study-frame { aspect-ratio: 3 / 2; }
+.possibilities-study img { height: 100%; }
 .service { border-bottom: 1px solid var(--rule); }
 .service:first-child { border-top: 1px solid var(--rule); }
 .service summary { display: flex; align-items: center; gap: 1.3rem; padding: 1.5rem 0; cursor: pointer; list-style: none; }

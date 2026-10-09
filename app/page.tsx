@@ -20,7 +20,7 @@ export default function Home() {
       </section>
 
       <section id="possibilities" className="section possibilities" aria-labelledby="possibilities-heading">
-        <div className="section-heading"><p className="eyebrow">02 / Spaces & possibilities</p><h2 id="possibilities-heading">A place for what<br />matters to you.</h2><a className="text-link services-overview-link" href="/services">Explore our services</a></div>
+        <div className="section-heading"><p className="eyebrow">02 / Spaces & possibilities</p><h2 id="possibilities-heading">A place for what<br />matters to you.</h2><StudyImage image={images.possibilities} className="possibilities-study" sizes="(max-width: 760px) 100vw, 40vw" /><a className="text-link services-overview-link" href="/services">Explore our services</a></div>
         <div className="service-list">{services.map((service, index) => <details className="service" key={service.title} open={index === 0}><summary><span className="service-number">0{index + 1}</span><h3>{service.title}</h3><span className="expand-mark" aria-hidden="true" /></summary><p>{service.text}</p></details>)}</div>
       </section>
 
