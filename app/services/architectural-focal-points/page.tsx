@@ -1,0 +1,28 @@
+import { pageMetadata } from "@/lib/seo";
+import { images } from "@/content/home";
+import { creativeServices } from "@/content/services";
+import { StudyImage } from "@/components/media/study-image";
+import { Breadcrumbs } from "@/components/seo/breadcrumbs";
+import { ProjectInvitation } from "@/components/ui/project-invitation";
+import styles from "@/app/editorial.module.css";
+
+export const metadata = pageMetadata("Architectural Focal Points & Custom Built-Ins in Portland", "Fireplace walls, integrated shelving, reading niches, custom millwork, and architectural details that give a room character. Portland residential design-build.", "/services/architectural-focal-points");
+
+const elements = [
+  ["A wall with a purpose", "A fireplace surround, shelving composition, or display wall can organize a room visually and practically. We consider its relationship to seating, windows, light, and the other walls so the feature feels connected to the whole interior."],
+  ["Storage that becomes architecture", "Built-ins can do more than fill an empty space. Proportion, depth, trim, and material help cabinetry belong to the house. Open display, closed storage, and integrated seating can work together as one considered element."],
+  ["A threshold or a quiet corner", "A room divider, unusual door, window seat, or reading niche can change how a space is used. Circulation and sightlines matter just as much as the object itself. A small intervention can create a distinct place without adding a room."],
+  ["Something found, given a new setting", "Stained glass, vintage hardware, an antique door, or reclaimed timber can provide a starting point. Condition, dimensions, compatibility, and the work needed to integrate it are considered alongside its character."],
+  ...creativeServices.map(service => [service.title, service.text]),
+];
+
+export default function FocalPointsPage() {
+  return <main id="main"><Breadcrumbs items={[{ name: "Services", path: "/services" }, { name: "Architectural Focal Points", path: "/services/architectural-focal-points" }]} />
+    <section className={`section ${styles.opening}`} aria-labelledby="focal-title"><nav className={styles.breadcrumbs} aria-label="Breadcrumb"><a href="/services">Services</a><span aria-hidden="true">/</span><span>Architectural focal points</span></nav><p className="eyebrow">Architectural focal points / Portland, Oregon</p><div className={styles.openingGrid}><h1 id="focal-title">One element.<br />A different<br /><em>kind of room.</em></h1><div className={styles.openingCopy}><p>Sometimes a room needs a center. Sometimes it needs a useful edge, a framed view, or a place to pause.</p><p>A thoughtful architectural feature can change how the whole space feels and works.</p><a className="text-link" href="#focal-elements">Explore the elements</a></div></div></section>
+    <section className={`section ${styles.imagePair} ${styles.featureOpening}`} aria-labelledby="focal-moment"><div><p className="eyebrow">A design moment</p><h2 id="focal-moment">A small place.<br />A lasting <em>presence.</em></h2><p>A seat beneath old glass brings light, material, and a reason to linger together. Its value comes from the relationship between those things—not just the piece of cabinetry.</p><p>That is how we approach a focal point: as part of a room’s architecture, daily use, and atmosphere.</p></div><StudyImage image={images.nook} priority sizes="(max-width: 760px) 100vw, 45vw" /></section>
+    <section id="focal-elements" className={`section ${styles.principles}`} aria-labelledby="elements-heading"><div><p className="eyebrow">Ways to give a room character</p><h2 id="elements-heading">Presence,<br />with purpose.</h2></div><div>{elements.map(([title, text]) => <article className={styles.principle} key={title}><h3>{title}</h3><p>{text}</p></article>)}</div></section>
+    <section className={`section ${styles.split} ${styles.dark}`} aria-labelledby="proportion-heading"><p className="eyebrow">The room comes first</p><div><h2 id="proportion-heading">The right scale.<br />The right relationship.</h2><p>A feature can be beautifully made and still feel wrong if it overwhelms the room or ignores the existing architecture. We look at proportions, surrounding trim, material transitions, lighting, and what you see as you move through the space.</p><p>A Craftsman interior may call for a different vocabulary from a contemporary room. The solution can be restrained or expressive; it should belong to its setting and serve a clear purpose.</p><a className="text-link" href="/about">Read about our approach</a></div></section>
+    <section className={`section ${styles.notes}`} aria-label="Planning a focal point"><div><h3>A focused project still needs a plan.</h3><p>Dimensions, material selections, wall conditions, fixings, and any lighting requirements affect the build. Existing fireplaces or regulated specialty work can introduce additional requirements, with qualified specialists coordinated where appropriate.</p><a className="text-link services-overview-link" href="/process">See how we work</a></div><div><h3>Know when to consider the whole room.</h3><p>One feature may solve the problem. If circulation, light, storage, and finishes are all working against you, it may be more useful to step back and develop a coherent plan for the room.</p><a className="text-link services-overview-link" href="/services/whole-room-transformations">Explore whole-room transformations</a></div></section>
+    <ProjectInvitation id="focal-invitation" heading={<>What could<br />one element <em>change?</em></>} text="A blank wall, an awkward corner, or a piece you’d love to incorporate. Tell Jim about the possibility you see—or the space that needs one." />
+  </main>;
+}

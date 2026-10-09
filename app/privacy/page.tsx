@@ -1,0 +1,8 @@
+import { pageMetadata } from "@/lib/seo";
+import { site } from "@/lib/site";
+import styles from "@/app/editorial.module.css";
+
+export const metadata = pageMetadata("Privacy Information", "How project inquiry information is used by Dee Creative Enterprises and how to ask questions about your information.", "/privacy");
+export default function PrivacyPage() {
+  return <main id="main"><section className={`section ${styles.opening}`}><p className="eyebrow">Privacy information</p><h1>Information shared<br />in <em>confidence.</em></h1></section><section className={`section ${styles.split}`} aria-labelledby="privacy-heading"><p className="eyebrow">Project inquiries</p><div><h2 id="privacy-heading">What you share.<br />How it is used.</h2><p>The project inquiry form asks for contact details, your project’s general location, and information about the space and work you are considering. You may also choose to upload a photo. Please do not include sensitive personal information or photographs of documents.</p><p>This information is used to review the inquiry, contact you, and discuss potential project work. Once online inquiries are enabled, submissions are processed through Netlify Forms, a third-party hosting and form service. No advertising or analytics trackers have been added to this website.</p><p>To ask about information you have submitted, request a correction, or request deletion, call Jim at <a className="text-link" href={site.phoneHref}>{site.phone}</a>. Information needed for an active engagement or applicable recordkeeping obligations may need to be retained.</p><p>This page will be updated if the site’s forms, service providers, or use of analytics changes.</p></div></section></main>;
+}

@@ -1,1 +1,9 @@
 /private/
+/.tools/
+/node_modules/
+/.next/
+/.netlify/
+/artifacts/
+.env*
+!.env.example
+*.tsbuildinfo
