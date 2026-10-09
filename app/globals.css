@@ -73,6 +73,10 @@ h1 { font-size: var(--display); line-height: .97; letter-spacing: -.027em; }
 .hero-bottom { display: flex; align-items: center; justify-content: space-between; font-size: .75rem; padding-block: 1.3rem; border-bottom: 1px solid var(--rule); }
 .promise { display: grid; grid-template-columns: 1fr 2.3fr; gap: 3rem; }
 .promise .eyebrow { padding-top: .6rem; }
+.idea-study { margin-top: 2rem; }
+.idea-study .study-frame { aspect-ratio: 2 / 3; }
+.idea-study img { height: 100%; }
+.idea-study figcaption { display: none; }
 .promise h2 { max-width: 19ch; }
 .promise-copy { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 3rem; max-width: 780px; }
 .promise-copy p + p { margin-top: 0; }
@@ -166,6 +170,8 @@ h1 { font-size: var(--display); line-height: .97; letter-spacing: -.027em; }
   .hero-bottom span { max-width: 20ch; }
   .hero-bottom .text-link { white-space: nowrap; }
   .promise, .studio { grid-template-columns: 1fr; gap: 2rem; }
+  .promise-aside { max-width: 280px; }
+  .idea-study { margin-top: 1.5rem; }
   .promise h2 { max-width: 21ch; }
   .promise-copy { grid-template-columns: 1fr; gap: 1.2rem; margin-top: 2rem; }
   .possibilities { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 3rem; }

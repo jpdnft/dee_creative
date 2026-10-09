@@ -1,5 +1,9 @@
 # Concept image provenance
 
+## The Idea — `public/images/idea-threshold-concept.png`
+
+Generated with the built-in image generation tool. Prompt: Photorealistic architectural editorial photograph for a quiet Portland residential design-build studio website. Vertical portrait 2:3 composition. View through a crafted warm oak doorway into an intimate, plausible older Portland home interior reimagined as a thoughtful study. Foreground tactile oak door jamb and warm plaster, beyond a built-in walnut desk and restrained shelving, a small bronze lamp, linen chair, and tall divided-light window admitting soft cloudy Pacific Northwest daylight. Focus on the relationship of threshold, proportion, material, light, and usable space; a framed glimpse of possibility rather than a grand room reveal. Warm paper, walnut, charcoal, subtle olive tones. Beautiful architecture-book photography, eye-level, natural grain and plaster texture, quiet collected atmosphere. Modest residential scale, credible straight architectural geometry, no people, no text, no watermarks, no luxury hotel, no excessive ornament or marble, no surreal furniture. Original imagined concept study.
+
 These original imagined interiors were generated with the built-in image generation tool. They do not depict completed Dee Creative projects. Every presentation of them must retain the Concept Study disclosure.
 
 ## Library — `public/images/library-concept.png`

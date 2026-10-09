@@ -8,6 +8,14 @@ export type ImageData = {
 };
 
 export const images = {
+  idea: {
+    src: "/images/idea-threshold-concept.png",
+    alt: "Oak doorway framing a quiet study with integrated shelving, a writing desk, and soft window light",
+    width: 1024,
+    height: 1536,
+    caption: "A glimpse of what a space could become.",
+    type: "concept",
+  },
   library: {
     src: "/images/library-concept.png",
     alt: "Dark walnut home library with floor-to-ceiling shelves, a leather reading chair, and soft window light",

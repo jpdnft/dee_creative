@@ -15,7 +15,7 @@ export default function Home() {
       </section>
 
       <section id="approach" className="section promise" aria-labelledby="promise-heading">
-        <p className="eyebrow">01 / The idea</p>
+        <div className="promise-aside"><p className="eyebrow">01 / The idea</p><StudyImage image={images.idea} className="idea-study" sizes="(max-width: 760px) 280px, 27vw" /></div>
         <div><h2 id="promise-heading">We don’t simply<br />renovate rooms.<br /><span className="muted">We imagine what they could become—and then build them.</span></h2><div className="promise-copy"><p>A room begins with more than its dimensions. It begins with the way you live, the architecture you inherited, and the possibilities you haven’t quite seen yet.</p><p>We consider design and construction together, so an imaginative idea can become a thoughtful, tangible part of your home.</p></div></div>
       </section>
 
