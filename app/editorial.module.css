@@ -27,8 +27,10 @@
 .notes h3 { font-size: 2rem; margin-bottom: 1rem; }
 .notes p { font-size: 1rem; max-width: 50ch; }
 .notes > div { border-top: 1px solid var(--rule); padding-top: 1.5rem; }
-.portraitless { background: #e7e3d9; max-width: none; }
-.portraitless h2 { max-width: 20ch; }
+.studioPortrait { background: #e7e3d9; max-width: none; }
+.studioPortrait h2 { max-width: 20ch; }
+.portrait { max-width: 360px; }
+.portrait img { margin-top: 1.5rem; }
 .license { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: .8125rem; display: flex; flex-direction: column; gap: .4rem; }
 .principles { display: grid; grid-template-columns: 1fr 1.5fr; gap: 6rem; }
 .principles h2 { margin-top: 1.75rem; }
