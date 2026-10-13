@@ -1,5 +1,13 @@
 # Homepage milestone verification
 
+## Visual Process redesign
+
+- Five original photographic concepts generated sequentially, inspected, and saved in `public/images/process/`.
+- Full-width graphite Imagine and charcoal Build sections alternate with paper, ivory, and warm stone. Each stage has a distinct editorial composition and a direct navigation anchor.
+- Production build and TypeScript checks passed.
+- Browser checks at 1440, 820, 390, and 320 CSS pixels verified all five images load, no horizontal overflow or page errors, all five Concept Study labels, stage navigation targets, and edge-to-edge dark section widths.
+- Automated WCAG A/AA checks reported zero violations at those sizes. Desktop and mobile screenshots were visually reviewed.
+
 - `npm run build`: passed; homepage and metadata endpoints prerender successfully.
 - `npm run typecheck`: passed.
 - Browser QA at 1440, 820, 390, and 320 CSS pixels: no horizontal overflow, broken images, JavaScript page errors, or broken homepage anchors.

@@ -1,0 +1,49 @@
+.stageNavigation { display: flex; flex-wrap: wrap; gap: .8rem 2rem; margin-top: 3rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.stageNavigation a { font-size: .875rem; padding-block: .5rem; border-bottom: 1px solid transparent; }
+.stageNavigation a:hover { border-color: var(--walnut); }
+.stageNavigation span { color: var(--muted); font-size: .75rem; margin-right: .6rem; }
+.stage { scroll-margin-top: 7rem; }
+.inner { max-width: var(--max); padding: var(--space) var(--gutter); margin-inline: auto; display: grid; grid-template-columns: 1fr 1.35fr; column-gap: clamp(3rem, 7vw, 7rem); row-gap: 2.5rem; }
+.chapter h2 { font-size: clamp(3.5rem, 6vw, 6rem); margin: 1.5rem 0; line-height: 1; }
+.chapter h3 { font-size: clamp(1.7rem, 2.6vw, 2.5rem); line-height: 1.2; max-width: 24ch; }
+.body p { font-size: 1rem; max-width: 55ch; }
+.focus { margin-top: 2rem; padding-top: 1.2rem; border-top: 1px solid var(--rule); font-size: .75rem !important; color: var(--muted); }
+.visual :global(.study-frame) { aspect-ratio: 4 / 5; }
+.visual img { height: 100%; }
+.discover { background: var(--paper); }
+.discover .visual { grid-column: 1 / -1; grid-row: 1; }
+.discover .visual :global(.study-frame) { aspect-ratio: 2 / 1; }
+.discover .chapter { grid-column: 1; grid-row: 2; }
+.discover .body { grid-column: 2; grid-row: 2; align-self: end; }
+.imagine { background: var(--graphite); color: var(--paper); }
+.imagine .visual { grid-column: 1; grid-row: 1 / span 2; }
+.imagine .chapter { grid-column: 2; grid-row: 1; align-self: end; }
+.imagine .body { grid-column: 2; grid-row: 2; }
+.design { background: var(--ivory); }
+.design .chapter { grid-column: 1; grid-row: 1; align-self: end; }
+.design .body { grid-column: 1; grid-row: 2; }
+.design .visual { grid-column: 2; grid-row: 1 / span 2; align-self: center; }
+.design .visual :global(.study-frame) { aspect-ratio: 4 / 3; }
+.build { background: var(--ink); color: var(--paper); }
+.build .chapter { grid-column: 1; grid-row: 1; }
+.build .body { grid-column: 2; grid-row: 1; align-self: end; }
+.build .visual { grid-column: 1 / -1; grid-row: 2; }
+.build .visual :global(.study-frame) { aspect-ratio: 2 / 1; }
+.finish { background: #e7e3d9; }
+.finish .chapter { grid-column: 1; grid-row: 1; align-self: end; }
+.finish .body { grid-column: 1; grid-row: 2; }
+.finish .visual { grid-column: 2; grid-row: 1 / span 2; }
+.imagine :global(figcaption), .build :global(figcaption) { color: var(--stone); }
+.imagine .body p, .build .body p { color: var(--rule); }
+.imagine .focus, .build .focus { border-color: #625e56; }
+@media (max-width: 1000px) { .inner { column-gap: 2.5rem; } }
+@media (max-width: 760px) {
+  .inner { display: flex; flex-direction: column; gap: 2rem; padding-block: 3.5rem; }
+  .stage .inner > * { align-self: stretch; }
+  .chapter h2 { font-size: 4rem; margin-block: 1rem; }
+  .chapter h3 { max-width: none; }
+  .stageNavigation { gap: .5rem 1.2rem; margin-top: 2rem; }
+  .visual { width: 100%; }
+  .discover .visual :global(.study-frame), .build .visual :global(.study-frame) { aspect-ratio: 4 / 3; }
+  .imagine .visual :global(.study-frame), .finish .visual :global(.study-frame) { aspect-ratio: 4 / 5; }
+}
