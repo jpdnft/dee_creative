@@ -30,6 +30,17 @@ export default function AboutPage() {
         <div className={styles.license}><span>Construction & design projects since the 1990s</span><span>Portland-area finish carpentry</span><span>Large-scale built-ins & architectural details</span></div>
       </div>
     </section>
+    <section className={`section ${styles.split} ${styles.dark}`} aria-labelledby="project-leadership-heading">
+      <p className="eyebrow">Project leadership</p>
+      <div>
+        <h2 id="project-leadership-heading">Complex projects.<br />Steady leadership.</h2>
+        <p>Across a career spanning high-tech, publishing, financial services, and blockchain, Jim has consistently been entrusted with complex projects where the stakes—and the financial responsibilities—were substantial.</p>
+        <p>That experience includes multi-million-dollar national projects at Deloitte, blockchain projects generating tens of millions in revenue, mission-critical publishing projects, and leadership of marketing and communications for major international exhibitions.</p>
+        <p>He has also completely rehabilitated three of his own homes, from top to bottom. Those projects bring a firsthand understanding of the decisions, coordination, and hands-on work involved in transforming a home.</p>
+        <p>The connection is the ability to manage many moving parts while keeping the larger goal in view: priorities, budgets, sequencing, people, and clear communication. Dee Creative brings that depth of project leadership together with decades of practical building experience, so the creative idea and the work required to deliver it stay connected.</p>
+        <a className="text-link" href="/process">See how that experience shapes the process</a>
+      </div>
+    </section>
     <section className={`section ${styles.notes}`} aria-label="Creative interests">
       <div><h3>A curiosity that extends beyond the job.</h3><p>Outside project work, Jim enjoys making stained glass windows and refinishing furniture. Both offer another way to explore material, light, surface, and the character of objects worth keeping.</p></div>
       <div><h3>Making room for technology, too.</h3><p>Personal technology projects are another creative pursuit. That interest sits naturally alongside hands-on craft, bringing a willingness to experiment, solve unusual problems, and explore how a custom idea could work.</p><a className="text-link" href="/services#art-and-custom-elements">Explore art & custom architectural elements</a></div>
