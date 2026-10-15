@@ -13,9 +13,8 @@ export function StudyImage({ image, className = "", priority = false, sizes = "(
         <Image src={image.src} alt={image.alt} width={image.width} height={image.height}
           sizes={sizes}
           priority={priority} />
-        {image.type === "concept" && <span className="study-label">Concept study</span>}
       </div>
-      <figcaption><span>{image.caption}</span></figcaption>
+      <figcaption><span>{image.caption}</span>{image.type === "completed" && <span>Built by Dee Creative</span>}</figcaption>
     </figure>
   );
 }

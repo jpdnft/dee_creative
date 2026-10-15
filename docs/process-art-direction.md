@@ -1,6 +1,6 @@
 # Process page visual refinement
 
-The five stages form a visual narrative rather than five repeated text rows. New imagery follows the work: existing architecture, conceptual exploration, specific material decisions, making, and resolved details. All five photographs are generated concepts and retain the site’s Concept Study disclosure; none depict a real Dee Creative job or workshop.
+The five stages form a visual narrative rather than five repeated text rows. New imagery follows the work: existing architecture, conceptual exploration, specific material decisions, making, and resolved details. All five photographs are generated concepts; none depict a real Dee Creative job or workshop. The shared footer discloses illustrative imagery without overlay labels.
 
 - Discover: a wide room study on warm paper, followed by the opening questions.
 - Imagine: a portrait creative-worktable photograph against full-width warm graphite.

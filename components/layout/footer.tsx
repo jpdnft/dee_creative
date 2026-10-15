@@ -8,6 +8,7 @@ export function Footer() {
         <nav aria-label="Footer navigation">{navigation.map(item => <a key={item.href} href={item.href}>{item.label}</a>)}<a href="/start-a-project">Start a Project</a><a href={site.phoneHref}>{site.phone}</a><a href="/privacy">Privacy</a></nav>
       </div>
       <div className="footer-bottom"><p>© {new Date().getFullYear()} {site.legalName}</p><p>Oregon Residential General Contractor · CCB #{site.ccb}</p></div>
+      <p className="footer-imagery-note">Selected imagery illustrates design possibilities.</p>
     </footer>
   );
 }

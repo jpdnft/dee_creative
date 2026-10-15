@@ -19,7 +19,7 @@ The palette follows the brief: paper `#F3F0E9`, ivory `#FAF8F3`, charcoal `#2525
 
 ## Image integrity
 
-`StudyImage` automatically labels assets with `type: "concept"` as Concept Study. All first-pass images are imagined interiors; none represent completed work. Keep generated imagery out of completed-project collections. Supplied project photography must use `type: "completed"` and truthful captions.
+Images have no overlay labels. A shared footer note reads “Selected imagery illustrates design possibilities,” and the Concepts introduction explains the distinction from completed work. Keep generated imagery out of completed-project collections. Supplied project photography must use `type: "completed"` and truthful captions; `StudyImage` identifies these photographs as “Built by Dee Creative” in the caption.
 
 ## First milestone boundaries
 
