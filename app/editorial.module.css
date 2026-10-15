@@ -43,6 +43,12 @@
 .license { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: .8125rem; display: flex; flex-direction: column; gap: .4rem; }
 .principles { display: grid; grid-template-columns: 1fr 1.5fr; gap: 6rem; }
 .principles h2 { margin-top: 1.75rem; }
+.thinking { max-width: none; background: var(--graphite); color: var(--paper); }
+.thinking .principle { border-color: #625e56; }
+.thinking .principle p { color: var(--rule); }
+.thinkingPhoto { margin-top: 2rem; }
+.thinkingPhoto figcaption { margin-top: 1rem; color: var(--rule); }
+.thinkingPhoto figcaption p { font-size: .875rem; line-height: 1.7; }
 .principle { padding-block: 1.75rem; border-top: 1px solid var(--rule); }
 .principle:last-child { border-bottom: 1px solid var(--rule); }
 .principle h3 { font-size: 2rem; margin-bottom: .75rem; }
