@@ -37,6 +37,9 @@
 .projectPhoto { max-width: 400px; margin-top: 1.75rem; }
 .projectPhoto figcaption { margin-top: .9rem; font-size: .8125rem; line-height: 1.65; color: var(--muted); }
 .dark .projectPhoto figcaption { color: var(--rule); }
+.interestPhoto { max-width: 440px; margin: 0 0 2rem; }
+.interestPhoto img { aspect-ratio: 3 / 4; object-fit: cover; }
+.interestPhoto figcaption { margin-top: .9rem; min-height: 4.8em; font-size: .8125rem; line-height: 1.6; color: var(--muted); }
 .license { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: .8125rem; display: flex; flex-direction: column; gap: .4rem; }
 .principles { display: grid; grid-template-columns: 1fr 1.5fr; gap: 6rem; }
 .principles h2 { margin-top: 1.75rem; }
