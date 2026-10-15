@@ -35,7 +35,7 @@ export default function Home() {
       </section>
 
       <section id="process" className="section process" aria-labelledby="process-heading">
-        <div className="process-heading"><p className="eyebrow">04 / From possibility to place</p><h2 id="process-heading">An idea, carried through.</h2><p>A clear path from understanding the space to bringing it together. One project leader keeping the idea and the practical details in view.</p></div>
+        <div className="process-heading"><p className="eyebrow">04 / From possibility to place</p><h2 id="process-heading">An idea, carried through.</h2><p>A clear path from understanding the space to bringing it together. One project leader keeping the idea and the practical details in view.</p><h3 className="communication-heading">A clear path. An ongoing conversation.</h3><p>Good decisions begin with understanding. We explain the ideas, options, costs, and tradeoffs, helping you navigate unfamiliar territory and make informed choices throughout the project.</p></div>
         <ol className="process-list">{process.map((stage, index) => <li key={stage.title}><img className="process-icon" src={`/icons/process/${stage.title.toLowerCase()}.svg`} width={48} height={48} alt="" aria-hidden="true" /><span className="process-number">0{index + 1}</span><h3>{stage.title}</h3><p>{stage.text}</p></li>)}</ol><a className="text-link services-overview-link" href="/process">See how we work</a>
       </section>
 

@@ -11,6 +11,9 @@
 .split > div > p { max-width: 57ch; font-size: 1rem; }
 .split a { margin-top: 1.5rem; }
 .formTitle { font-size: clamp(2.5rem, 3.5vw, 3.5rem); margin-top: 1.5rem; }
+.communicationNote { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); }
+.communicationNote h3 { font-size: 1.8rem; line-height: 1.2; margin-bottom: .8rem; }
+.communicationNote p { font-size: 1rem; max-width: 42ch; }
 .stages { border-top: 1px solid var(--rule); padding-block: 0; }
 .stage { display: grid; grid-template-columns: 1fr 2.2fr; gap: 3rem; padding-block: 3.5rem; border-bottom: 1px solid var(--rule); }
 .stageLabel { display: flex; gap: 1rem; align-items: baseline; }

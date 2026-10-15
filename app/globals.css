@@ -119,6 +119,7 @@ h1 { font-size: var(--display); line-height: .97; letter-spacing: -.027em; }
 .process { background: var(--ivory); max-width: none; border-block: 1px solid var(--rule); }
 .process-heading { max-width: 740px; }
 .process-heading h2 { margin: 1.8rem 0; }
+.communication-heading { font-size: 2rem; line-height: 1.2; margin: 1.8rem 0 .8rem; }
 .process-heading > p:last-child { max-width: 55ch; font-size: 1rem; }
 .process-list { list-style: none; margin: 4rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(5, 1fr); gap: 2rem; }
 .process-list li { border-top: 1px solid var(--rule); padding-top: 1.3rem; }

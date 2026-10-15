@@ -12,7 +12,7 @@ export const metadata = pageMetadata("About the Studio", "Meet the thinking behi
 const principles = [
   ["Imagination, grounded in making", "Seeing a possibility is the beginning. Understanding materials, fabrication, and construction helps turn that possibility into a room that can actually be built."],
   ["Technology that makes ideas clearer", "Digital visualization, documentation, research, and planning tools can make an unfamiliar idea easier to understand. The purpose is better decisions and clearer communication."],
-  ["A conversation about the tradeoffs", "Proportion, function, material, cost, and construction often pull in different directions. Discussing the choices openly helps the design reflect what matters most to you."],
+  ["Clarity through conversation", "Jim’s particular strength is helping people navigate complexity. He brings clarity to unfamiliar decisions, explains the reasoning behind recommendations, and keeps the larger goal connected to the details. Thorough questions and an ongoing dialogue are welcome."],
   ["Leadership through the whole project", "Scope, sequencing, sourcing, and coordination are part of the design-build work. Thoughtful execution keeps the architectural idea present in the everyday decisions."],
 ];
 
@@ -37,7 +37,8 @@ export default function AboutPage() {
         <p>Across a career spanning high-tech, publishing, financial services, and blockchain, Jim has consistently been entrusted with complex projects where the stakes—and the financial responsibilities—were substantial.</p>
         <p>That experience includes multi-million-dollar national projects at Deloitte, blockchain projects generating tens of millions in revenue, mission-critical publishing projects, and leadership of marketing and communications for major international exhibitions.</p>
         <p>He has also completely rehabilitated three of his own homes, from top to bottom. Those projects bring a firsthand understanding of the decisions, coordination, and hands-on work involved in transforming a home.</p>
-        <p>The connection is the ability to manage many moving parts while keeping the larger goal in view: priorities, budgets, sequencing, people, and clear communication. Dee Creative brings that depth of project leadership together with decades of practical building experience, so the creative idea and the work required to deliver it stay connected.</p>
+        <p>Clear communication has been central to that project leadership: helping clients navigate complicated work, making decisions understandable, and keeping people connected to the larger goal. Jim especially enjoys working with clients who value thorough explanations and an ongoing conversation.</p>
+        <p>Dee Creative brings that depth of project leadership together with decades of practical building experience, so the creative idea and the work required to deliver it stay connected.</p>
         <a className="text-link" href="/process">See how that experience shapes the process</a>
       </div>
     </section>
