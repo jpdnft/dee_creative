@@ -1,4 +1,7 @@
 .intro { padding-top: 3.5rem; padding-bottom: 4rem; }
+.muralStudy { margin-top: 2rem; }
+.muralStudy figcaption { margin-top: 1rem; color: var(--muted); }
+.muralStudy figcaption p { font-size: .875rem; line-height: 1.7; }
 .introGrid { display: grid; grid-template-columns: 1.6fr 1fr; gap: 5rem; align-items: end; margin-top: 2.5rem; }
 .intro h1 { font-size: clamp(3.5rem, 7.4vw, 7.5rem); }
 .introCopy { max-width: 36ch; padding-bottom: .5rem; }
