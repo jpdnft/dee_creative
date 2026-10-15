@@ -1,4 +1,5 @@
 import { notFound } from "next/navigation";
+import { site } from "@/lib/site";
 import { publishedProjects } from "@/content/projects";
 import { pageMetadata } from "@/lib/seo";
 import { Breadcrumbs } from "@/components/seo/breadcrumbs";
@@ -7,14 +8,16 @@ import { ProjectInvitation } from "@/components/ui/project-invitation";
 import editorial from "@/app/editorial.module.css";
 import styles from "../projects.module.css";
 
-export function generateStaticParams() { return publishedProjects().map(project => ({ slug: project.slug })); }
+export function generateStaticParams() { return site.projectsEnabled ? publishedProjects().map(project => ({ slug: project.slug })) : []; }
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  if (!site.projectsEnabled) notFound();
   const { slug } = await params;
   const project = publishedProjects().find(item => item.slug === slug);
   if (!project) notFound();
   return pageMetadata(project.title, project.description, `/projects/${slug}`);
 }
 export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+  if (!site.projectsEnabled) notFound();
   const { slug } = await params;
   const project = publishedProjects().find(item => item.slug === slug);
   if (!project) notFound();

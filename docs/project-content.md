@@ -1,5 +1,7 @@
 # Adding real project stories
 
+Projects is temporarily disabled through `site.projectsEnabled` in `lib/site.ts`. Its navigation and sitemap entries are hidden and both index and detail routes return 404. Set the flag to `true` when the portfolio is ready to return; the existing content and presentation files are preserved.
+
 The portfolio has a Projects index and a case-study route at `/projects/[slug]`. Its collection is intentionally empty until genuine project material is supplied. Concept studies remain in their own collection.
 
 For each project, gather:
