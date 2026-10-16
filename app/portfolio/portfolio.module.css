@@ -5,7 +5,8 @@
 .projectHeading > p { padding-top: .6rem; }
 .projectHeading h2 { max-width: 23ch; }
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; align-items: start; }
-.galleryImage + .galleryImage { grid-column: 2; margin-top: 4rem; }
+.galleryImage:nth-child(even) { grid-column: 2; margin-top: 4rem; }
+.galleryImage:last-child:nth-child(odd) { grid-column: 1 / -1; margin-top: 1rem; }
 .galleryImage img, .singleImage img { width: 100%; height: auto; }
 .singleImage { grid-column: 1 / -1; }
 .gallery figcaption { color: var(--muted); font-size: .75rem; line-height: 1.6; margin-top: .8rem; }
@@ -22,5 +23,5 @@
   .projectHeading { margin-bottom: 2rem; }
   .projectDetails { margin-top: 2rem; }
   .gallery { display: flex; flex-direction: column; gap: 2rem; }
-  .galleryImage + .galleryImage { margin-top: 0; }
+  .galleryImage:nth-child(even), .galleryImage:last-child:nth-child(odd) { margin-top: 0; }
 }
