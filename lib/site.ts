@@ -13,6 +13,7 @@ export const site = {
 
 // Use real routes as they are introduced; unfinished destinations stay on the homepage.
 export const navigation = [
+  { label: "Portfolio", href: "/portfolio" },
   ...(site.projectsEnabled ? [{ label: "Projects", href: "/projects" }] : []),
   { label: "Services", href: "/services" },
   { label: "Concepts", href: "/concepts" },

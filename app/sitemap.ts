@@ -6,6 +6,7 @@ import { publishedProjects } from "@/content/projects";
 export default function sitemap(): MetadataRoute.Sitemap {
   return site.url === "https://example.com" ? [] : [
     { url: site.url, changeFrequency: "monthly", priority: 1 },
+    { url: `${site.url}/portfolio`, changeFrequency: "monthly", priority: 0.8 },
     ...(site.projectsEnabled ? [
       { url: `${site.url}/projects`, changeFrequency: "monthly" as const, priority: 0.7 },
       ...publishedProjects().map(project => ({ url: `${site.url}/projects/${project.slug}`, changeFrequency: "monthly" as const, priority: 0.7 })),
