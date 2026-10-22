@@ -1,14 +1,24 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { StudyImage } from "@/components/media/study-image";
-import { images } from "@/content/home";
+import { images, type ImageData } from "@/content/home";
+import { kitchenBathImages } from "@/content/kitchens-and-baths";
 import { considerations, creativeServices, serviceGroups } from "@/content/services";
 import editorial from "@/app/editorial.module.css";
 import { site } from "@/lib/site";
 import styles from "./services.module.css";
 
 const title = "Residential Design-Build & Architectural Interior Services in Portland";
-const description = "Private libraries, listening rooms, custom built-ins, architectural focal points, and whole-room transformations. Thoughtful design and construction in Portland, Oregon.";
+const description = "Kitchen and bathroom remodeling, private libraries, listening rooms, custom built-ins, and whole-room transformations. Thoughtful design and construction in Portland, Oregon.";
+
+const serviceImages: Record<string, ImageData> = {
+  "kitchens-and-baths": kitchenBathImages.kitchen,
+  "private-libraries": images.library,
+  "listening-rooms": images.listening,
+  "architectural-focal-points": images.nook,
+  "whole-room-transformations": images.possibilities,
+  "architectural-interiors": images.idea,
+};
 
 export const metadata: Metadata = {
   title,
@@ -35,10 +45,10 @@ export default function ServicesPage() {
 
       <section id="engagements" className={`section ${styles.engagements}`} aria-labelledby="engagements-heading">
         <div className={styles.chapter}><p className="eyebrow">The scope of possibility</p><h2 id="engagements-heading">What does your<br />space need?</h2><p>You can arrive with a specific idea or simply a room that isn’t working. These are some of the ways we can help.</p><nav aria-label="Service areas" className={styles.contents}>{serviceGroups.map(group => <a key={group.id} href={`#${group.id}`}><span>{group.number}</span>{group.title}</a>)}</nav></div>
-        <div className={styles.serviceStories}>{serviceGroups.map(group => <article id={group.id} key={group.id} className={styles.story}><p className="eyebrow">{group.number} / Design + build</p><h3>{group.title}</h3><p className={styles.lede}>{group.introduction}</p><p>{group.text}</p><p className={styles.details}>{group.details}</p>{group.href && <a className="text-link" href={group.href}>Explore {group.title.toLowerCase()}</a>}</article>)}</div>
+        <div className={styles.serviceStories}>{serviceGroups.map(group => <article id={group.id} key={group.id} className={styles.story}><p className="eyebrow">{group.number} / Design + build</p><h3>{group.title}</h3>{serviceImages[group.id] && <StudyImage image={serviceImages[group.id]} className={styles.storyImage} sizes="(max-width: 760px) 100vw, 55vw" />}<p className={styles.lede}>{group.introduction}</p><p>{group.text}</p><p className={styles.details}>{group.details}</p>{group.href && <a className="text-link" href={group.href}>Explore {group.title.toLowerCase()}</a>}</article>)}</div>
       </section>
 
-      <section id="art-and-custom-elements" className={`section ${editorial.principles}`} aria-labelledby="creative-services-heading"><div><p className="eyebrow">Art & custom architectural elements</p><h2 id="creative-services-heading">An idea worth<br />making <em>your own.</em></h2><p className="services-overview-link">Some spaces call for something particular: original glasswork, a mural, or a feature that brings design and technology together.</p><figure className={styles.muralStudy}><Image src="/images/mural2.png" alt="Photograph of a bedroom in Jim’s former residence enhanced with a botanical mural concept on deep green walls" width={1448} height={1086} sizes="(max-width: 760px) 100vw, 40vw" /><figcaption><p>A photograph from one of Jim’s former residences, enhanced with a mural concept to explore what the room could become.</p><p>Using his VR headsets, Jim can show clients previews before painting, then plan the scale and transfer large-format artwork onto walls and other surfaces.</p></figcaption></figure></div><div>{creativeServices.map(service => <article className={editorial.principle} key={service.title}><h3>{service.title}</h3><p>{service.text}</p></article>)}</div></section>
+      <section id="art-and-custom-elements" className={`section ${editorial.principles}`} aria-labelledby="creative-services-heading"><div><p className="eyebrow">Art & custom architectural elements</p><h2 id="creative-services-heading">An idea worth<br />making <em>your own.</em></h2><p className="services-overview-link">Some spaces call for something particular: original glasswork, a mural, or a feature that brings design and technology together.</p><figure className={styles.muralStudy}><Image src="/images/mural2.png" alt="Photograph of a bedroom in Jim’s former residence enhanced with a botanical mural concept on deep green walls" width={1448} height={1086} sizes="(max-width: 760px) 100vw, 40vw" /><figcaption><p>A photograph from one of Jim’s former residences, enhanced with a mural concept to explore what the room could become.</p><p>Using his VR headset, Jim can show clients previews before painting, then plan the scale and transfer large-format artwork onto walls and other surfaces.</p></figcaption></figure></div><div>{creativeServices.map(service => <article className={editorial.principle} key={service.title}><h3>{service.title}</h3><p>{service.text}</p></article>)}</div></section>
 
       <section className={`section ${styles.considered}`} aria-labelledby="considered-heading"><div className={styles.detailImage}><StudyImage image={images.nook} sizes="(max-width: 760px) 100vw, 42vw" /></div><div className={styles.consideredCopy}><p className="eyebrow">Beyond the obvious</p><h2 id="considered-heading">What stays.<br />What’s found.<br />What comes <em>next.</em></h2>{considerations.map(item => <div key={item.title}><h3>{item.title}</h3><p>{item.text}</p></div>)}</div></section>
 

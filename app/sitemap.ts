@@ -12,6 +12,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       ...publishedProjects().map(project => ({ url: `${site.url}/projects/${project.slug}`, changeFrequency: "monthly" as const, priority: 0.7 })),
     ] : []),
     { url: `${site.url}/services`, changeFrequency: "monthly", priority: 0.8 },
+    { url: `${site.url}/services/kitchens-and-baths`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${site.url}/services/private-libraries`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${site.url}/services/listening-rooms`, changeFrequency: "monthly", priority: 0.8 },
     { url: `${site.url}/services/architectural-focal-points`, changeFrequency: "monthly", priority: 0.8 },

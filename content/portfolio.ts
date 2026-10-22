@@ -100,10 +100,10 @@ export const portfolio: PortfolioProject[] = [
     title: "An antique finds a new daily purpose.",
     category: "Basement bathroom / Complete remodel",
     description: [
-      "An antique dresser became the starting point for a bathroom with a distinctly personal character. Jim adapted the piece to receive a drop-in sink, bringing the warmth and detail of furniture into a room more often defined by standard fixtures.",
-      "One of his early remodels, the project extended well beyond the vanity. An unusual layout accommodated a double-width custom tiled shower, built-in shelving, and a large jetted tub, with a safe discreetly integrated behind a wall. Those features sit beyond this view, but reflect the same interest in making every part of a room work harder—and feel individual.",
+      "An antique buffet became the starting point for a bathroom with a distinctly personal character. Jim adapted the piece to receive a drop-in sink, bringing the warmth and detail of furniture into a room more often defined by standard fixtures.",
+      "One of his early remodels, the project extended well beyond the vanity. An unusual layout accommodated a double-width custom tiled shower, built-in shelving, and a large jetted tub, with a safe discreetly integrated behind a wall. Those features sit beyond this view, but the floor offers another example of the thinking behind the work: small-format tile was deliberately chosen for its ability to follow the uneven concrete slab. Its flexibility made for an attractive finish without extensive work to reshape the existing surface—a practical response to the room’s constraints that became part of its character.",
     ],
-    images: [{ src: "/images/basementbathroom3.jpg", alt: "Remodeled bathroom with an antique wood dresser adapted as a sink vanity, patterned wallpaper, and recessed wood shelving", width: 1448, height: 1086 }],
+    images: [{ src: "/images/basementbathroom3.jpg", alt: "Remodeled bathroom with an antique wood buffet adapted as a sink vanity, patterned wallpaper, and recessed wood shelving", width: 1448, height: 1086 }],
     tags: ["Bathroom renovation", "Furniture repurposed", "Custom tilework", "Integrated storage", "Concealed safes"],
   },
   {
@@ -185,7 +185,7 @@ export const portfolio: PortfolioProject[] = [
     category: "Wood flooring / Surface refresh",
     description: [
       "Decades of accumulated dirt and wear had dulled this existing wood floor. Jim used a rented floor machine for a thorough mechanical scuffing—a light surface abrasion—before applying a fresh topcoat.",
-      "This was a surface refresh rather than a full sand-back and refinish. The renewed finish brings the wood’s warmth and variation back into focus, showing how a carefully chosen level of intervention can make a meaningful difference in an aging home.",
+      "This was a surface refresh rather than a full sand-back and refinish. The renewed finish brings the wood’s warmth and variation back into focus, showing how a carefully chosen level of intervention can make a meaningful and budget-friendly difference in an aging home.",
     ],
     images: [{ src: "/images/floor3.jpg", alt: "Refreshed wood flooring with a renewed sheen and warm grain surrounding a brick fireplace during interior work", width: 1448, height: 1086 }],
     tags: ["Wood floor refresh", "Surface preparation", "Fresh topcoat", "Retained character"],
@@ -250,9 +250,24 @@ export const portfolio: PortfolioProject[] = [
     images: [
       { src: "/images/paint3a.jpg", alt: "Bedroom painted deep green with white architectural trim, warm wood furnishings, and a decorative ceiling medallion", width: 1448, height: 1086, caption: "Deep green brings an enveloping richness to a bedroom." },
       { src: "/images/paint3b.jpg", alt: "Sunlit sitting room with warm yellow walls, crisp white window trim, and wood floors", width: 1448, height: 1086, caption: "Warm yellow makes the most of abundant daylight and crisp white trim." },
-      { src: "/images/paint3c.jpg", alt: "Bedroom with luminous metallic blue walls, white trim, antique wood furniture, and warm lighting", width: 1448, height: 1086, caption: "Metallic blue gives the wall surface depth and a changing relationship with light." },
+      { src: "/images/paint3c.jpg", alt: "Bedroom with luminous metallic blue walls, white trim, antique wood furniture, and warm lighting", width: 1448, height: 1086, caption: "Metallic blue gives the wall surface depth and a changing relationship with light. And by the way, that's not some oddball AI glitch with the two doors showing in the background. This was in an old home that actually had two identical closets right next to each other in the far room." },
     ],
     tags: ["Interior painting", "Bold color", "Metallic finishes", "Architectural contrast", "Room transformations"],
+  },
+  {
+    id: "compact-modern-bathroom",
+    order: 200,
+    title: "Small footprint. A full sense of possibility.",
+    category: "Compact bathroom / Complete remodel",
+    description: [
+      "A very small bathroom became an exercise in making every element earn its place. Jim refurbished a vintage iron tub and set it within a fresh composition of subway tile beneath and around the bath. A streamlined, European-inspired glass bath screen keeps the room visually open, bringing a contemporary counterpoint to the retained tub.",
+      "Space-saving IKEA furnishings—including a slim wall-mounted storage cabinet and a shallow sink and vanity—provide everyday function with minimal projection into the room. A new toilet and all-new plumbing completed the practical transformation, while glass shower shelves, thoughtfully placed towel racks, and warm color give the compact interior a generous sense of care. The result is a bathroom whose character and usefulness reach well beyond its dimensions.",
+    ],
+    images: [
+      { src: "/images/bath3a.jpg", alt: "Compact bathroom with a refurbished vintage iron tub, white subway tile, curved glass bath screen, slim dark storage, and warm ochre walls", width: 1448, height: 1086, caption: "A restored iron tub and clear glass screen balance old character with a lighter, modern expression." },
+      { src: "/images/bath3b.jpg", alt: "Shallow sink and dark vanity beside a tiled tub with a glass screen, glass shower shelves, and integrated storage in a small bathroom", width: 1448, height: 1086, caption: "Shallow furnishings and carefully placed storage make the most of a very limited footprint." },
+    ],
+    tags: ["Small-space design", "Bathroom remodeling", "Vintage tub restoration", "Subway tile", "Space-saving storage", "European influence"],
   },
 ];
 

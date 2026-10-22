@@ -28,6 +28,9 @@
 .story > p:not(.lede):not(.details):not(:first-child) { font-size: 1rem; max-width: 57ch; }
 .story .details { font-size: .75rem; line-height: 1.8; color: var(--muted); margin-top: 1.75rem; }
 .story > a { margin-top: 1.5rem; }
+.storyImage { margin-block: 1.75rem; }
+.storyImage :global(.study-frame) { aspect-ratio: 3 / 2; }
+.storyImage img { height: 100%; }
 .considered { max-width: none; background: var(--graphite); color: var(--paper); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 9vw, 9rem); align-items: center; }
 .detailImage { max-width: 580px; width: 100%; margin-left: auto; }
 .detailImage :global(figcaption) { color: var(--stone); }
