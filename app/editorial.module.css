@@ -22,7 +22,7 @@
 .stage h3 { font-size: clamp(1.9rem, 3vw, 2.8rem); line-height: 1.2; margin-bottom: 1.5rem; max-width: 29ch; }
 .stage p { max-width: 57ch; font-size: 1rem; }
 .stage .focus { color: var(--muted); font-size: .75rem; margin-top: 1.75rem; }
-.dark { max-width: none; background: var(--graphite); color: var(--paper); }
+.dark { max-width: none; background: var(--deep-olive); color: var(--paper); }
 .dark > div > p { color: var(--rule); }
 .dark a:focus-visible { outline-color: var(--paper); }
 .dark a:hover { color: var(--stone); }
@@ -43,7 +43,7 @@
 .license { margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--rule); font-size: .8125rem; display: flex; flex-direction: column; gap: .4rem; }
 .principles { display: grid; grid-template-columns: 1fr 1.5fr; gap: 6rem; }
 .principles h2 { margin-top: 1.75rem; }
-.thinking { max-width: none; background: var(--graphite); color: var(--paper); }
+.thinking { max-width: none; background: var(--deep-olive); color: var(--paper); }
 .thinking .principle { border-color: #625e56; }
 .thinking .principle p { color: var(--rule); }
 .thinkingPhoto { margin-top: 2rem; }

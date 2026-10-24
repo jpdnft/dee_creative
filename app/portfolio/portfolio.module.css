@@ -1,6 +1,6 @@
 .project { scroll-margin-top: 7rem; border-top: 1px solid var(--rule); }
 .inner { padding-block: clamp(3.5rem, 7vw, 7rem); }
-.dark { background: var(--graphite); color: var(--paper); border-color: transparent; }
+.dark { background: var(--deep-olive); color: var(--paper); border-color: transparent; }
 .projectHeading { display: grid; grid-template-columns: 1fr 2fr; gap: 3rem; align-items: start; margin-bottom: 3rem; }
 .projectHeading > p { padding-top: .6rem; }
 .projectHeading h2 { max-width: 23ch; }

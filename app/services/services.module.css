@@ -31,7 +31,7 @@
 .storyImage { margin-block: 1.75rem; }
 .storyImage :global(.study-frame) { aspect-ratio: 3 / 2; }
 .storyImage img { height: 100%; }
-.considered { max-width: none; background: var(--graphite); color: var(--paper); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 9vw, 9rem); align-items: center; }
+.considered { max-width: none; background: var(--deep-olive); color: var(--paper); display: grid; grid-template-columns: 1fr 1fr; gap: clamp(3rem, 9vw, 9rem); align-items: center; }
 .detailImage { max-width: 580px; width: 100%; margin-left: auto; }
 .detailImage :global(figcaption) { color: var(--stone); }
 .detailImage :global(.study-frame) { aspect-ratio: 4 / 5; }

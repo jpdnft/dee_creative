@@ -15,7 +15,7 @@
 .discover .visual :global(.study-frame) { aspect-ratio: 2 / 1; }
 .discover .chapter { grid-column: 1; grid-row: 2; }
 .discover .body { grid-column: 2; grid-row: 2; align-self: end; }
-.imagine { background: var(--graphite); color: var(--paper); }
+.imagine { background: var(--deep-olive); color: var(--paper); }
 .imagine .visual { grid-column: 1; grid-row: 1 / span 2; }
 .imagine .chapter { grid-column: 2; grid-row: 1; align-self: end; }
 .imagine .body { grid-column: 2; grid-row: 2; }
