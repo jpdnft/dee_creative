@@ -269,6 +269,46 @@ export const portfolio: PortfolioProject[] = [
     ],
     tags: ["Small-space design", "Bathroom remodeling", "Vintage tub restoration", "Subway tile", "Space-saving storage", "European influence"],
   },
+  {
+    id: "custom-peninsula-kitchen",
+    order: 210,
+    title: "Built from scratch, around everyday life.",
+    category: "Kitchen remodel / Fully custom cabinetry",
+    description: [
+      "One of Jim’s early kitchen remodels brought together entirely custom-built cabinetry, a generous peninsula, and a warm, cohesive material palette. Traditional face-frame construction gives the cabinets their defined proportions, reflecting the design direction of the time and Jim’s longstanding interest in making storage specific to its setting.",
+      "Carbonized bamboo flooring, new recessed lighting, fresh paint, and tilework carried the transformation throughout the room. A tubular skylight, outside this view, added another source of daylight: a rooftop collector channels natural light through a reflective tube to a ceiling diffuser below. From the cabinetry to the lighting, the project paired hands-on fabrication with careful attention to how the kitchen would feel and function each day.",
+    ],
+    images: [{ src: "/images/kitchen3.jpg", alt: "Custom kitchen with white face-frame cabinetry, a large peninsula, dark counters, bamboo flooring, and recessed lighting", width: 1448, height: 1086 }],
+    tags: ["Kitchen remodeling", "Custom cabinetry", "Face-frame construction", "Carbonized bamboo", "Daylight integration", "Peninsula layout"],
+  },
+  {
+    id: "pavilion-outdoor-kitchen",
+    order: 220,
+    title: "An outdoor kitchen becomes a gathering place.",
+    category: "Outdoor kitchen / Covered pavilion",
+    description: [
+      "A substantial pavilion-like timber structure gave this outdoor kitchen an architectural framework. Corrugated metal roofing defines the space overhead, bringing cooking, dining, and gathering into one connected outdoor setting. The design work considered the whole experience, from the working kitchen to the atmosphere around it.",
+      "A propane grill, separate propane burner, refrigerator, and sink make the kitchen useful beyond an occasional barbecue. The structure was later expanded to shelter the vintage 1968 trailer shown here, extending the composition and giving the distinctive trailer a place within the larger outdoor space.",
+    ],
+    images: [{ src: "/images/outdoorkitchen3.jpg", alt: "Covered outdoor kitchen and gathering area beneath a timber pavilion with corrugated metal roofing, cooking appliances, warm lighting, and a vintage trailer", width: 1448, height: 1086 }],
+    tags: ["Outdoor kitchens", "Pavilion construction", "Timber framing", "Corrugated metal", "Outdoor living", "Vintage character"],
+  },
+  {
+    id: "attic-bedroom-transformation",
+    order: 230,
+    title: "Possibility, right beneath the roof.",
+    category: "Attic transformation / Bedroom & play nook",
+    description: [
+      "An unusable attic became a bright, welcoming bedroom through a complete reconsideration of its structure, comfort, and layout. New skylights, lighting, flooring, and insulation in both the roof slopes and floor transformed the envelope, alongside structural improvements and a new mini-split air-conditioning system.",
+      "The most consequential design move was widening the usable footprint into the shallower sides of the roof. Giving those lower areas a purpose for beds and seating freed the center of the room and made the attic feel substantially larger. The roof’s geometry became a way to organize the space, with places to sleep, sit, and spend time tucked beneath its slopes.",
+      "A smaller adjoining room, affectionately called the ‘nook,’ extends the transformation with a comfortable play space and a skylight of its own. Together, the rooms turn previously overlooked volume into an inviting part of the home, with daylight and thoughtful planning doing much of the work.",
+    ],
+    images: [
+      { src: "/images/attic3a.jpg", alt: "Transformed attic bedroom with skylights, beds and seating along the lower roof slopes, new flooring, and a wall-mounted air-conditioning unit", width: 1448, height: 1086, caption: "Beds and seating occupy the shallower edges, leaving the center open and giving the attic a more generous feel." },
+      { src: "/images/attic3b.jpg", alt: "Small attic play nook with its own skylight, a daybed, low shelving, and warm lighting beneath sloped ceilings", width: 1448, height: 1086, caption: "The adjoining nook offers a smaller retreat for play, reading, and quiet afternoons beneath its own skylight." },
+    ],
+    tags: ["Attic transformation", "Space planning", "Skylights", "Structural improvements", "Insulation & comfort", "Bedroom & play space"],
+  },
 ];
 
 export function orderedPortfolio() {
