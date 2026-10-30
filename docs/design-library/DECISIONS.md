@@ -81,3 +81,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the next queued article, Tudor Revival Architecture, from the supplied revised Markdown and five images. Adapt it into the existing private Design Library layout and use the supplied images where they illustrate the copy.
 - Preserve the original Markdown and PNGs. The article remains a draft until the user approves its editorial content. No publication, push, merge, or deployment was authorized.
+
+## Colonial Revival preview authorized — 2026-10-29
+
+- The user explicitly requested the next queued article, Colonial Revival Architecture, from the supplied Markdown and five images. Adapt the copy and supplied images into the established private article layout. The images supersede the draft's older production brief stating they still needed to be made.
+- Preserve the original Markdown and PNGs. The article remains a draft until editorial approval. This request gives no authorization to push, merge, deploy, or publish.
