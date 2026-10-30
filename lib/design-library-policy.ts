@@ -15,7 +15,7 @@ export function libraryArticleImages(article: LibraryArticle) {
 export function isPublicationReady(article: LibraryArticle) {
   return ["approved", "published"].includes(article.status) && Boolean(article.contentApprovedAt)
     && libraryArticleImages(article)
-      .every(image => image.kind !== "brief" && image.approvedAt && image.src && image.width && image.height && image.alt && image.caption && image.credit && image.license && (image.kind === "generated" || (image.kind === "documentary" && image.sourceUrl)));
+      .every(image => image.kind !== "brief" && image.approvedAt && image.src && image.width && image.height && image.alt && image.caption && image.credit && image.license && (image.kind === "generated" || image.kind === "supplied" || (image.kind === "documentary" && image.sourceUrl)));
 }
 
 export function isPublishedArticle(article: LibraryArticle) {

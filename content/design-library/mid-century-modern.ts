@@ -106,13 +106,13 @@ export const midCenturyModern: LibraryArticle = {
     "title": "A low house open to its setting",
     "caption": "A sheltering roof, timber, masonry, and broad glazing illustrate a mid-century inspired relationship between house and landscape.",
     "alt": "Low modern house at sunset with wide roof overhangs, a masonry chimney, timber surfaces, glass walls, and a landscaped approach.",
-    "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+    "brief": "Image supplied by Studio Dee for this article.",
     "kind": "supplied",
     "src": "/api/design-library-images/mid-century-modern-exterior.webp",
     "width": 1536,
     "height": 1024,
-    "credit": "Image supplied for this draft; creator and use rights to confirm",
-    "license": "Editorial review pending"
+    "credit": "Image provided by Studio Dee",
+    "license": "Studio Dee authorized use"
   },
   "sections": [
     {
@@ -148,13 +148,13 @@ export const midCenturyModern: LibraryArticle = {
         "title": "Living with the view",
         "caption": "A hearth anchors this open living room while a timber ceiling and large windows carry the eye toward the landscape.",
         "alt": "Mid-century inspired living room with brick hearth, timber ceiling, low seating, and a large window overlooking trees and water.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/mid-century-modern-living.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -174,13 +174,13 @@ export const midCenturyModern: LibraryArticle = {
         "title": "The roof edge as architecture",
         "caption": "A broad eave, expressed beam, and clerestory band show how the roof edge can organize a mid-century facade.",
         "alt": "Close view of a modern house roof overhang with wood soffit, dark supporting beam, clerestory glass, and stone wall.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/mid-century-modern-roof.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -200,13 +200,13 @@ export const midCenturyModern: LibraryArticle = {
         "title": "A kitchen in the living sequence",
         "caption": "The kitchen and dining area open toward garden glazing in this contemporary illustration of mid-century spatial ideas.",
         "alt": "Wood-paneled modern kitchen and dining area with low cabinetry, timber ceiling, and large windows opening toward a garden.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/mid-century-modern-kitchen.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -226,13 +226,13 @@ export const midCenturyModern: LibraryArticle = {
         "title": "Warmth from built materials",
         "caption": "Wood paneling, built-in shelving, glass, and textured furnishings give this illustrated interior its material character.",
         "alt": "Mid-century inspired study with wood paneling and shelves, upholstered seating, and a tall window looking toward trees.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/mid-century-modern-materials.webp",
         "width": 1024,
         "height": 1536,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -266,13 +266,13 @@ export const midCenturyModern: LibraryArticle = {
         "title": "A forest setting",
         "caption": "Timber, deep eaves, and a planted courtyard suggest how regional modern houses can balance shelter and openness.",
         "alt": "Low timber and stone modern house with broad roof overhangs and large windows set among evergreens.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/mid-century-modern-northwest.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {

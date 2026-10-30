@@ -71,3 +71,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user requested that the Design Library work become a working branch that can be pushed together when ready. Consolidate the existing implementation, research notes, supplied drafts, and private image assets on `design-library/working-draft` with a local commit.
 - This is a version-control handoff, not editorial approval or publication authorization. Keep the library release gate off and all draft article statuses unchanged. Do not push, merge, or deploy the branch until separately requested.
+
+## Studio Dee image use — 2026-10-29
+
+- The user states that all supplied Design Library images may be treated as having no image-rights issue; they are primarily the user's own or generated images. Remove rights-pending and creator-confirmation reminders from current image metadata, captions, and review checklists. Do not invent individual creators, licenses, or documentary building identities.
+- A supplied image may pass release readiness after explicit editorial image approval. Article content approval, publication authorization, and the library release gate remain separate requirements. Earlier rights-pending notes in this decision log are superseded by this instruction.

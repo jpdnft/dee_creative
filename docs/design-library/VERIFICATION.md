@@ -69,3 +69,8 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Production `npm.cmd run build` passed with the release gate still disabled; `npm.cmd run typecheck` and all 12 tests passed.
 - The Design Library implementation, article drafts, research/review records, original supplied images, and private WebP assets are being consolidated in a local commit. Generated caches, local tools, and screenshots remain ignored.
 - No remote push, merge, deployment, article status change, or public release was authorized.
+
+## Image-use decision — 2026-10-29
+
+- Studio Dee confirmed that its supplied imagery has no outstanding rights issue. Rights-pending notices and creator-confirmation prompts in current article metadata, visible captions, and review notes were removed. Earlier verification notes describing a rights hold are superseded by this decision.
+- Supplied images can pass publication readiness after individual editorial image approval. The four draft articles remain unapproved; the publication gate remains disabled. Captions still avoid attributing conceptual images to specific historic buildings or completed Studio Dee projects.

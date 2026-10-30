@@ -16,7 +16,7 @@ All five supplied PNGs were visually inspected. Originals remain under `assets/d
 | `Art Deco Emerald Bedroom Retreat.png` | Geometry: stepped headboard, fan motif, and paired lights. |
 | `Opulent Art Deco Bathroom Retreat.png` | Bringing the style home: geometric floor and patterned, high-contrast finishes. |
 
-These images appear to be conceptual contemporary interiors and an imagined house, not documentary examples of named historic buildings or Studio Dee projects. The source set does not include a historic Deco exterior or a Pacific Northwest building image, so those sections remain text-led. Creator, generation method, and use rights need confirmation before image approval.
+These images appear to be conceptual contemporary interiors and an imagined house, not documentary examples of named historic buildings or Studio Dee projects. The source set does not include a historic Deco exterior or a Pacific Northwest building image, so those sections remain text-led. Studio Dee has authorized use of the supplied images; image selection remains subject to editorial approval.
 
 ## Research and editorial notes
 

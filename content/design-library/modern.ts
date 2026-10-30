@@ -106,13 +106,13 @@ export const modern: LibraryArticle = {
     "title": "Modernist geometry in the landscape",
     "caption": "Broad glazing, a thin roof plane, and a restrained material palette shape this conceptual modern house. The image is not a documented historic building.",
     "alt": "Conceptual modern house with a broad flat roof, glass walls, terrace, and reflecting pool overlooking a wooded valley.",
-    "brief": "User-supplied conceptual architectural illustration; creator, generation provenance, and rights require confirmation before editorial approval.",
+    "brief": "Image supplied by Studio Dee for this article.",
     "kind": "supplied",
     "src": "/api/design-library-images/modern-exterior.webp",
     "width": 733,
     "height": 403,
-    "credit": "Image supplied for this draft; creator and use rights to confirm",
-    "license": "Editorial review pending"
+    "credit": "Image provided by Studio Dee",
+    "license": "Studio Dee authorized use"
   },
   "sections": [
     {
@@ -179,13 +179,13 @@ export const modern: LibraryArticle = {
         "title": "Connected living space",
         "caption": "Glazing, a continuous wood ceiling, and a low furniture arrangement give this conceptual interior a strong relationship to its view.",
         "alt": "Modern living room with wood ceiling, floor-to-ceiling windows, low furniture, fireplace, and a view to evergreens.",
-        "brief": "User-supplied conceptual architectural illustration; creator, generation provenance, and rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/modern-interior.webp",
         "width": 570,
         "height": 329,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -206,13 +206,13 @@ export const modern: LibraryArticle = {
         "title": "Materials meet at the wall",
         "caption": "Wood cladding, concrete, dark metal, and glass show how modern architecture can gain character from carefully handled junctions.",
         "alt": "Close view of a modern exterior where horizontal wood siding meets concrete, dark window framing, and glass.",
-        "brief": "User-supplied conceptual architectural illustration; creator, generation provenance, and rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/modern-materials.webp",
         "width": 416,
         "height": 329,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -238,13 +238,13 @@ export const modern: LibraryArticle = {
         "title": "The vocabulary extends beyond houses",
         "caption": "A conceptual civic building illustrates the planar volumes, exposed columns, and broad glazing associated with one strand of modernism.",
         "alt": "Conceptual modern civic building with a rectangular upper volume, white exterior, slender columns, and glass walls.",
-        "brief": "User-supplied conceptual architectural illustration; creator, generation provenance, and rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/modern-civic.webp",
         "width": 461,
         "height": 329,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -265,13 +265,13 @@ export const modern: LibraryArticle = {
         "title": "A regional reading of modernism",
         "caption": "A sheltering roof, timber, concrete, and large windows illustrate one contemporary interpretation of Northwest regional modern ideas.",
         "alt": "Timber and concrete modern house with large windows and projecting roof planes set among Pacific Northwest trees.",
-        "brief": "User-supplied conceptual architectural illustration; creator, generation provenance, and rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/modern-northwest.webp",
         "width": 734,
         "height": 403,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {

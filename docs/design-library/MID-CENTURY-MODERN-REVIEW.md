@@ -17,7 +17,7 @@ All nine originals were visually inspected. Six serve different editorial purpos
 | `Warm Mid-Century Home Study.png` | Materials: wood paneling, built-ins, glazing, and textile texture. |
 | `Mid-Century Forest House Retreat.png` | Pacific Northwest: low house among evergreens, with timber and sheltering roof. |
 
-`Golden Hour Midcentury Hillside Retreat.png`, `Mid-Century Modern House at Sunset.png`, and `Mid-Century Modern Sunset Retreat.png` remain unused because they repeat the sunset exterior story without adding a new architectural detail. None of the images is identified as a real building. Several look like present-day interpretations rather than verified period photographs; captions describe visible features and do not claim a construction date. Creator, generation method, and use rights for the supplied PNGs still need confirmation before asset approval.
+`Golden Hour Midcentury Hillside Retreat.png`, `Mid-Century Modern House at Sunset.png`, and `Mid-Century Modern Sunset Retreat.png` remain unused because they repeat the sunset exterior story without adding a new architectural detail. None of the images is identified as a real building. Several look like present-day interpretations rather than verified period photographs; captions describe visible features and do not claim a construction date. Studio Dee has authorized use of the supplied PNGs; image selection remains subject to editorial approval.
 
 ## Source and editorial notes
 

@@ -107,13 +107,13 @@ export const artDeco: LibraryArticle = {
     "title": "Deco and Streamline at the doorstep",
     "caption": "This contemporary conceptual house combines a stepped, vertically accented entrance with the rounded bays associated with Streamline Moderne.",
     "alt": "Deco-inspired house at dusk with a stepped entrance, vertical lighting, pale stone, dark metalwork, and rounded glass bays.",
-    "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+    "brief": "Image supplied by Studio Dee for this article.",
     "kind": "supplied",
     "src": "/api/design-library-images/art-deco-exterior.webp",
     "width": 1536,
     "height": 1024,
-    "credit": "Image supplied for this draft; creator and use rights to confirm",
-    "license": "Editorial review pending"
+    "credit": "Image provided by Studio Dee",
+    "license": "Studio Dee authorized use"
   },
   "sections": [
     {
@@ -194,13 +194,13 @@ export const artDeco: LibraryArticle = {
         "title": "An interior built around a focal point",
         "caption": "A symmetrical stone hearth, fan-like mirror, and repeated metal lines bring Deco-inspired order to this contemporary sitting room.",
         "alt": "Deco-inspired living room with dark walls, gilded linear trim, a black stone fireplace, fan-shaped mirror, and cream and green seating.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/art-deco-living.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -220,13 +220,13 @@ export const artDeco: LibraryArticle = {
         "title": "Material richness in a working room",
         "caption": "Stone, dark cabinetry, metal accents, and repeated pendant forms create a current interpretation of Deco material contrast.",
         "alt": "Contemporary Deco-inspired kitchen with dark green stone, black cabinets, brass-toned trim, geometric pendant lights, and green stools.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/art-deco-kitchen.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -247,13 +247,13 @@ export const artDeco: LibraryArticle = {
         "title": "Geometry at the room scale",
         "caption": "A stepped headboard and fan motif show how a single repeated geometry can organize an entire room.",
         "alt": "Deco-inspired bedroom with a stepped green headboard, fan-shaped wall panel, symmetrical lights, and dark walls with gold-toned lines.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/art-deco-bedroom.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -285,13 +285,13 @@ export const artDeco: LibraryArticle = {
         "title": "A patterned focal point",
         "caption": "A geometric tile floor and repeated curved and stepped forms demonstrate one lavish contemporary approach to Deco-inspired detail.",
         "alt": "Deco-inspired bathroom with black and pale stone, a geometric tile floor, rounded mirrors, tall sconces, and a tiered ceiling light.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/art-deco-bathroom.webp",
         "width": 1024,
         "height": 1536,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {

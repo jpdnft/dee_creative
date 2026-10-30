@@ -13,7 +13,7 @@ Open `http://127.0.0.1:3002/design-library` or `http://127.0.0.1:3002/design-lib
 
 Victorian approved article: `http://127.0.0.1:3002/design-library/architectural-styles/victorian`. Craftsman and Victorian are approved editorially; both remain private.
 
-Modern draft: `http://127.0.0.1:3002/design-library/architectural-styles/modern`. It uses the supplied Markdown draft and five supplied images; editorial approval and image provenance review are pending. Like the approved articles, it is visible only in the local development preview.
+Modern draft: `http://127.0.0.1:3002/design-library/architectural-styles/modern`. It uses the supplied Markdown draft and five supplied images; editorial approval is pending. Like the approved articles, it is visible only in the local development preview.
 
 Mid-Century Modern draft: `http://127.0.0.1:3002/design-library/architectural-styles/mid-century-modern`. Six images were selected from the nine supplied; image mapping and review notes are in `MID-CENTURY-MODERN-REVIEW.md`. Modern and Mid-Century Modern remain private drafts, not approved articles.
 
@@ -27,8 +27,8 @@ The setting must be exactly `true` and NODE_ENV must be `development`. Productio
 
 Run preview on loopback only. Do not tunnel it or bind it to a public interface. A hosted review requires a separately verified access-control and asset-protection strategy. Noindex is supplementary and is not access control.
 
-Review the prose, “At a glance” summary, color/material recognition panel, and five finished generated architectural illustrations. These images depict illustrative designs, not documentary views of identified buildings or completed Studio Dee work. Exact prompts and source outputs are recorded in `CRAFTSMAN-IMAGES.md`. Documentary images, if added later, require verified provenance and rights.
+Review the prose, “At a glance” summary, color/material recognition panel, and five finished generated architectural illustrations. These images depict illustrative designs, not documentary views of identified buildings or completed Studio Dee work. Exact prompts and source outputs are recorded in `CRAFTSMAN-IMAGES.md`. Identify documentary buildings accurately if added later.
 
 WebP assets live in `assets/design-library/{article-slug}/`, outside `public/`. The `/api/design-library-images/[filename]` endpoint serves known assets during explicit development preview, with private/no-store and noindex headers. Preview images bypass the Next optimizer. The endpoint is prepared for later public serving only when both the library release and the owning article's publication authorization are recorded. With the current release hold, production still returns 404 for every library image. Next file tracing includes these server-only assets in the handler package; it does not make them static public files.
 
-Before eventual publication, record explicit content and publication approvals separately; prepare approved assets for public serving and review rights/provenance metadata; verify the real canonical domain and metadata; change the release gate only with explicit authorization. No automated deployment is part of this workflow.
+Before eventual publication, record explicit content and publication approvals separately; prepare approved assets for public serving; verify the real canonical domain and metadata; change the release gate only with explicit authorization. No automated deployment is part of this workflow.

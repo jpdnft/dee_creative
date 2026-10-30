@@ -14,7 +14,7 @@ All five supplied PNGs are used. Original files remain under `assets/design-libr
 | `04-modern-materials.png` | Materials and color section |
 | `05-modern-civic-building.png` | Movements section, identified as a conceptual civic building |
 
-The image set differs from the draft's briefs: it includes a civic building and no close roof-detail study. The hero and regional house look contemporary, so their captions do not claim they are historic buildings. The PNGs were supplied without creator, generation-history, or use-rights records. The article labels them conceptual illustrations for preview; provenance and rights must be confirmed before image approval. The original PNGs are modest in resolution, so enlargement may look soft on large screens.
+The image set differs from the draft's briefs: it includes a civic building and no close roof-detail study. The hero and regional house look contemporary, so their captions do not claim they are historic buildings. Studio Dee has authorized use of the supplied images. The article labels them conceptual illustrations rather than historic buildings; image selection remains part of editorial review. The original PNGs are modest in resolution, so enlargement may look soft on large screens.
 
 Key historical anchors were checked against the linked MoMA, Bauhaus Dessau, UNESCO, Frank Lloyd Wright Foundation, Oregon Encyclopedia, HistoryLink, and NPS pages. The supplied source list expressly describes itself as a fact-check checklist; a complete editorial source pass remains before content approval. Planned related articles are omitted as links until they exist.
 

@@ -106,13 +106,13 @@ export const contemporary: LibraryArticle = {
     "title": "Contemporary volumes in a wooded setting",
     "caption": "Layered roof planes, dark cladding, masonry, timber, and glazing give this conceptual house its contemporary composition.",
     "alt": "Contemporary house at dusk with intersecting dark volumes, stone base, timber entry, broad windows, and a wooded lakeside setting.",
-    "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+    "brief": "Image supplied by Studio Dee for this article.",
     "kind": "supplied",
     "src": "/api/design-library-images/contemporary-exterior.webp",
     "width": 1536,
     "height": 1024,
-    "credit": "Image supplied for this draft; creator and use rights to confirm",
-    "license": "Editorial review pending"
+    "credit": "Image provided by Studio Dee",
+    "license": "Studio Dee authorized use"
   },
   "sections": [
     {
@@ -166,13 +166,13 @@ export const contemporary: LibraryArticle = {
         "title": "A generous room with distinct places",
         "caption": "The hearth, kitchen, dining table, and terrace remain legible as separate places within one connected contemporary interior.",
         "alt": "Contemporary great room with a fireplace, timber kitchen, dining area, large glass doors, and a wooded lake view.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/contemporary-interior.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -192,13 +192,13 @@ export const contemporary: LibraryArticle = {
         "title": "Materials meet at the entrance",
         "caption": "Concrete, dark cladding, timber, and glazing meet at a deeply sheltered entry in this conceptual detail view.",
         "alt": "Close view of a contemporary entrance with concrete wall, dark cladding, wood door and soffit, glass, and landscape planting.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/contemporary-materials.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -217,13 +217,13 @@ export const contemporary: LibraryArticle = {
         "title": "A protected outdoor room",
         "caption": "Glazing and a deep roof edge connect interior rooms to a planted courtyard while surrounding walls preserve privacy.",
         "alt": "Contemporary home opening through glass walls to a sheltered courtyard with a small tree, planting, seating, and a water feature.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/contemporary-courtyard.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {
@@ -258,13 +258,13 @@ export const contemporary: LibraryArticle = {
         "title": "Shelter on a wooded slope",
         "caption": "A protected entrance, broad roof, and carefully placed glazing illustrate one contemporary response to a steep, wet, wooded site.",
         "alt": "Contemporary house on a wooded slope at dusk with a broad roof, stone and dark cladding, protected wood entry, and large windows.",
-        "brief": "User-supplied conceptual architectural image; creator, generation provenance, and use rights require confirmation before editorial approval.",
+        "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",
         "src": "/api/design-library-images/contemporary-northwest.webp",
         "width": 1536,
         "height": 1024,
-        "credit": "Image supplied for this draft; creator and use rights to confirm",
-        "license": "Editorial review pending"
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
       }
     },
     {

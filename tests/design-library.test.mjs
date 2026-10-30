@@ -58,8 +58,9 @@ test('snapshot thumbnails share article access and individual image approval saf
 test('approved articles are release-ready but stay private', () => {
   assert.equal(isPublicationReady(craftsman), true);
   assert.equal(isPublicationReady(victorian), true);
-  const suppliedWithPrematureApproval = { ...craftsman, hero: { ...craftsman.hero, kind: 'supplied', approvedAt: '2026-10-26' } };
-  assert.equal(isPublicationReady(suppliedWithPrematureApproval), false, 'Unverified supplied imagery must not be publication-ready');
+  const suppliedWithApproval = { ...craftsman, hero: { ...craftsman.hero, kind: 'supplied', approvedAt: '2026-10-26' } };
+  assert.equal(isPublicationReady(suppliedWithApproval), true, 'Studio Dee supplied imagery can be publication-ready after editorial image approval');
+  assert.equal(isPublicationReady({ ...suppliedWithApproval, hero: { ...suppliedWithApproval.hero, approvedAt: undefined } }), false, 'Supplied images still require editorial approval');
   assert.equal(isPublishedArticle(craftsman), false);
   assert.equal(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', false, false), undefined);
   assert.equal(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', true, false), undefined);

@@ -16,7 +16,7 @@ All five supplied PNGs were visually inspected and are used. Originals remain un
 | `Twilight Modern Courtyard Retreat.png` | Light and site: sheltered courtyard and interior connection. |
 | `Modern Mountain Retreat at Twilight.png` | Pacific Northwest: roof shelter and entrance on a wooded slope. |
 
-The original production briefs describe some different scenes; the supplied assets do not include a dedicated pale-stucco exterior. The hero already illustrates facade composition, so no second exterior interrupts that section. The images appear related and have a consistent twilight setting, which gives the article visual cohesion but less daylight variation. They are labeled as supplied editorial images, not identified buildings or Studio Dee work. Creator, generation method, and use rights must be confirmed before asset approval.
+The original production briefs describe some different scenes; the supplied assets do not include a dedicated pale-stucco exterior. The hero already illustrates facade composition, so no second exterior interrupts that section. The images appear related and have a consistent twilight setting, which gives the article visual cohesion but less daylight variation. They are labeled as supplied editorial images, not identified buildings or Studio Dee work. Studio Dee has authorized use of the supplied images; image selection remains subject to editorial approval.
 
 ## Sources and editorial notes
 

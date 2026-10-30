@@ -19,7 +19,7 @@ export function LibraryFigureView({ figure, hero = false }: { figure: LibraryFig
   return <figure className={hero ? styles.heroFigure : styles.figure}>
     {figure.kind === "brief" ? <div className={styles.imageBrief}><p className="eyebrow">Image brief / asset pending</p><p className={styles.briefTitle}>{figure.title}</p><p>{figure.brief}</p></div>
       : figure.src && figure.width && figure.height ? <Image src={figure.src} alt={figure.alt} width={figure.width} height={figure.height} sizes={hero ? "(max-width: 760px) 100vw, 90vw" : "(max-width: 760px) 100vw, 760px"} unoptimized={libraryPreview} preload={hero} /> : null}
-    <figcaption>{figure.kind === "brief" ? "Proposed caption: " : figure.kind === "generated" ? "Generated architectural illustration. " : figure.kind === "supplied" ? "Image supplied for editorial review. " : "Documentary photograph. "}{figure.caption}{figure.credit && <> · {figure.credit}</>}{figure.sourceUrl && <> · <a href={figure.sourceUrl}>Image source</a></>}{figure.kind === "documentary" && figure.license && <> · {figure.license}</>}</figcaption>
+    <figcaption>{figure.kind === "brief" ? "Proposed caption: " : figure.kind === "generated" ? "Generated architectural illustration. " : figure.kind === "supplied" ? "" : "Documentary photograph. "}{figure.caption}{figure.credit && <> · {figure.credit}</>}{figure.sourceUrl && <> · <a href={figure.sourceUrl}>Image source</a></>}{figure.kind === "documentary" && figure.license && <> · {figure.license}</>}</figcaption>
   </figure>;
 }
 export function LibrarySourceLinks({ article, ids }: { article: LibraryArticle; ids: string[] }) {
