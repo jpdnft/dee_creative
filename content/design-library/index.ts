@@ -4,5 +4,6 @@ import { modern } from "./modern";
 import { midCenturyModern } from "./mid-century-modern";
 import { contemporary } from "./contemporary";
 import { artDeco } from "./art-deco";
+import { tudorRevival } from "./tudor-revival";
 export { libraryCategories } from "./categories";
-export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco];
+export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival];

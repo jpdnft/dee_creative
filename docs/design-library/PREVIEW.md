@@ -21,6 +21,8 @@ Contemporary draft: `http://127.0.0.1:3002/design-library/architectural-styles/c
 
 Art Deco draft: `http://127.0.0.1:3002/design-library/architectural-styles/art-deco`. All five supplied images are used; image mapping and research corrections are in `ART-DECO-REVIEW.md`. It is private and unapproved.
 
+Tudor Revival draft: `http://127.0.0.1:3002/design-library/architectural-styles/tudor-revival`. All five supplied images are used, including the supplemental infographic. Text equivalents of its main feature labels remain in the article. Image mapping and source notes are in `TUDOR-REVIVAL-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

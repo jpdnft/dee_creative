@@ -74,3 +74,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 
 - Studio Dee confirmed that its supplied imagery has no outstanding rights issue. Rights-pending notices and creator-confirmation prompts in current article metadata, visible captions, and review notes were removed. Earlier verification notes describing a rights hold are superseded by this decision.
 - Supplied images can pass publication readiness after individual editorial image approval. The four draft articles remain unapproved; the publication gate remains disabled. Captions still avoid attributing conceptual images to specific historic buildings or completed Studio Dee projects.
+
+## Tudor Revival draft check — 2026-10-29
+
+- Adapted the supplied revised Markdown and all five supplied PNGs into one private article with nine sections and approximately 2,157 words of introduction/body prose. The original files remain unchanged; WebP derivatives are outside `public/`.
+- Cross-checked the Tudor period, American style features, and the Tarpley, Autzen, and Peacock Lane references against linked primary or institution-maintained records. Captions describe conceptual images without assigning them to named historic buildings.
+- `npm.cmd run typecheck` passed; all 12 quick tests passed. The local article and five image routes returned HTTP 200, with noindex on the article. Edge/Playwright at 1365 and 390 CSS pixels decoded five figures with no horizontal overflow. The mobile opening was visually inspected.
+- Full production build and broad accessibility/release sweep were deferred under the approved per-article cadence. Tudor Revival is a draft; no content or image approval, push, merge, or publication was performed. The next user action is to review this article and send edits or explicit editorial approval.

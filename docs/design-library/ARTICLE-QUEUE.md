@@ -14,7 +14,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Mid-Century Modern Architecture — `mid-century-modern` — draft — **user-supplied draft and selected images adapted for private preview; editorial review pending**
 - [ ] Contemporary Architecture — `contemporary` — draft — **user-supplied draft and five images adapted for private preview; editorial review pending**
 - [ ] Art Deco Architecture — `art-deco` — draft — **user-supplied draft and five images adapted for private preview; editorial review pending**
-- [ ] Tudor Revival Architecture — `tudor-revival` — planned
+- [ ] Tudor Revival Architecture — `tudor-revival` — draft — **user-supplied revised text and five images adapted for private preview; editorial review pending**
 - [ ] Colonial Revival Architecture — `colonial-revival` — planned
 - [ ] Prairie School Architecture — `prairie-school` — planned
 - [ ] Mediterranean Revival Architecture — `mediterranean-revival` — planned

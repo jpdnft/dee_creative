@@ -76,3 +76,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user states that all supplied Design Library images may be treated as having no image-rights issue; they are primarily the user's own or generated images. Remove rights-pending and creator-confirmation reminders from current image metadata, captions, and review checklists. Do not invent individual creators, licenses, or documentary building identities.
 - A supplied image may pass release readiness after explicit editorial image approval. Article content approval, publication authorization, and the library release gate remain separate requirements. Earlier rights-pending notes in this decision log are superseded by this instruction.
+
+## Tudor Revival preview authorized — 2026-10-29
+
+- The user explicitly requested the next queued article, Tudor Revival Architecture, from the supplied revised Markdown and five images. Adapt it into the existing private Design Library layout and use the supplied images where they illustrate the copy.
+- Preserve the original Markdown and PNGs. The article remains a draft until the user approves its editorial content. No publication, push, merge, or deployment was authorized.
