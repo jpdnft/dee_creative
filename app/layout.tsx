@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { site } from "@/lib/site";
+import { libraryReleaseAuthorized, localLibraryPreview } from "@/lib/design-library-policy";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -16,5 +17,6 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header />{children}<Footer /></body></html>;
+  const libraryVisible = libraryReleaseAuthorized || localLibraryPreview(process.env.NODE_ENV, process.env.DESIGN_LIBRARY_PREVIEW);
+  return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header libraryVisible={libraryVisible} />{children}<Footer libraryVisible={libraryVisible} /></body></html>;
 }
