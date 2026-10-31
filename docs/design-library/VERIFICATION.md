@@ -88,3 +88,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked the style history against National Park Service and Historic New England sources, the Ayer-Shea details against its museum record, and Laurelhurst prevalence against the Oregon Historic Sites Database. An NPS source supports the article's discussion of selective historical memory.
 - `npm.cmd run typecheck` passed; all 12 quick tests passed. The local page and five image routes returned HTTP 200, with noindex on the article. Edge/Playwright at 1365 and 390 CSS pixels decoded five figures with no horizontal overflow. The mobile opening was visually inspected.
 - Full production build and broad accessibility/release sweep were deferred under the approved per-article cadence. Colonial Revival remains a draft. No approval, push, merge, or publication was performed. The next user action is to review Colonial Revival and provide edits or explicit editorial approval.
+
+## Prairie School draft check — 2026-10-30
+
+- Adapted the supplied Markdown and all five supplied PNGs into one private article with nine sections and approximately 2,057 words of introduction/body prose. The original files remain unchanged; WebP derivatives are outside `public/`.
+- Checked the movement and Robie House claims against the Wright Trust, Chicago Architecture Center, and Met. Verified Bennes, Maegly, and Delahunt references against Oregon historic-site records. The supplied interiors have Craftsman/Prairie overlap; captions claim only visible Prairie-influenced features.
+- `npm.cmd run typecheck` passed; all 12 quick tests passed. The local page and five image routes returned HTTP 200 with noindex on the article. Edge/Playwright at 1365 and 390 CSS pixels decoded five figures with no horizontal overflow. The mobile opening was visually inspected.
+- Full production build and broad accessibility/release sweep were deferred under the approved per-article cadence. Prairie School remains a draft. No approval, push, merge, or publication was performed. The next user action is to review Prairie School and provide edits or explicit editorial approval.

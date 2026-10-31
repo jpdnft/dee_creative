@@ -86,3 +86,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the next queued article, Colonial Revival Architecture, from the supplied Markdown and five images. Adapt the copy and supplied images into the established private article layout. The images supersede the draft's older production brief stating they still needed to be made.
 - Preserve the original Markdown and PNGs. The article remains a draft until editorial approval. This request gives no authorization to push, merge, deploy, or publish.
+
+## Prairie School preview authorized — 2026-10-30
+
+- The user explicitly requested the next queued article, Prairie School Architecture, from the supplied Markdown and five images. Adapt both into the established private article layout; the supplied images supersede the draft's old briefs-only metadata.
+- Preserve the original Markdown and PNGs. The article remains a draft until editorial approval. No push, merge, deployment, or publication was authorized.

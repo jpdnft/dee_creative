@@ -9,6 +9,7 @@ import { contemporary } from '../content/design-library/contemporary.ts';
 import { artDeco } from '../content/design-library/art-deco.ts';
 import { tudorRevival } from '../content/design-library/tudor-revival.ts';
 import { colonialRevival } from '../content/design-library/colonial-revival.ts';
+import { prairieSchool } from '../content/design-library/prairie-school.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -34,7 +35,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));

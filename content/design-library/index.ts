@@ -6,5 +6,6 @@ import { contemporary } from "./contemporary";
 import { artDeco } from "./art-deco";
 import { tudorRevival } from "./tudor-revival";
 import { colonialRevival } from "./colonial-revival";
+import { prairieSchool } from "./prairie-school";
 export { libraryCategories } from "./categories";
-export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival];
+export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool];
