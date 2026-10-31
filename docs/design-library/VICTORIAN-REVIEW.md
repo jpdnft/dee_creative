@@ -10,7 +10,7 @@ A bracket beneath an eave, a bay that turns toward the street, a porch worked in
 
 ### Illustration: A Queen Anne reading of the Victorian house
 
-![Olive-painted Queen Anne house with cross gables, a polygonal bay, patterned shingles, and a porch with turned posts.](../../assets/design-library/victorian/victorian-exterior.webp)
+![Olive-painted Queen Anne house with cross gables, a polygonal bay, patterned shingles, and a porch with turned posts.](../../assets/design-library/architectural-styles/victorian/victorian-exterior.webp)
 
 **Generated architectural illustration.** Cross gables, a projecting bay, patterned shingles, and a light porch screen give this Queen Anne illustration its layered character.
 
@@ -18,27 +18,27 @@ A bracket beneath an eave, a bay that turns toward the street, a porch worked in
 
 ## At a glance
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-when.webp" width="108" height="72" alt="Generated illustration: An imagined engraved portrait of Queen Victoria wearing a white veil and dark dress." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-when.webp" width="108" height="72" alt="Generated illustration: An imagined engraved portrait of Queen Victoria wearing a white veil and dark dress." />
 
 - **When:** The name refers to Victoria’s reign, 1837–1901; American style dates overlap and sometimes extend later.
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-idea.webp" width="108" height="72" alt="Generated illustration: An illustrative pattern book showing house designs beside turned wood spindles and a shaped bracket." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-idea.webp" width="108" height="72" alt="Generated illustration: An illustrative pattern book showing house designs beside turned wood spindles and a shaped bracket." />
 
 - **The idea:** An era of several styles, shared through publications and an expanding market for architectural ornament.
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-roof.webp" width="108" height="72" alt="Generated illustration: A steep gable with patterned shingles and decorative vergeboard beside a lower roof." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-roof.webp" width="108" height="72" alt="Generated illustration: A steep gable with patterned shingles and decorative vergeboard beside a lower roof." />
 
 - **First question:** Which Victorian language does this house speak? Start with its roof and overall form.
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-italianate.webp" width="108" height="72" alt="Generated illustration: An Italianate house with a low hipped roof, paired brackets, and tall arched windows." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-italianate.webp" width="108" height="72" alt="Generated illustration: An Italianate house with a low hipped roof, paired brackets, and tall arched windows." />
 
 - **Italianate:** Low roof, bracketed cornice, and tall, narrow windows.
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-empire.webp" width="108" height="72" alt="Generated illustration: A Second Empire house with a slate-colored mansard roof and dormer windows." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-empire.webp" width="108" height="72" alt="Generated illustration: A Second Empire house with a slate-colored mansard roof and dormer windows." />
 
 - **Second Empire:** A mansard roof with a steep lower slope and dormer windows.
 
-<img src="../../assets/design-library/victorian/victorian-snapshot-queen-anne.webp" width="108" height="72" alt="Generated illustration: A Queen Anne house with cross-gables, projecting bay, patterned shingles, and a turned-post porch." />
+<img src="../../assets/design-library/architectural-styles/victorian/victorian-snapshot-queen-anne.webp" width="108" height="72" alt="Generated illustration: A Queen Anne house with cross-gables, projecting bay, patterned shingles, and a turned-post porch." />
 
 - **Queen Anne:** An irregular silhouette, projecting bays, porches, and varied wall textures.
 
@@ -68,7 +68,7 @@ Sources: [Pennsylvania Historical & Museum Commission](https://www.phmc.state.pa
 
 ### Illustration: The bracketed cornice
 
-![Italianate house with a low hipped roof, paired cornice brackets, tall windows, and a restrained entry porch.](../../assets/design-library/victorian/victorian-italianate.webp)
+![Italianate house with a low hipped roof, paired cornice brackets, tall windows, and a restrained entry porch.](../../assets/design-library/architectural-styles/victorian/victorian-italianate.webp)
 
 **Generated architectural illustration.** A low roof and bracketed cornice distinguish this Italianate illustration from the steeper Queen Anne silhouette.
 
@@ -84,7 +84,7 @@ Sources: [Pennsylvania Historical & Museum Commission](https://www.phmc.state.pa
 
 ### Illustration: A roof that contains a story
 
-![Second Empire house with a slate-colored mansard roof, dormer windows, bracketed cornice, and a small entry porch.](../../assets/design-library/victorian/victorian-mansard.webp)
+![Second Empire house with a slate-colored mansard roof, dormer windows, bracketed cornice, and a small entry porch.](../../assets/design-library/architectural-styles/victorian/victorian-mansard.webp)
 
 **Generated architectural illustration.** Dormers occupy the steep lower slope of the mansard in this Second Empire illustration.
 
@@ -110,7 +110,7 @@ Sources: [Clackamas County](https://www.clackamas.us/planning/historicclackamas.
 
 ### Illustration: Pattern made with wood
 
-![Close view of a wood-sided Victorian gable with applied trim boards and carefully fitted decorative details.](../../assets/design-library/victorian/victorian-detail.webp)
+![Close view of a wood-sided Victorian gable with applied trim boards and carefully fitted decorative details.](../../assets/design-library/architectural-styles/victorian/victorian-detail.webp)
 
 **Generated architectural illustration.** Applied boards and a textured gable demonstrate a decorative surface treatment; they are not a diagram of structural framing.
 
@@ -155,7 +155,7 @@ Sources: [National Park Service](https://www.nps.gov/orgs/1739/upload/preservati
 
 ### Illustration: The stair gives the hall its structure
 
-![Victorian-inspired entrance hall with a wood staircase, turned balusters, plaster walls, and a view into an adjoining room.](../../assets/design-library/victorian/victorian-interior.webp)
+![Victorian-inspired entrance hall with a wood staircase, turned balusters, plaster walls, and a view into an adjoining room.](../../assets/design-library/architectural-styles/victorian/victorian-interior.webp)
 
 **Generated architectural illustration.** A stair, door surrounds, and connected openings establish the scale of this illustrative interior without recreating a named historic room.
 

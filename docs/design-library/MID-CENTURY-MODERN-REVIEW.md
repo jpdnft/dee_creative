@@ -6,7 +6,7 @@ The supplied draft was adapted into the existing article template on 2026-10-26.
 
 ## Image selection
 
-All nine originals were visually inspected. Six serve different editorial purposes; the original PNGs remain unchanged in `assets/design-library/mid-century-modern/`, and smaller private WebP derivatives serve the preview.
+All nine originals were visually inspected. Six serve different editorial purposes; the original PNGs remain unchanged in `assets/design-library/architectural-styles/mid-century-modern/`, and smaller private WebP derivatives serve the preview.
 
 | Supplied PNG | Placement and reason |
 | --- | --- |

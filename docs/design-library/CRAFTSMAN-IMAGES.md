@@ -2,7 +2,7 @@
 
 Created 2026-10-25 with the built-in `image_gen` tool. Five photorealistic architectural illustrations; none depicts a verified building or completed Studio Dee project. The user explicitly approved the final Craftsman images, article, and layout as the reference template on 2026-10-25. Publication remains on hold.
 
-Selected project assets are WebP files in `assets/design-library/craftsman/` (1536 × 1024). Source outputs remain at the recorded original tool paths. WebP conversion used the existing transitive Sharp installation, quality 85; no semantic image edits or cropping and no new dependency.
+Selected project assets are WebP files in `assets/design-library/architectural-styles/craftsman/` (1536 × 1024). Source outputs remain at the recorded original tool paths. WebP conversion used the existing transitive Sharp installation, quality 85; no semantic image edits or cropping and no new dependency.
 
 Assets are outside `public/` and currently served only in development preview through `/api/design-library-images/[filename]`, with private/no-store and noindex headers. Preview rendering bypasses the Next image optimizer to avoid a public optimizer cache. Following explicit reference approval, the handler is prepared to serve an article's approved assets publicly only after both article publication authorization and the library release gate are enabled. Those publication controls remain disabled. See `RELEASE-READINESS.md`.
 
@@ -10,7 +10,7 @@ Review notes: inspected all five tool outputs. Each illustrates its assigned sub
 
 ## exterior
 
-- Project file: `assets/design-library/craftsman/craftsman-exterior.webp`
+- Project file: `assets/design-library/architectural-styles/craftsman/craftsman-exterior.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-2279fb85-d734-45e2-ac5e-a3055f8940f5.png`
 - Tool: built-in image generation, no input reference image.
 
@@ -20,7 +20,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 hero for a scholarly resi
 
 ## eave
 
-- Project file: `assets/design-library/craftsman/craftsman-eave.webp`
+- Project file: `assets/design-library/architectural-styles/craftsman/craftsman-eave.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-11e895a5-7cb6-4bc5-974a-2710b334b4ab.png`
 - Tool: built-in image generation, no input reference image.
 
@@ -30,7 +30,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 editorial architectural d
 
 ## porch
 
-- Project file: `assets/design-library/craftsman/craftsman-porch.webp`
+- Project file: `assets/design-library/architectural-styles/craftsman/craftsman-porch.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-436ff822-07a4-40ad-946b-2f82cdb1e10b.png`
 - Tool: built-in image generation, no input reference image.
 
@@ -40,7 +40,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 editorial illustration fo
 
 ## rooms
 
-- Project file: `assets/design-library/craftsman/craftsman-rooms.webp`
+- Project file: `assets/design-library/architectural-styles/craftsman/craftsman-rooms.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-147c6ba1-94ef-4610-a800-c0caaea9acb6.png`
 - Tool: built-in image generation, no input reference image.
 
@@ -50,7 +50,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 editorial interior illust
 
 ## materials
 
-- Project file: `assets/design-library/craftsman/craftsman-materials.webp`
+- Project file: `assets/design-library/architectural-styles/craftsman/craftsman-materials.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-16d1a31c-8323-4ffe-80a5-d35486fc6d9a.png`
 - Tool: built-in image generation, no input reference image.
 

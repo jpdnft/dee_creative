@@ -29,6 +29,8 @@ Prairie School draft: `http://127.0.0.1:3002/design-library/architectural-styles
 
 Mediterranean Revival draft: `http://127.0.0.1:3002/design-library/architectural-styles/mediterranean-revival`. All five supplied images are used as conceptual illustrations; mapping and source notes are in `MEDITERRANEAN-REVIVAL-REVIEW.md`. It is private and unapproved.
 
+Bungalow draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/bungalow`. The first House Types & Forms article uses five supplied images; image mapping and source notes are in `BUNGALOW-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
@@ -37,6 +39,6 @@ Run preview on loopback only. Do not tunnel it or bind it to a public interface.
 
 Review the prose, “At a glance” summary, color/material recognition panel, and five finished generated architectural illustrations. These images depict illustrative designs, not documentary views of identified buildings or completed Studio Dee work. Exact prompts and source outputs are recorded in `CRAFTSMAN-IMAGES.md`. Identify documentary buildings accurately if added later.
 
-WebP assets live in `assets/design-library/{article-slug}/`, outside `public/`. The `/api/design-library-images/[filename]` endpoint serves known assets during explicit development preview, with private/no-store and noindex headers. Preview images bypass the Next optimizer. The endpoint is prepared for later public serving only when both the library release and the owning article's publication authorization are recorded. With the current release hold, production still returns 404 for every library image. Next file tracing includes these server-only assets in the handler package; it does not make them static public files.
+WebP assets live in `assets/design-library/{topic}/{article-slug}/`, outside `public/`. Architectural Styles use `architectural-styles`; House Types & Forms use `home-types`. The `/api/design-library-images/[filename]` endpoint serves known assets during explicit development preview, with private/no-store and noindex headers. Preview images bypass the Next optimizer. The endpoint is prepared for later public serving only when both the library release and the owning article's publication authorization are recorded. With the current release hold, production still returns 404 for every library image. Next file tracing includes these server-only assets in the handler package; it does not make them static public files.
 
 Before eventual publication, record explicit content and publication approvals separately; prepare approved assets for public serving; verify the real canonical domain and metadata; change the release gate only with explicit authorization. No automated deployment is part of this workflow.

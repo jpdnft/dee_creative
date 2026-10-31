@@ -6,7 +6,7 @@ The supplied draft was adapted into the established article layout on 2026-10-30
 
 ## Image mapping
 
-All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/prairie-school/`; private WebP derivatives serve the preview.
+All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/architectural-styles/prairie-school/`; private WebP derivatives serve the preview.
 
 | Supplied image | Placement |
 | --- | --- |

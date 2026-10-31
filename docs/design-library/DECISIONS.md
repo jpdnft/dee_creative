@@ -96,3 +96,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the final Architectural Styles article for now, Mediterranean Revival Architecture, from supplied text and images. Adapt it into the established private article layout and use the images where they support the copy.
 - Preserve the original Markdown and PNGs. The article remains a draft until editorial approval. No push, merge, deployment, or publication was authorized.
+
+## Topic-based image folders and Bungalow preview authorized — 2026-10-30
+
+- The user requested `assets/design-library/{topic}/{article}`. Move the ten existing style folders into `architectural-styles/` and use the supplied `home-types/bungalow/` folder for the first House Types & Forms article. Keep existing article and image URLs while resolving files from their category folders.
+- The user explicitly requested Bungalow from the supplied text and images. Adapt it into the established private layout, maintaining the distinction between house form and architectural style. Preserve the original text and images. The draft awaits editorial approval; no push, merge, deployment, or publication was authorized.

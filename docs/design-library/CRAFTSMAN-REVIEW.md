@@ -10,7 +10,7 @@ A Craftsman house often makes its first impression through shelter: a roof reach
 
 ### Illustration: A house beneath its roof
 
-![view of a Craftsman bungalow showing broad eaves, a recessed porch, and masonry porch bases.](../../assets/design-library/craftsman/craftsman-exterior.webp)
+![view of a Craftsman bungalow showing broad eaves, a recessed porch, and masonry porch bases.](../../assets/design-library/architectural-styles/craftsman/craftsman-exterior.webp)
 
 **Generated architectural illustration.** A broad roof and recessed porch establish the sheltered threshold characteristic of many Craftsman houses.
 
@@ -52,7 +52,7 @@ Sources: [City of Houston](https://www.houstontx.gov/planning/HistoricPres/Histo
 
 ### Illustration: The porch as a room
 
-![porch view showing the sheltered route between steps and front door.](../../assets/design-library/craftsman/craftsman-porch.webp)
+![porch view showing the sheltered route between steps and front door.](../../assets/design-library/architectural-styles/craftsman/craftsman-porch.webp)
 
 **Generated architectural illustration.** A porch is easier to understand in depth: roof, supports, and entrance together define the space between street and interior.
 
@@ -72,7 +72,7 @@ Sources: [Pennsylvania Historical & Museum Commission](https://www.phmc.state.pa
 
 ### Illustration: Where roof meets wall
 
-![close view of exposed rafter tails beneath an overhanging roof.](../../assets/design-library/craftsman/craftsman-eave.webp)
+![close view of exposed rafter tails beneath an overhanging roof.](../../assets/design-library/architectural-styles/craftsman/craftsman-eave.webp)
 
 **Generated architectural illustration.** An eave detail makes the relationship between roof, rafters, and wall easier to read; visible form alone does not establish structural function.
 
@@ -90,7 +90,7 @@ Sources: [Pennsylvania Historical & Museum Commission](https://www.phmc.state.pa
 
 ### Illustration: An opening with depth
 
-![Interior view through a wood-trimmed opening with low built-in bookcases and a dining room beyond.](../../assets/design-library/craftsman/craftsman-rooms.webp)
+![Interior view through a wood-trimmed opening with low built-in bookcases and a dining room beyond.](../../assets/design-library/architectural-styles/craftsman/craftsman-rooms.webp)
 
 **Generated architectural illustration.** An opening framed by low cabinetry connects two rooms while preserving a sense of enclosure.
 
@@ -127,7 +127,7 @@ Sources: [City of Long Beach](https://www.longbeach.gov/globalassets/lbcd/media-
 
 ### Illustration: Wood, masonry, and reflected light
 
-![material study of wood trim beside a masonry fireplace surround.](../../assets/design-library/craftsman/craftsman-materials.webp)
+![material study of wood trim beside a masonry fireplace surround.](../../assets/design-library/architectural-styles/craftsman/craftsman-materials.webp)
 
 **Generated architectural illustration.** A material study should show how surfaces meet and receive light, rather than imply one universal Craftsman palette.
 

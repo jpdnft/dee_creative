@@ -32,7 +32,7 @@ export default async function LibraryArticlePage({ params }: Props) {
         <LibrarySnapshot article={article} />
         <nav className={styles.contents} aria-label="In this article">
           <p className="eyebrow">In this article</p>
-          <ol>{article.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.heading}</a></li>)}{article.recognition && <li><a href="#colors-materials">Common colors &amp; materials</a></li>}</ol>
+          <ol>{article.sections.map(section => <li key={section.id}><a href={`#${section.id}`}>{section.heading}</a></li>)}{article.recognition && <li><a href="#colors-materials">{article.recognition.colors.length ? "Common colors & materials" : "Common materials"}</a></li>}</ol>
         </nav>
         {article.sections.map(section => <section id={section.id} key={section.id} aria-labelledby={`${section.id}-heading`}>
           <h2 id={`${section.id}-heading`}>{section.heading}</h2>

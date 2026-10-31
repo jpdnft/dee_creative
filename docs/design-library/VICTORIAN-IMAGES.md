@@ -4,7 +4,7 @@ Six additional small summary illustrations are recorded separately in [VICTORIAN
 
 Created 2026-10-25 with the built-in `image_gen` tool. These are five photorealistic generated architectural illustrations, not photographs of documented buildings or completed Studio Dee projects. Each is a separate illustrative design. Final content and asset approval is pending.
 
-Final files: `assets/design-library/victorian/victorian-{exterior,italianate,mansard,detail,interior}.webp`, 1536 × 1024 pixels. Conversion: existing Sharp, WebP quality 85, no semantic edits or cropping. Original tool outputs remain at the recorded paths.
+Final files: `assets/design-library/architectural-styles/victorian/victorian-{exterior,italianate,mansard,detail,interior}.webp`, 1536 × 1024 pixels. Conversion: existing Sharp, WebP quality 85, no semantic edits or cropping. Original tool outputs remain at the recorded paths.
 
 Visual review: the Queen Anne exterior has cross gables, a bay, shingles and turned porch elements; the Italianate exterior has a low hipped roof, tall windows and brackets; the Second Empire exterior has a clear mansard with dormers; the Stick-style detail shows applied boards; the interior shows a coherent stair/hall/room sequence. None is used as historical evidence or a construction drawing. All images are individually captioned as generated illustrations.
 
@@ -12,7 +12,7 @@ Draft image access uses the existing guarded server endpoint; no assets are plac
 
 ## exterior
 
-- Project file: `assets/design-library/victorian/victorian-exterior.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-exterior.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-2737ffc9-e808-4189-b99b-6569e7c21825.png`
 - Tool: built-in image generation, no input references.
 
@@ -22,7 +22,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 hero for an educational V
 
 ## italianate
 
-- Project file: `assets/design-library/victorian/victorian-italianate.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-italianate.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-731fbe5e-2e93-45f7-92d7-58aaaafe3d2f.png`
 - Tool: built-in image generation, no input references.
 
@@ -32,7 +32,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 educational architectural
 
 ## mansard
 
-- Project file: `assets/design-library/victorian/victorian-mansard.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-mansard.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-904df427-eb31-4891-84cd-5e4fb533effb.png`
 - Tool: built-in image generation, no input references.
 
@@ -42,7 +42,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 educational illustration 
 
 ## detail
 
-- Project file: `assets/design-library/victorian/victorian-detail.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-detail.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-927221d9-d493-4bb3-87da-a9e04f76358a.png`
 - Tool: built-in image generation, no input references.
 
@@ -52,7 +52,7 @@ Use case: photorealistic-natural. Asset: landscape 3:2 educational architectural
 
 ## interior
 
-- Project file: `assets/design-library/victorian/victorian-interior.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-interior.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-a2c8e4ad-2a28-4a4a-8b96-884647c358a3.png`
 - Tool: built-in image generation, no input references.
 

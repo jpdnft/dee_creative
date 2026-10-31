@@ -7,7 +7,7 @@
   "assets": [
     {
       "id": "exterior",
-      "file": "assets/design-library/craftsman/craftsman-exterior.webp",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-exterior.webp",
       "bytes": 455700,
       "width": 1536,
       "height": 1024,
@@ -16,7 +16,7 @@
     },
     {
       "id": "porch",
-      "file": "assets/design-library/craftsman/craftsman-porch.webp",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-porch.webp",
       "bytes": 235000,
       "width": 1536,
       "height": 1024,
@@ -25,7 +25,7 @@
     },
     {
       "id": "eave",
-      "file": "assets/design-library/craftsman/craftsman-eave.webp",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-eave.webp",
       "bytes": 175014,
       "width": 1536,
       "height": 1024,
@@ -34,7 +34,7 @@
     },
     {
       "id": "rooms",
-      "file": "assets/design-library/craftsman/craftsman-rooms.webp",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-rooms.webp",
       "bytes": 232698,
       "width": 1536,
       "height": 1024,
@@ -43,7 +43,7 @@
     },
     {
       "id": "materials",
-      "file": "assets/design-library/craftsman/craftsman-materials.webp",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-materials.webp",
       "bytes": 282856,
       "width": 1536,
       "height": 1024,

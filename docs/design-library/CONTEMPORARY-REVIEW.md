@@ -6,7 +6,7 @@ The supplied draft was adapted into the existing article template on 2026-10-26.
 
 ## Image mapping
 
-All five supplied PNGs were visually inspected and are used. Originals remain unchanged under `assets/design-library/contemporary/`; smaller private WebP derivatives serve the preview.
+All five supplied PNGs were visually inspected and are used. Originals remain unchanged under `assets/design-library/architectural-styles/contemporary/`; smaller private WebP derivatives serve the preview.
 
 | Supplied PNG | Placement |
 | --- | --- |

@@ -6,7 +6,7 @@ The supplied revised draft was adapted to the established article template on 20
 
 ## Image mapping
 
-All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/tudor-revival/`; private WebP derivatives serve the preview.
+All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/architectural-styles/tudor-revival/`; private WebP derivatives serve the preview.
 
 | Supplied image | Placement |
 | --- | --- |

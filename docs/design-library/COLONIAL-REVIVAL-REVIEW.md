@@ -6,7 +6,7 @@ The supplied draft was adapted into the established article layout on 2026-10-29
 
 ## Image mapping
 
-All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/colonial-revival/`; smaller private WebP derivatives serve the preview.
+All five supplied PNGs were visually inspected. Originals remain in `assets/design-library/architectural-styles/colonial-revival/`; smaller private WebP derivatives serve the preview.
 
 | Supplied image | Placement |
 | --- | --- |

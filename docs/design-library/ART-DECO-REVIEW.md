@@ -6,7 +6,7 @@ The supplied draft was adapted into the established article template on 2026-10-
 
 ## Image mapping
 
-All five supplied PNGs were visually inspected. Originals remain under `assets/design-library/art-deco/`; smaller private WebP derivatives serve the preview.
+All five supplied PNGs were visually inspected. Originals remain under `assets/design-library/architectural-styles/art-deco/`; smaller private WebP derivatives serve the preview.
 
 | Supplied PNG | Placement and reason |
 | --- | --- |

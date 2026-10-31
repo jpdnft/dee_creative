@@ -2,7 +2,7 @@
 
 Six new thumbnails requested by the user for the Victorian “At a glance” panel. Generated with the built-in `image_gen` tool on 2026-10-25. Each original is an independent hand-colored engraving-style illustration; no documentary picture or historical print provenance is claimed. Queen Victoria is an imagined likeness, not a photograph.
 
-Final files are in `assets/design-library/victorian/`, named `victorian-snapshot-{when,idea,roof,italianate,empire,queen-anne}.webp`. Each is resized to 384 × 256 using existing Sharp, WebP quality 85, no cropping or semantic edits. Display size is 108 × 72 CSS pixels, with responsive containment.
+Final files are in `assets/design-library/architectural-styles/victorian/`, named `victorian-snapshot-{when,idea,roof,italianate,empire,queen-anne}.webp`. Each is resized to 384 × 256 using existing Sharp, WebP quality 85, no cropping or semantic edits. Display size is 108 × 72 CSS pixels, with responsive containment.
 
 The type supports optional snapshot images, so Craftsman’s approved content and media remain unchanged. All snapshot assets share the existing preview/publication access checks. They are included in asset approval checks and cannot become publicly accessible through a different published article. The user approved all six thumbnails on 2026-10-25; publication permission remains separate.
 
@@ -10,7 +10,7 @@ Visual inspection: portrait is legible as a veiled queen; pattern-book image com
 
 ## when
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-when.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-when.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-050346dc-d66a-429b-94bf-af62a255b3a2.png`
 - Tool: built-in image generation; no input reference images.
 
@@ -20,7 +20,7 @@ Use case: historical-scene. Asset: one tiny editorial thumbnail above WHEN in an
 
 ## idea
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-idea.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-idea.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-309bfc7e-b708-4d41-b66e-8ffd982cb7e0.png`
 - Tool: built-in image generation; no input reference images.
 
@@ -30,7 +30,7 @@ Use case: historical-scene. Asset: tiny editorial thumbnail above THE IDEA in a 
 
 ## roof
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-roof.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-roof.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-61c87c34-b802-4f77-9091-7aa93cd204c0.png`
 - Tool: built-in image generation; no input reference images.
 
@@ -40,7 +40,7 @@ Use case: illustration-story. Asset: one tiny landscape 3:2 editorial thumbnail 
 
 ## italianate
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-italianate.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-italianate.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-05bfd86d-5676-4528-899b-664132210ce8.png`
 - Tool: built-in image generation; no input reference images.
 
@@ -50,7 +50,7 @@ Use case: illustration-story. Asset: one tiny landscape 3:2 thumbnail above ITAL
 
 ## empire
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-empire.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-empire.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-64e067f3-b6ed-49ee-9a54-15ac5ba0bda1.png`
 - Tool: built-in image generation; no input reference images.
 
@@ -60,7 +60,7 @@ Use case: illustration-story. Asset: one tiny landscape 3:2 thumbnail above SECO
 
 ## queen-anne
 
-- Project file: `assets/design-library/victorian/victorian-snapshot-queen-anne.webp`
+- Project file: `assets/design-library/architectural-styles/victorian/victorian-snapshot-queen-anne.webp`
 - Original tool output: `C:\Users\proje\.codex\generated_images\01a175b4-cb12-7e42-98f7-33899c7ab691\exec-014c5599-dfc3-4c06-9e6c-aa4ff711a33d.png`
 - Tool: built-in image generation; no input reference images.
 

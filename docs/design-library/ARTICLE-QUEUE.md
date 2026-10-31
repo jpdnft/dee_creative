@@ -20,7 +20,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Mediterranean Revival Architecture — `mediterranean-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 
 ## B. House Types & Forms (8)
-- [ ] The Bungalow — `bungalow` — planned
+- [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The American Foursquare — `american-foursquare` — planned
 - [ ] The Ranch House — `ranch-house` — planned
 - [ ] The Farmhouse — `farmhouse` — planned
@@ -75,7 +75,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - Local preview: `http://127.0.0.1:3002/design-library/architectural-styles/craftsman`; setup in `PREVIEW.md`.
 - Length: 1,422 words of introduction/body prose, plus short snapshot and recognition panels. Flexible length policy recorded in `DECISIONS.md`.
 - Research: nine linked institutional sources, including Long Beach preservation guidance for exterior color families. Historical claims and contemporary suggestions remain distinguished; swatches are not authenticated paint matches.
-- Images: five finished photorealistic generated architectural illustrations, individually labeled. Files under `assets/design-library/craftsman/`; exact prompts and provenance in `CRAFTSMAN-IMAGES.md`. No claim of real-building or completed-project photography. No draft assets in `public/`.
+- Images: five finished photorealistic generated architectural illustrations, individually labeled. Files under `assets/design-library/architectural-styles/craftsman/`; exact prompts and provenance in `CRAFTSMAN-IMAGES.md`. No claim of real-building or completed-project photography. No draft assets in `public/`.
 - Revision: “At a glance” directly above the article contents; common colors/materials panel beside the finishes discussion; user-requested edits incorporated. Presentation standards recorded in `EDITORIAL-GUIDE.md`.
 - Outstanding: publication is deferred until a larger selection is finished. Reference editorial content and assets are approved; final library name remains provisional. Release preparation recorded in `RELEASE-READINESS.md`; approved file hashes in `CRAFTSMAN-RELEASE-MANIFEST.json`.
 - Verification: see `VERIFICATION.md`.
@@ -90,7 +90,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - Preview: `http://127.0.0.1:3002/design-library/architectural-styles/victorian`.
 - Length: 1,412 words of introduction/body prose plus the snapshot and recognition guide; five main figures and six small snapshot thumbnails.
 - Research: eleven primary/institutional references for reign/style chronology, style distinctions, regional examples, and finish/color evidence. Municipal Ipswich guide and SMJ museum facts were verified through indexed source text; direct requests redirected/timed out, noted in the review copy. Contemporary adaptation paragraphs are editorial analysis.
-- Images: five photorealistic generated article illustrations plus six small engraving-style snapshot illustrations in `assets/design-library/victorian/`, all identified as generated. Exact prompts/provenance: `VICTORIAN-IMAGES.md` and `VICTORIAN-SNAPSHOT-IMAGES.md`. Victoria's portrait is an imagined historical likeness. No documentary-image claims.
+- Images: five photorealistic generated article illustrations plus six small engraving-style snapshot illustrations in `assets/design-library/architectural-styles/victorian/`, all identified as generated. Exact prompts/provenance: `VICTORIAN-IMAGES.md` and `VICTORIAN-SNAPSHOT-IMAGES.md`. Victoria's portrait is an imagined historical likeness. No documentary-image claims.
 - Review outcome: user approved all Victorian content, images, and layout.
 - Content and all eleven image approval dates: 2026-10-25. Publication authorization/date: none.
 

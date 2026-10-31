@@ -4,7 +4,7 @@
 
 The user's draft was adapted into the existing article template on 2026-10-26. It contains about 1,969 words of introduction and body prose, plus the At a glance and colors/materials panels. The original Markdown file is preserved. Modern is a **draft**, with no content, image, or publication approval.
 
-All five supplied PNGs are used. Original files remain under `assets/design-library/modern/`; smaller WebP copies serve the private preview. The mapping is:
+All five supplied PNGs are used. Original files remain under `assets/design-library/architectural-styles/modern/`; smaller WebP copies serve the private preview. The mapping is:
 
 | Supplied asset | Placement |
 | --- | --- |

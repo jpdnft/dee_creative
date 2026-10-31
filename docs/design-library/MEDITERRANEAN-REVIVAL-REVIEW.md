@@ -6,7 +6,7 @@ The supplied draft was adapted into the established article layout on 2026-10-30
 
 ## Image mapping
 
-All five supplied PNGs were inspected. Originals remain in `assets/design-library/mediterranean-revival/`; private WebP derivatives serve the preview. These are illustrative scenes, not documentary images of named historic buildings or completed Studio Dee projects.
+All five supplied PNGs were inspected. Originals remain in `assets/design-library/architectural-styles/mediterranean-revival/`; private WebP derivatives serve the preview. These are illustrative scenes, not documentary images of named historic buildings or completed Studio Dee projects.
 
 | Supplied image | Placement |
 | --- | --- |

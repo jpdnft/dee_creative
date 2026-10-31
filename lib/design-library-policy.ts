@@ -27,9 +27,13 @@ export function accessibleLibraryImage(articles: readonly LibraryArticle[], file
   for (const article of eligibleLibraryArticles(articles, released, preview)) {
     const image = libraryArticleImages(article)
       .find(figure => figure.src === `/api/design-library-images/${filename}`);
-    if (image) return { articleSlug: article.slug, image };
+    if (image) return { articleSlug: article.slug, articleCategory: article.category, image };
   }
   return undefined;
+}
+
+export function libraryAssetTopic(category: LibraryArticle["category"]) {
+  return category === "house-types-and-forms" ? "home-types" : category;
 }
 
 export function eligibleLibraryArticles(articles: readonly LibraryArticle[], released: boolean, preview: boolean) {
