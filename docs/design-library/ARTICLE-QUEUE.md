@@ -17,7 +17,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Tudor Revival Architecture — `tudor-revival` — draft — **user-supplied revised text and five images adapted for private preview; editorial review pending**
 - [ ] Colonial Revival Architecture — `colonial-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 - [ ] Prairie School Architecture — `prairie-school` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
-- [ ] Mediterranean Revival Architecture — `mediterranean-revival` — planned
+- [ ] Mediterranean Revival Architecture — `mediterranean-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 
 ## B. House Types & Forms (8)
 - [ ] The Bungalow — `bungalow` — planned
