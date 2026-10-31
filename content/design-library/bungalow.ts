@@ -211,8 +211,8 @@ export const bungalow: LibraryArticle = {
       ],
       "figure": {
         "id": "mixed-detail",
-        "title": "Similar form, different detailing",
-        "caption": "A low front-gabled house pairs a broad porch with lighter siding, balanced windows, and restrained classical-looking trim.",
+        "title": "The bungalow form in a lighter palette",
+        "caption": "A broad porch, low front gable, and compact scale give this illustrative bungalow its street presence.",
         "alt": "Light-sided front-gabled bungalow with broad porch, balanced windows, light columns, and garden.",
         "brief": "Image supplied by Studio Dee for this article.",
         "kind": "supplied",

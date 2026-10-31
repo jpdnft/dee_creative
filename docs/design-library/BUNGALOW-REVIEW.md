@@ -13,10 +13,10 @@ All five supplied PNGs were inspected. Originals remain in `assets/design-librar
 | `Golden Hour Craftsman Bungalow.png` | Hero: front-gabled form, porch, tapered columns. |
 | `Golden-Hour Craftsman Bungalow.png` | Common forms: side-gabled roof, dormer, centered entry. |
 | `Sunlit Craftsman Living and Dining Room.png` | Floor plan: connected but distinct living and dining rooms. |
-| `Elegant Craftsman Bungalow at Golden Hour.png` | Materials and details: lighter siding, balanced openings, and broad porch. |
+| `Elegant Craftsman Bungalow at Golden Hour.png` | Materials and details: low front gable, lighter siding, and broad porch. |
 | `Sunlit Craftsman Kitchen with Olive Cabinets.png` | Adaptation: an updated kitchen connected to the dining room. |
 
-The supplied exterior images all lean Craftsman. The lighter house has some restrained classical-looking trim, but it does not clearly teach the Colonial Revival bungalow contrast requested in the original image brief. The article explains that contrast in text; a distinct image or accessible diagram could strengthen a later revision. The kitchen image shows a large island, so its caption avoids describing it as a compact historic kitchen. Because bungalow is a house form, the recognition panel lists materials without claiming a universal color palette.
+All five supplied images illustrate the Bungalow house type. The exterior scenes use Craftsman-influenced details, but their captions focus on bungalow form, roof, porch, and scale. Colonial Revival appears only as a text example of a different style that can be applied to the bungalow form; none of these photos is assigned to it. The kitchen image shows a large island, so its caption avoids describing it as a compact historic kitchen. Because bungalow is a house form, the recognition panel lists materials without claiming a universal color palette.
 
 ## Research and routing notes
 
