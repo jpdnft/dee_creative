@@ -16,7 +16,7 @@ The user approved the Craftsman article, images, and layout as the reference tem
 
 ## Current hold
 
-`libraryReleaseAuthorized` remains `false`. Craftsman and Victorian are editorially approved, with individual image approval dates; neither has `publicationAuthorizedAt` or `publishedAt`. Modern, Mid-Century Modern, Contemporary, Art Deco, Tudor Revival, Colonial Revival, Prairie School, Mediterranean Revival, Bungalow, American Foursquare, Ranch House, and Townhouse and Rowhouse remain drafts awaiting editorial approval. Studio Dee has authorized use of the supplied images; no image-rights hold remains. Production library pages and image endpoints must continue to return 404, including when the development preview environment setting is accidentally present.
+`libraryReleaseAuthorized` remains `false`. Craftsman and Victorian are editorially approved, with individual image approval dates; neither has `publicationAuthorizedAt` or `publishedAt`. Modern, Mid-Century Modern, Contemporary, Art Deco, Tudor Revival, Colonial Revival, Prairie School, Mediterranean Revival, Bungalow, American Foursquare, Ranch House, Townhouse and Rowhouse, and Shotgun and Dogtrot House remain drafts awaiting editorial approval. Studio Dee has authorized use of the supplied images; no image-rights hold remains. Production library pages and image endpoints must continue to return 404, including when the development preview environment setting is accidentally present.
 
 ## Later, only after explicit release authorization
 

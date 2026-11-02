@@ -1,6 +1,6 @@
 # Design Library — Article Queue
 
-**Inventory:** 46 proposed launch articles across six categories.  
+**Inventory:** 45 current article entries across six categories; the Shotgun and Dogtrot entries were combined by user request.
 **Initial status:** `planned` for every article except the sample, which remains `planned` until Codex begins.  
 **Status progression:** `planned` → `researching` → `draft` → `revision` → `approved` → `published`.  
 **Important:** `approved` means editorial/content approval, **not** permission to publish. Publication requires separate explicit authorization. Do not mark anything approved on your own.
@@ -19,14 +19,13 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Prairie School Architecture — `prairie-school` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 - [ ] Mediterranean Revival Architecture — `mediterranean-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 
-## B. House Types & Forms (8)
+## B. House Types & Forms (7)
 - [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The American Foursquare — `american-foursquare` — draft — **user-supplied text and five official images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Ranch House — `ranch-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Farmhouse — `farmhouse` — planned
 - [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Shotgun House — `shotgun-house` — planned
-- [ ] The Dogtrot House — `dogtrot-house` — planned
+- [ ] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — draft — **combined user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Split-Level House — `split-level-house` — planned
 
 ## C. Interior Design Styles (7)

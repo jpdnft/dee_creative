@@ -12,5 +12,6 @@ import { bungalow } from "./bungalow";
 import { americanFoursquare } from "./american-foursquare";
 import { ranchHouse } from "./ranch-house";
 import { townhouseRowhouse } from "./townhouse-rowhouse";
+import { shotgunDogtrotHouse } from "./shotgun-dogtrot-house";
 export { libraryCategories } from "./categories";
-export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse];
+export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse];

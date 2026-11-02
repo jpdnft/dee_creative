@@ -34,7 +34,7 @@ export type LibraryArticle = {
     features: { label: string; text: string; image?: LibraryFigure }[];
     distinction: string;
     sources: string[];
-    diagram?: "house";
+    diagram?: "house" | "shotgun-dogtrot";
     illustrationNote?: string;
   };
   recognition?: {
