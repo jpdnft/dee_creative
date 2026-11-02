@@ -110,4 +110,9 @@ The final library name, inventory approval, sample content approval, image appro
 ## Ranch House preview authorized — 2026-11-01
 
 - The user explicitly requested the Ranch House as the next House Types & Forms article from supplied text and five PNGs in `assets/design-library/home-types/ranch-house/`. Adapt it into the established private article layout, using only the supplied images and accurate captions.
+
+## Townhouse and Rowhouse preview authorized — 2026-11-01
+
+- The user explicitly requested a combined Townhouse and Rowhouse article, using the `home-types/townhouse/` image directory. Keep the article slug `townhouse-rowhouse`; resolve its images through a validated article asset-folder override.
+- Adapt the supplied draft and five images for private editorial review. This request does not approve the content or authorize publication.
 - Update the source Markdown's stale image-brief status and mapping to reflect the actual files. The article stays draft pending explicit editorial approval; no push, merge, deployment, or publication was authorized.

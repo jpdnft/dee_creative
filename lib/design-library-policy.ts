@@ -12,6 +12,12 @@ export function libraryArticleImages(article: LibraryArticle) {
     ...[...article.snapshot.facts, ...article.snapshot.features].flatMap(item => item.image ? [item.image] : [])];
 }
 
+export function libraryAssetFolder(article: Pick<LibraryArticle, "slug" | "assetFolder">) {
+  const folder = article.assetFolder ?? article.slug;
+  if (!/^[a-z0-9-]+$/.test(folder)) throw new Error(`Invalid Design Library asset folder: ${folder}`);
+  return folder;
+}
+
 export function isPublicationReady(article: LibraryArticle) {
   return ["approved", "published"].includes(article.status) && Boolean(article.contentApprovedAt)
     && libraryArticleImages(article)
@@ -27,7 +33,7 @@ export function accessibleLibraryImage(articles: readonly LibraryArticle[], file
   for (const article of eligibleLibraryArticles(articles, released, preview)) {
     const image = libraryArticleImages(article)
       .find(figure => figure.src === `/api/design-library-images/${filename}`);
-    if (image) return { articleSlug: article.slug, articleCategory: article.category, image };
+    if (image) return { articleSlug: article.slug, articleCategory: article.category, assetFolder: libraryAssetFolder(article), image };
   }
   return undefined;
 }

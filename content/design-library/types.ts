@@ -17,6 +17,7 @@ export type LibraryFigure = {
 export type LibraryArticle = {
   slug: string;
   category: string;
+  assetFolder?: string;
   title: string;
   excerpt: string;
   description: string;

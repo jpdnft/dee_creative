@@ -1,7 +1,7 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
-import { accessibleLibraryImage, eligibleLibraryArticles, isPublicationReady, isPublishedArticle, libraryArticleImages, libraryArticlePath, libraryAssetTopic, libraryPublicPaths, localLibraryPreview, libraryReleaseAuthorized } from '../lib/design-library-policy.ts';
+import { accessibleLibraryImage, eligibleLibraryArticles, isPublicationReady, isPublishedArticle, libraryArticleImages, libraryArticlePath, libraryAssetFolder, libraryAssetTopic, libraryPublicPaths, localLibraryPreview, libraryReleaseAuthorized } from '../lib/design-library-policy.ts';
 import { craftsman } from '../content/design-library/craftsman.ts';
 import { victorian } from '../content/design-library/victorian.ts';
 import { modern } from '../content/design-library/modern.ts';
@@ -15,6 +15,7 @@ import { mediterraneanRevival } from '../content/design-library/mediterranean-re
 import { bungalow } from '../content/design-library/bungalow.ts';
 import { americanFoursquare } from '../content/design-library/american-foursquare.ts';
 import { ranchHouse } from '../content/design-library/ranch-house.ts';
+import { townhouseRowhouse } from '../content/design-library/townhouse-rowhouse.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -28,15 +29,17 @@ test('preview is explicit and development-only, even when a production environme
 test('article categories resolve to the intended private asset topic folders', () => {
   assert.equal(libraryAssetTopic('architectural-styles'), 'architectural-styles');
   assert.equal(libraryAssetTopic('house-types-and-forms'), 'home-types');
+  assert.equal(libraryAssetFolder(townhouseRowhouse), 'townhouse');
+  assert.throws(() => libraryAssetFolder({ slug: 'safe', assetFolder: '../unsafe' }));
 });
 
 test('every article image resolves from its category asset folder', async () => {
-  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse]) {
+  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse]) {
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
       assert.equal(accessibleLibraryImage([article], filename, false, true)?.articleCategory, article.category);
-      await fs.access(new URL(`../assets/design-library/${libraryAssetTopic(article.category)}/${article.slug}/${filename}`, import.meta.url));
+      await fs.access(new URL(`../assets/design-library/${libraryAssetTopic(article.category)}/${libraryAssetFolder(article)}/${filename}`, import.meta.url));
     }
   }
 });
@@ -56,7 +59,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));
