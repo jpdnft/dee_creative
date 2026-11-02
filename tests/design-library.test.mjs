@@ -17,6 +17,7 @@ import { americanFoursquare } from '../content/design-library/american-foursquar
 import { ranchHouse } from '../content/design-library/ranch-house.ts';
 import { townhouseRowhouse } from '../content/design-library/townhouse-rowhouse.ts';
 import { shotgunDogtrotHouse } from '../content/design-library/shotgun-dogtrot-house.ts';
+import { splitLevelHouse } from '../content/design-library/split-level-house.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -32,11 +33,12 @@ test('article categories resolve to the intended private asset topic folders', (
   assert.equal(libraryAssetTopic('house-types-and-forms'), 'home-types');
   assert.equal(libraryAssetFolder(townhouseRowhouse), 'townhouse');
   assert.equal(libraryAssetFolder(shotgunDogtrotHouse), 'shotgun-dogtrot');
+  assert.equal(libraryAssetFolder(splitLevelHouse), 'split-level');
   assert.throws(() => libraryAssetFolder({ slug: 'safe', assetFolder: '../unsafe' }));
 });
 
 test('every article image resolves from its category asset folder', async () => {
-  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse]) {
+  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse]) {
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
@@ -61,7 +63,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));

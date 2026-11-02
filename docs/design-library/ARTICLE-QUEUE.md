@@ -26,7 +26,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] The Farmhouse — `farmhouse` — planned
 - [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — draft — **combined user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Split-Level House — `split-level-house` — planned
+- [ ] The Split-Level House — `split-level-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 
 ## C. Interior Design Styles (7)
 - [ ] Traditional Interior Design — `traditional` — planned

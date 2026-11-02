@@ -120,4 +120,9 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested one combined article from `SHOTGUN-AND-DOGTROT.md` and five images in `home-types/shotgun-dogtrot/`. Replace the two planned queue entries with one draft at `shotgun-dogtrot-house` so readers can find the combined article.
 - Use the established private House Types & Forms layout and keep the release gate closed. The request does not approve the content or authorize publication.
+
+## Split-Level House preview authorized — 2026-11-01
+
+- The user explicitly requested the Split-Level House as the next House Types & Forms article from `docs/SPLIT-LEVEL-HOUSE.md` and five images in `assets/design-library/home-types/split-level/`.
+- Adapt the supplied text and images into the private article layout, with a conceptual section diagram and accurate illustrative captions. The request does not approve content or authorize publication.
 - Update the source Markdown's stale image-brief status and mapping to reflect the actual files. The article stays draft pending explicit editorial approval; no push, merge, deployment, or publication was authorized.

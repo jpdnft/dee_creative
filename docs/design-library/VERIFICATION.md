@@ -139,3 +139,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked shotgun form, origin debate, and street-frontage tax folklore against the Preservation Resource Center and Jay D. Edwards; checked dogtrot construction and the Johnson cabin against the National Park Service and Texas State Historical Association.
 - `npm.cmd run typecheck`, all 14 quick tests, and `npm.cmd run build` passed. The local article and five images returned HTTP 200; browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow. The mobile opening and plan sketch were visually inspected.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Split-Level House draft check — 2026-11-01
+
+- Adapted `docs/SPLIT-LEVEL-HOUSE.md` and all five supplied PNGs into one private House Types & Forms article with eight body sections and approximately 1,508 introduction/body prose words. Private WebP derivatives live in `home-types/split-level/` alongside the originals.
+- Added a labeled, accessible SVG section comparing tri-level and split-entry arrangements, with the essential distinctions also available as selectable text. Captions describe the five images as illustrations and do not assign them to real properties. The article makes no unverified claim about a specific Portland split-level.
+- Checked the postwar chronology and terrain response against the South Dakota State Historic Preservation Office, regional form against Vancouver Heritage Foundation, and the broader postwar housing context against the National Park Service.
+- `npm.cmd run typecheck`, all 14 quick tests, and `npm.cmd run build` passed. The local article, five images, and House Types & Forms category link returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening and diagram were inspected.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
