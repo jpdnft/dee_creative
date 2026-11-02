@@ -31,6 +31,8 @@ Mediterranean Revival draft: `http://127.0.0.1:3002/design-library/architectural
 
 Bungalow draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/bungalow`. The first House Types & Forms article uses five supplied images; image mapping and source notes are in `BUNGALOW-REVIEW.md`. It is private and unapproved.
 
+American Foursquare draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/american-foursquare`. It uses the five official images supplied under `home-types/american-foursquare/`; image mapping and source notes are in `AMERICAN-FOURSQUARE-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

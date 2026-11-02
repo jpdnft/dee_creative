@@ -101,3 +101,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user requested `assets/design-library/{topic}/{article}`. Move the ten existing style folders into `architectural-styles/` and use the supplied `home-types/bungalow/` folder for the first House Types & Forms article. Keep existing article and image URLs while resolving files from their category folders.
 - The user explicitly requested Bungalow from the supplied text and images. Adapt it into the established private layout, maintaining the distinction between house form and architectural style. Preserve the original text and images. The draft awaits editorial approval; no push, merge, deployment, or publication was authorized.
+
+## American Foursquare preview authorized — 2026-11-01
+
+- The user explicitly requested the American Foursquare as the next House Types & Forms article. The five PNGs in `assets/design-library/home-types/american-foursquare/` are the official images for this draft, superseding the text's earlier floor-plan/interior image briefs.
+- Update the supplied Markdown so its image notes describe only those five images, then adapt it into the existing private article layout. Keep the house form distinct from the styles applied to it. Editorial approval and publication authorization remain separate; no push, merge, deployment, or publication was authorized.
