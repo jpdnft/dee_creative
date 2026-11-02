@@ -22,7 +22,7 @@ Track each article's slug, status, last review, and review notes in this file or
 ## B. House Types & Forms (8)
 - [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The American Foursquare — `american-foursquare` — draft — **user-supplied text and five official images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Ranch House — `ranch-house` — planned
+- [ ] The Ranch House — `ranch-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Farmhouse — `farmhouse` — planned
 - [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — planned
 - [ ] The Shotgun House — `shotgun-house` — planned

@@ -106,3 +106,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the American Foursquare as the next House Types & Forms article. The five PNGs in `assets/design-library/home-types/american-foursquare/` are the official images for this draft, superseding the text's earlier floor-plan/interior image briefs.
 - Update the supplied Markdown so its image notes describe only those five images, then adapt it into the existing private article layout. Keep the house form distinct from the styles applied to it. Editorial approval and publication authorization remain separate; no push, merge, deployment, or publication was authorized.
+
+## Ranch House preview authorized — 2026-11-01
+
+- The user explicitly requested the Ranch House as the next House Types & Forms article from supplied text and five PNGs in `assets/design-library/home-types/ranch-house/`. Adapt it into the established private article layout, using only the supplied images and accurate captions.
+- Update the source Markdown's stale image-brief status and mapping to reflect the actual files. The article stays draft pending explicit editorial approval; no push, merge, deployment, or publication was authorized.
