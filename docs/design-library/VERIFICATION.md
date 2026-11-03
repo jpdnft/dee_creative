@@ -147,3 +147,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked the postwar chronology and terrain response against the South Dakota State Historic Preservation Office, regional form against Vancouver Heritage Foundation, and the broader postwar housing context against the National Park Service.
 - `npm.cmd run typecheck`, all 14 quick tests, and `npm.cmd run build` passed. The local article, five images, and House Types & Forms category link returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening and diagram were inspected.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Farmhouse draft check — 2026-11-02
+
+- Adapted `docs/design-library/FARMHOUSE.md` and all five supplied PNGs into one private House Types & Forms article with nine body sections and approximately 1,862 introduction/body prose words. Private WebP derivatives live in `home-types/farmhouse/` alongside the originals.
+- Added a labeled, accessible SVG farmstead sketch, with its house, work yard, garden, barn, and field relationships also described in selectable text. Captions identify the images as illustrations, including the Oregon image, and do not attribute any to the documented properties named in the copy. The historic farmhouse versus Modern Farmhouse table was adapted into prose.
+- Checked the broad diversity of farm dwellings against the USDA National Agricultural Library; the I-house against the Pennsylvania Historical & Museum Commission; and Manning–Kamna Farm, Shipley–Cook Farmstead, and Lamson Ranch against Oregon historic-site records.
+- `npm.cmd run typecheck`, all 14 quick tests, and `npm.cmd run build` passed. The local article and House Types & Forms category link returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening and farmstead sketch were inspected.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.

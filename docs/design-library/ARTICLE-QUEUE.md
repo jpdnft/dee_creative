@@ -23,7 +23,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The American Foursquare — `american-foursquare` — draft — **user-supplied text and five official images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Ranch House — `ranch-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Farmhouse — `farmhouse` — planned
+- [ ] The Farmhouse — `farmhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — draft — **combined user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Split-Level House — `split-level-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
