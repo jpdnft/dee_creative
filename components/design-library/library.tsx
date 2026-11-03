@@ -71,6 +71,14 @@ function CapeCodDiagram() {
     </g>)}
   </svg>;
 }
+function TraditionalRoomDiagram() {
+  return <svg viewBox="0 0 360 240" className={styles.houseDiagram} role="img" aria-labelledby="traditional-diagram-title traditional-diagram-description">
+    <title id="traditional-diagram-title">Six elements in a traditional room</title>
+    <desc id="traditional-diagram-description">Conceptual room vignette. Balanced chairs face a central sofa and fireplace; paneling and shelves structure the wall; a wood table, rug, lamps, books, and art add warmth, textiles, and personal objects. Numbered labels match the six selectable features beside the diagram.</desc>
+    <g fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinejoin="round"><path d="M17 25v177h326V25M17 192h326M77 25v112M283 25v112M125 25v105M235 25v105M17 84h60m206 0h60" /><rect x="139" y="48" width="82" height="73" /><path d="M131 121h98m-88 0v13h78v-13M159 118V83h42v35M40 45h24v73H40zm256 0h24v73h-24M39 71h26m231 0h25M39 93h26m231 0h25" /><rect x="124" y="160" width="112" height="42" rx="12" /><rect x="31" y="151" width="58" height="49" rx="10" /><rect x="271" y="151" width="58" height="49" rx="10" /><path d="M75 207h210M112 210h136M133 226h94M93 166h20m134 0h20M103 166v-25m154 25v-25" /><ellipse cx="180" cy="216" rx="39" ry="10" /></g>
+    {[[180, 25, '01'], [78, 73, '02'], [180, 172, '03'], [180, 215, '04'], [64, 188, '05'], [298, 56, '06']].map(([x, y, n]) => <g key={n}><circle cx={x} cy={y} r="13" fill="var(--deep-olive)" /><text x={x} y={Number(y) + 4} textAnchor="middle" fill="var(--ivory)" fontSize="9" fontFamily="var(--sans)">{n}</text></g>)}
+  </svg>;
+}
 export function LibrarySnapshot({ article }: { article: LibraryArticle }) {
   const snapshot = article.snapshot;
   const hasThumbnails = [...snapshot.facts, ...snapshot.features].some(item => item.image);
@@ -80,6 +88,7 @@ export function LibrarySnapshot({ article }: { article: LibraryArticle }) {
     {snapshot.diagram === "split-level" && <SplitLevelDiagram />}
     {snapshot.diagram === "farmstead" && <FarmsteadDiagram />}
     {snapshot.diagram === "cape-cod" && <CapeCodDiagram />}
+    {snapshot.diagram === "traditional-room" && <TraditionalRoomDiagram />}
     <ol className={styles.snapshotFeatures}>{snapshot.features.map((feature, index) => feature.image ? <li key={feature.label} className={styles.illustratedFeature}><SnapshotThumbnail image={feature.image} /><div className={styles.snapshotFeatureHeading}><span aria-hidden="true">0{index + 1}</span><h3>{feature.label}</h3></div><p>{feature.text}</p></li> : <li key={feature.label}><span aria-hidden="true">0{index + 1}</span><div><h3>{feature.label}</h3><p>{feature.text}</p></div></li>)}</ol></div><p className={styles.distinction}><strong>One useful distinction</strong>{snapshot.distinction}</p>{hasThumbnails && <p className={styles.snapshotIllustrationNote}>{snapshot.illustrationNote ?? "Thumbnails are generated editorial illustrations."}</p>}<LibrarySourceLinks article={article} ids={snapshot.sources} /></section>;
 }
 export function LibraryRecognition({ article }: { article: LibraryArticle }) {

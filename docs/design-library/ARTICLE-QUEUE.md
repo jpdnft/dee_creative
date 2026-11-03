@@ -31,7 +31,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] The Split-Level House — `split-level-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 
 ## C. Interior Design Styles (7)
-- [ ] Traditional Interior Design — `traditional` — planned
+- [ ] Traditional Interior Design — `traditional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Transitional Interior Design — `transitional` — planned
 - [ ] Scandinavian Interior Design — `scandinavian` — planned
 - [ ] Minimalist Interior Design — `minimalist` — planned

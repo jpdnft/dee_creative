@@ -141,3 +141,8 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested Cottage as the next House Types & Forms article from `docs/THE-COTTAGE.md` and five images in `assets/design-library/home-types/cottage/`. Add it to the queue, which did not previously list it, at the route slug `cottage`.
 - Adapt the supplied text and images into the existing private article layout. Use documented Portland examples for the regional passage and clearly distinguish supplied illustrations from historic properties. This request does not approve content or authorize publication.
 - Update the source Markdown's stale image-brief status and mapping to reflect the actual files. The article stays draft pending explicit editorial approval; no push, merge, deployment, or publication was authorized.
+
+## Traditional Interior Design preview authorized — 2026-11-03
+
+- The user explicitly requested the first Interior Design Styles article from `docs/design-library/TRADITIONAL-INTERIOR-DESIGN.md` and five images in `assets/design-library/interior-design-styles/traditional/`. Use the queue's canonical slug `traditional` rather than the draft's provisional `traditional-interior-design`.
+- Adapt the supplied text and images into the private article layout, with a room-vignette infographic and illustrative color families. Keep source distinctions clear: current American usage of *traditional* refers to a Western design vocabulary, not all cultural traditions. This request does not approve content or authorize publication.
