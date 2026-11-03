@@ -56,6 +56,21 @@ function FarmsteadDiagram() {
     <g fill="currentColor" fontSize="10" fontFamily="var(--sans)" textAnchor="middle"><text x="72" y="70">farmhouse</text><text x="282" y="76">barn</text><text x="181" y="123">work yard</text><text x="68" y="211">kitchen garden</text><text x="288" y="211">fields</text></g>
   </svg>;
 }
+function CapeCodDiagram() {
+  const forms = [
+    { x: 8, name: "HALF", bays: "3 bays", door: 12, windows: [43, 72] },
+    { x: 127, name: "THREE-QUARTER", bays: "4 bays", door: 37, windows: [14, 62, 83] },
+    { x: 246, name: "FULL", bays: "5 bays", door: 45, windows: [12, 28, 66, 83] },
+  ];
+  return <svg viewBox="0 0 360 220" className={styles.houseDiagram} role="img" aria-labelledby="cape-diagram-title cape-diagram-description">
+    <title id="cape-diagram-title">Half, three-quarter, and full Cape front elevations</title>
+    <desc id="cape-diagram-description">Conceptual elevations, not measured historic drawings. A half Cape has a door near one end and two windows to one side. A three-quarter Cape has an offset door, two windows on one side, and one on the other. A full Cape has a centered door with two windows on each side.</desc>
+    {forms.map(form => <g key={form.name} transform={`translate(${form.x} 0)`}>
+      <g fill="none" stroke="currentColor" strokeWidth="1.6"><path d="M0 91 53 42 106 91M8 91v88h90V91M8 179h90" /><rect x={form.door} y="132" width="12" height="47" />{form.windows.map(x => <rect key={x} x={x} y="132" width="10" height="19" />)}</g>
+      <g fill="currentColor" fontSize="9" fontFamily="var(--sans)" textAnchor="middle"><text x="53" y="22">{form.name}</text><text x="53" y="205">{form.bays}</text></g>
+    </g>)}
+  </svg>;
+}
 export function LibrarySnapshot({ article }: { article: LibraryArticle }) {
   const snapshot = article.snapshot;
   const hasThumbnails = [...snapshot.facts, ...snapshot.features].some(item => item.image);
@@ -64,6 +79,7 @@ export function LibrarySnapshot({ article }: { article: LibraryArticle }) {
     {snapshot.diagram === "shotgun-dogtrot" && <ShotgunDogtrotDiagram />}
     {snapshot.diagram === "split-level" && <SplitLevelDiagram />}
     {snapshot.diagram === "farmstead" && <FarmsteadDiagram />}
+    {snapshot.diagram === "cape-cod" && <CapeCodDiagram />}
     <ol className={styles.snapshotFeatures}>{snapshot.features.map((feature, index) => feature.image ? <li key={feature.label} className={styles.illustratedFeature}><SnapshotThumbnail image={feature.image} /><div className={styles.snapshotFeatureHeading}><span aria-hidden="true">0{index + 1}</span><h3>{feature.label}</h3></div><p>{feature.text}</p></li> : <li key={feature.label}><span aria-hidden="true">0{index + 1}</span><div><h3>{feature.label}</h3><p>{feature.text}</p></div></li>)}</ol></div><p className={styles.distinction}><strong>One useful distinction</strong>{snapshot.distinction}</p>{hasThumbnails && <p className={styles.snapshotIllustrationNote}>{snapshot.illustrationNote ?? "Thumbnails are generated editorial illustrations."}</p>}<LibrarySourceLinks article={article} ids={snapshot.sources} /></section>;
 }
 export function LibraryRecognition({ article }: { article: LibraryArticle }) {

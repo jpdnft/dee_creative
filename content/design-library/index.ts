@@ -15,5 +15,6 @@ import { townhouseRowhouse } from "./townhouse-rowhouse";
 import { shotgunDogtrotHouse } from "./shotgun-dogtrot-house";
 import { splitLevelHouse } from "./split-level-house";
 import { farmhouse } from "./farmhouse";
+import { capeCodHouse } from "./cape-cod-house";
 export { libraryCategories } from "./categories";
-export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse];
+export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse];

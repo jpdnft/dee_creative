@@ -130,4 +130,9 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested Farmhouse as the next House Types & Forms article from `docs/design-library/FARMHOUSE.md` and five images in `assets/design-library/home-types/farmhouse/`.
 - Adapt the supplied text and images into the private article layout, with a conceptual farmstead diagram and captions that do not identify the illustrations as documented properties. The request does not approve content or authorize publication.
+
+## Cape Cod House preview authorized — 2026-11-02
+
+- The user explicitly requested Cape Cod House as the next House Types & Forms article from `docs/CAPE-COD-HOUSE.md` and five images in `assets/design-library/home-types/cape-cod/`. Add it to the queue, which did not previously list it, with the canonical slug `cape-cod-house`.
+- Adapt the supplied text and images into the private article layout. Use a conceptual diagram for the three historic bay arrangements, and do not label a supplied image as a three-quarter Cape when its openings do not clearly show that form. This request does not approve content or authorize publication.
 - Update the source Markdown's stale image-brief status and mapping to reflect the actual files. The article stays draft pending explicit editorial approval; no push, merge, deployment, or publication was authorized.
