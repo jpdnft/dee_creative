@@ -32,7 +32,7 @@ Track each article's slug, status, last review, and review notes in this file or
 
 ## C. Interior Design Styles (7)
 - [ ] Traditional Interior Design — `traditional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Transitional Interior Design — `transitional` — planned
+- [ ] Transitional Interior Design — `transitional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Scandinavian Interior Design — `scandinavian` — planned
 - [ ] Minimalist Interior Design — `minimalist` — planned
 - [ ] Maximalist Interior Design — `maximalist` — planned

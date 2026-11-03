@@ -179,3 +179,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked Georgian room organization and eighteenth-century furniture against Metropolitan Museum of Art and English Heritage sources, historic interior renovation against National Park Service guidance, and Portland house-style context against the City of Portland's Irvington record. The article explicitly limits the current American design use of traditional to a Western lineage.
 - `npm.cmd run typecheck`, all 14 quick tests, and `npm.cmd run build` passed. The local article, five images, and Interior Design Styles category link returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening and At a glance panel were inspected.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Transitional Interior Design draft check — 2026-11-03
+
+- Adapted the supplied Transitional draft and all five PNGs into a private article with eleven body sections and approximately 2,305 introduction/body prose words. WebP derivatives remain outside `public/`.
+- Reviewed the five room images against captions and alt text. The hero and four body images are presented as illustrations. The At a glance panel and illustrative color/material guide use existing components.
+- Checked the style description against Architectural Digest's designer interviews and the renovation guidance against National Park Service Preservation Brief 18. The article avoids a precise founding date and treats Portland examples as editorial applications.
+- `npm.cmd run typecheck` and all 14 quick tests passed. The local article and hero image returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening was inspected. Per the editorial guide's efficient review workflow, the full production build and broader release sweep are deferred to the release gate.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.

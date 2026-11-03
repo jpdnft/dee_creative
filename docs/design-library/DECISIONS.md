@@ -146,3 +146,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the first Interior Design Styles article from `docs/design-library/TRADITIONAL-INTERIOR-DESIGN.md` and five images in `assets/design-library/interior-design-styles/traditional/`. Use the queue's canonical slug `traditional` rather than the draft's provisional `traditional-interior-design`.
 - Adapt the supplied text and images into the private article layout, with a room-vignette infographic and illustrative color families. Keep source distinctions clear: current American usage of *traditional* refers to a Western design vocabulary, not all cultural traditions. This request does not approve content or authorize publication.
+
+## Transitional Interior Design preview authorized — 2026-11-03
+
+- The user explicitly requested the next Interior Design Styles article from `docs/design-library/TRANSITIONAL-INTERIOR-DESIGN.md` and five images in `assets/design-library/interior-design-styles/transitional/`. Use the queue's canonical slug `transitional` rather than the draft's provisional longer slug.
+- Adapt the supplied text and imagery into the existing private article layout. This request does not approve content or authorize publication.
