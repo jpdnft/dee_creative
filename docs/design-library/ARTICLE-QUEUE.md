@@ -1,6 +1,6 @@
 # Design Library — Article Queue
 
-**Inventory:** 46 current article entries across six categories; the Shotgun and Dogtrot entries were combined, and Cape Cod was added by user request.
+**Inventory:** 47 current article entries across six categories; the Shotgun and Dogtrot entries were combined, and Cape Cod and Cottage were added by user request.
 **Initial status:** `planned` for every article except the sample, which remains `planned` until Codex begins.  
 **Status progression:** `planned` → `researching` → `draft` → `revision` → `approved` → `published`.  
 **Important:** `approved` means editorial/content approval, **not** permission to publish. Publication requires separate explicit authorization. Do not mark anything approved on your own.
@@ -19,12 +19,13 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Prairie School Architecture — `prairie-school` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 - [ ] Mediterranean Revival Architecture — `mediterranean-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
 
-## B. House Types & Forms (8)
+## B. House Types & Forms (9)
 - [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The American Foursquare — `american-foursquare` — draft — **user-supplied text and five official images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Ranch House — `ranch-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Farmhouse — `farmhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Cape Cod House — `cape-cod-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
+- [ ] The Cottage — `cottage` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — draft — **combined user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
 - [ ] The Split-Level House — `split-level-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**

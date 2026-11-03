@@ -45,6 +45,8 @@ Farmhouse draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/far
 
 Cape Cod House draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/cape-cod-house`. It uses all five supplied illustrations from `home-types/cape-cod/`; image mapping and source notes are in `CAPE-COD-HOUSE-REVIEW.md`. It is private and unapproved.
 
+Cottage draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/cottage`. It uses all five supplied illustrations from `home-types/cottage/`; image mapping and source notes are in `COTTAGE-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
