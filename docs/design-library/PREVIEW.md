@@ -55,6 +55,8 @@ Scandinavian Interior Design draft: `http://127.0.0.1:3002/design-library/interi
 
 Minimalist Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/minimalist`. It uses all five supplied interiors from `interior-design-styles/minimalist/`; image mapping and source notes are in `MINIMALIST-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
 
+Maximalist Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/maximalist`. It uses all six supplied images from `interior-design-styles/maximalist/`; image mapping and source notes are in `MAXIMALIST-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

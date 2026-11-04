@@ -161,3 +161,8 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the next Interior Design Styles article from `docs/MINIMALIST-INTERIOR-DESIGN.md` and five images in `assets/design-library/interior-design-styles/minimalist/`. Use the queue's canonical slug `minimalist` for the route and asset folder.
 - Adapt the supplied text and imagery into the private article layout, distinguishing the 1960s art movement from earlier modernist influences and later residential design. This request does not approve content or authorize publication.
+
+## Maximalist Interior Design preview authorized — 2026-11-03
+
+- The user explicitly requested the next Interior Design Styles article from `docs/design-library/MAXIMALIST-INTERIOR-DESIGN.md` and imagery in `assets/design-library/interior-design-styles/maximalist/`. Use the queue's canonical slug `maximalist` for the route and asset folder.
+- Use all six supplied images, including the painted staircase, as illustrations within the existing private article layout. This request does not approve content or authorize publication.

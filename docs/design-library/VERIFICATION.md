@@ -203,3 +203,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked art history against Museum of Modern Art entries, modernism against the Victoria and Albert Museum, and John Pawson against the Design Museum. The Japanese precedents are described without equating Japanese design with minimalism.
 - `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found five decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Maximalist Interior Design draft check — 2026-11-03
+
+- Adapted the supplied Maximalist draft and all six PNGs into a private article with thirteen body sections and approximately 2,531 introduction/body prose words. WebP derivatives remain outside `public/`.
+- Reviewed the living room, dining room, painted staircase, library, bedroom, and powder room against their captions and alt text. The staircase is included as an illustration of decorated architectural surfaces. At a glance and illustrative colors/materials use existing components.
+- Checked Victorian collecting and patterned interiors against the Metropolitan Museum of Art, Dorothy Draper against Cooper Hewitt, Memphis's 1981 formation against the Metropolitan Museum of Art, and renovation guidance against National Park Service and the City of Portland.
+- `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found six decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
