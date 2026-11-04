@@ -187,3 +187,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked the style description against Architectural Digest's designer interviews and the renovation guidance against National Park Service Preservation Brief 18. The article avoids a precise founding date and treats Portland examples as editorial applications.
 - `npm.cmd run typecheck` and all 14 quick tests passed. The local article and hero image returned HTTP 200. Browser checks at 1365 and 390 CSS pixels found five decoded figures and no horizontal overflow; the mobile opening was inspected. Per the editorial guide's efficient review workflow, the full production build and broader release sweep are deferred to the release gate.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Scandinavian Interior Design draft check — 2026-11-03
+
+- Adapted the supplied Scandinavian draft and all five PNGs into a private article with nine body sections and approximately 2,364 introduction/body prose words. WebP derivatives remain outside `public/`.
+- Reviewed each room image against its caption and alt text. The At a glance panel and illustrative colors/materials guide use the existing article components. The article keeps the geographical distinction between Scandinavia and the broader Nordic region.
+- Checked the 1930 Stockholm Exhibition against ArkDes, Scandinavian organic modernism against the Metropolitan Museum of Art, transatlantic exchange against Milwaukee Art Museum and Nationalmuseum Sweden, and the 1954–57 exhibition tour against the Milwaukee Art Museum Research Center.
+- `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found five decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
