@@ -34,7 +34,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Traditional Interior Design — `traditional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Transitional Interior Design — `transitional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Scandinavian Interior Design — `scandinavian` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Minimalist Interior Design — `minimalist` — planned
+- [ ] Minimalist Interior Design — `minimalist` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Maximalist Interior Design — `maximalist` — planned
 - [ ] Eclectic Interior Design — `eclectic` — planned
 - [ ] Industrial Interior Design — `industrial` — planned

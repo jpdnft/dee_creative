@@ -195,3 +195,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked the 1930 Stockholm Exhibition against ArkDes, Scandinavian organic modernism against the Metropolitan Museum of Art, transatlantic exchange against Milwaukee Art Museum and Nationalmuseum Sweden, and the 1954–57 exhibition tour against the Milwaukee Art Museum Research Center.
 - `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found five decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Minimalist Interior Design draft check — 2026-11-03
+
+- Adapted the supplied Minimalist draft and all five PNGs into a private article with twelve body sections and approximately 2,542 introduction/body prose words. WebP derivatives remain outside `public/`.
+- Reviewed each room image against its caption and alt text. The At a glance panel and illustrative colors/materials guide use existing components. The article distinguishes early modernist reduction, the 1960s Minimalist art movement, and later residential design.
+- Checked art history against Museum of Modern Art entries, modernism against the Victoria and Albert Museum, and John Pawson against the Design Museum. The Japanese precedents are described without equating Japanese design with minimalism.
+- `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found five decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.

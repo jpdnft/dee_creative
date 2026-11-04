@@ -20,5 +20,6 @@ import { cottage } from "./cottage";
 import { traditional } from "./traditional";
 import { transitional } from "./transitional";
 import { scandinavian } from "./scandinavian";
+import { minimalist } from "./minimalist";
 export { libraryCategories } from "./categories";
-export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian];
+export const libraryArticles = [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist];
