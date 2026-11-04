@@ -36,7 +36,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Scandinavian Interior Design — `scandinavian` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Minimalist Interior Design — `minimalist` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Maximalist Interior Design — `maximalist` — draft — **user-supplied text and six images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Eclectic Interior Design — `eclectic` — planned
+- [ ] Eclectic Interior Design — `eclectic` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Industrial Interior Design — `industrial` — planned
 
 ## D. Architectural Elements & Details (7)

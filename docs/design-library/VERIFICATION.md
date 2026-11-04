@@ -211,3 +211,11 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked Victorian collecting and patterned interiors against the Metropolitan Museum of Art, Dorothy Draper against Cooper Hewitt, Memphis's 1981 formation against the Metropolitan Museum of Art, and renovation guidance against National Park Service and the City of Portland.
 - `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found six decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+
+## Eclectic Interior Design draft check — 2026-11-04
+
+- Adapted the supplied Eclectic draft and all seven PNGs into a private article with fourteen body sections and approximately 4,495 introduction/body prose words. The longer length is retained for editorial review, with seven images distributed through the piece. WebP derivatives remain outside `public/`.
+- Reviewed each image against its caption and alt text. The supplied catio is described as a catio; the actual dining room and bedroom images guide their captions rather than the earlier briefs. At a glance and the illustrative colors/materials guide use existing components.
+- Checked nineteenth-century eclecticism against the Smithsonian; Portland salvage and reuse context against the Oregon Encyclopedia and City of Portland; and renovation, permit, and lead/asbestos notes against the National Park Service and City of Portland.
+- `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found seven decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
+- The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
