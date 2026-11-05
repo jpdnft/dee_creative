@@ -37,7 +37,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Minimalist Interior Design — `minimalist` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Maximalist Interior Design — `maximalist` — draft — **user-supplied text and six images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Eclectic Interior Design — `eclectic` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Industrial Interior Design — `industrial` — planned
+- [ ] Industrial Interior Design — `industrial` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
 
 ## D. Architectural Elements & Details (7)
 - [ ] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — planned

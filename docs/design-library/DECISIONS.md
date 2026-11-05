@@ -171,3 +171,7 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the next Interior Design Styles article from `docs/design-library/ECLECTIC-INTERIOR-DESIGN.md` and seven images in `assets/design-library/interior-design-styles/eclectic/`. Use the queue's canonical slug `eclectic` for the route and asset folder.
 - Adapt the supplied text and all seven images into the private article layout. Captions must reflect the actual images, especially the catio, rather than the earlier briefs. This request does not approve content or authorize publication.
+## Industrial Interior Design preview authorized — 2026-11-04
+
+- The user explicitly requested the next Interior Design Styles article from `docs/design-library/INDUSTRIAL-INTERIOR-DESIGN.md` and seven images in `assets/design-library/interior-design-styles/industrial/`. Use the queue's canonical slug `industrial` for the route and asset folder.
+- Assemble a private local draft and seek editorial approval. This request does not authorize publication or deployment.

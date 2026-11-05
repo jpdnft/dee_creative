@@ -219,3 +219,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked nineteenth-century eclecticism against the Smithsonian; Portland salvage and reuse context against the Oregon Encyclopedia and City of Portland; and renovation, permit, and lead/asbestos notes against the National Park Service and City of Portland.
 - `npm.cmd run typecheck` and all 14 quick tests passed. Browser checks at 1365 and 390 CSS pixels returned HTTP 200, found seven decoded figures, and found no horizontal overflow; the mobile opening was inspected. Per the editorial guide, the full production build and broader release sweep are deferred to the release gate.
 - The article remains a private draft awaiting editorial review. No push, merge, deployment, or publication was performed. The next user action is to review this article and provide edits or explicit editorial approval.
+## Industrial Interior Design draft check — 2026-11-04
+
+- Adapted the supplied Industrial draft and all seven PNGs into a private article with thirteen body sections and approximately 4,375 introduction/body prose words. Seven images are distributed through the longer piece. WebP derivatives remain outside `public/`.
+- Checked SoHo loft history against Aaron Shkuda’s chapter abstract, Central Eastside context against Prosper Portland, and renovation context against the Oregon Health Authority and City of Portland.
+- `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
+- Editorial status: draft; no publication or deployment authorized.
