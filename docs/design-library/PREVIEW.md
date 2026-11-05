@@ -61,6 +61,8 @@ Eclectic Interior Design draft: `http://127.0.0.1:3002/design-library/interior-d
 
 Industrial Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/industrial`. It uses all seven supplied images from `interior-design-styles/industrial/`; image mapping and source notes are in `INDUSTRIAL-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
 
+Wainscoting and Wall Paneling draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/wainscoting-wall-paneling`. It uses all seven supplied images from `architectural-elements/wainscoting-and-wall-paneling/`; image mapping and source notes are in `WAINSCOTING-AND-WALL-PANELING-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

@@ -225,3 +225,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked SoHo loft history against Aaron Shkuda’s chapter abstract, Central Eastside context against Prosper Portland, and renovation context against the Oregon Health Authority and City of Portland.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no publication or deployment authorized.
+## Wainscoting and Wall Paneling draft check — 2026-11-04
+
+- Adapted the supplied draft and all seven PNGs into the first private Architectural Elements & Details article. Its canonical copy is the typed article file; the Markdown remains an editorial input. The article has thirteen body sections and approximately 3,557 introduction/body prose words. Seven images are distributed through it, with WebP derivatives outside `public/`.
+- Added the category-to-asset-folder mapping for `architectural-elements-and-details` to `architectural-elements`.
+- Checked terminology with This Old House, wood-paneling standards context with the Architectural Woodwork Institute, historic-interior guidance with the National Park Service, and lead-safe renovation context with the US EPA.
+- `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
+- Editorial status: draft; no publication or deployment authorized.

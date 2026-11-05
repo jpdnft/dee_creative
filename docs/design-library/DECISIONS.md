@@ -175,3 +175,9 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user explicitly requested the next Interior Design Styles article from `docs/design-library/INDUSTRIAL-INTERIOR-DESIGN.md` and seven images in `assets/design-library/interior-design-styles/industrial/`. Use the queue's canonical slug `industrial` for the route and asset folder.
 - Assemble a private local draft and seek editorial approval. This request does not authorize publication or deployment.
+
+## Article source of truth and Wainscoting preview — 2026-11-04
+
+- The user confirmed that each article's typed file in `content/design-library/` is the authoritative text after conversion. The supplied Markdown is an editorial input or archive; subsequent copy edits need not be mirrored there.
+- The user explicitly requested Wainscoting and Wall Paneling as the first Architectural Elements & Details article, using the supplied text and seven images. Use the queue slug `wainscoting-wall-paneling` for the route and the supplied asset folder `wainscoting-and-wall-paneling`.
+- Assemble a private draft for editorial review. No publication, merge, or deployment is authorized.

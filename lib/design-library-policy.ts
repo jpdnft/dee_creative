@@ -39,7 +39,9 @@ export function accessibleLibraryImage(articles: readonly LibraryArticle[], file
 }
 
 export function libraryAssetTopic(category: LibraryArticle["category"]) {
-  return category === "house-types-and-forms" ? "home-types" : category;
+  if (category === "house-types-and-forms") return "home-types";
+  if (category === "architectural-elements-and-details") return "architectural-elements";
+  return category;
 }
 
 export function eligibleLibraryArticles(articles: readonly LibraryArticle[], released: boolean, preview: boolean) {
