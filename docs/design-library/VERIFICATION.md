@@ -225,6 +225,7 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked SoHo loft history against Aaron Shkuda’s chapter abstract, Central Eastside context against Prosper Portland, and renovation context against the Oregon Health Authority and City of Portland.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no publication or deployment authorized.
+
 ## Wainscoting and Wall Paneling draft check — 2026-11-04
 
 - Adapted the supplied draft and all seven PNGs into the first private Architectural Elements & Details article. Its canonical copy is the typed article file; the Markdown remains an editorial input. The article has thirteen body sections and approximately 3,557 introduction/body prose words. Seven images are distributed through it, with WebP derivatives outside `public/`.
@@ -232,3 +233,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked terminology with This Old House, wood-paneling standards context with the Architectural Woodwork Institute, historic-interior guidance with the National Park Service, and lead-safe renovation context with the US EPA.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no publication or deployment authorized.
+
+## Crown Molding, Baseboards, and Interior Trim draft check — 2026-11-04
+
+- Adapted the supplied draft and all eight PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown is editorial input. The article has thirteen body sections and approximately 3,680 introduction/body prose words. All eight images have WebP derivatives outside `public/`.
+- Checked trim vocabulary and historic-profile matching against This Old House, crown installation details against Fine Homebuilding, and historic-interior preservation against the National Park Service.
+- `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded eight images, and had no horizontal overflow. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

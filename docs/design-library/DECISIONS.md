@@ -181,3 +181,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user confirmed that each article's typed file in `content/design-library/` is the authoritative text after conversion. The supplied Markdown is an editorial input or archive; subsequent copy edits need not be mirrored there.
 - The user explicitly requested Wainscoting and Wall Paneling as the first Architectural Elements & Details article, using the supplied text and seven images. Use the queue slug `wainscoting-wall-paneling` for the route and the supplied asset folder `wainscoting-and-wall-paneling`.
 - Assemble a private draft for editorial review. No publication, merge, or deployment is authorized.
+
+## Crown Molding, Baseboards, and Interior Trim preview — 2026-11-04
+
+- The user explicitly requested the second Architectural Elements & Details article using the supplied text and eight images. The queue slug `interior-trim` is canonical; the source folder is `architectural-elements/crown-molding-baseboards`.
+- The typed article file is the authoritative site copy after conversion. The supplied Markdown remains an editorial input.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

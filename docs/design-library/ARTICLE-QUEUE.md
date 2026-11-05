@@ -41,7 +41,7 @@ Track each article's slug, status, last review, and review notes in this file or
 
 ## D. Architectural Elements & Details (7)
 - [ ] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — planned
+- [ ] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — planned
 - [ ] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — planned
 - [ ] Interior Arches and Architectural Openings — `interior-arches-openings` — planned
