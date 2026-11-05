@@ -240,3 +240,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked trim vocabulary and historic-profile matching against This Old House, crown installation details against Fine Homebuilding, and historic-interior preservation against the National Park Service.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded eight images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Design Library founder introduction check — 2026-11-04
+
+- Added the supplied portrait and introduction to a right-side founder panel on `/design-library`; the six category links remain in the main column. The panel follows them on mobile.
+- `npm run typecheck` passed. Local browser checks at 1440px, 900px, and 390px returned 200, loaded the portrait, found all six categories, and found no horizontal overflow. The desktop full page and mobile opening were visually inspected.
+- The page remains inside the existing private Design Library gate. No push or deployment was performed.

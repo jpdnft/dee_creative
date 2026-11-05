@@ -187,3 +187,8 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the second Architectural Elements & Details article using the supplied text and eight images. The queue slug `interior-trim` is canonical; the source folder is `architectural-elements/crown-molding-baseboards`.
 - The typed article file is the authoritative site copy after conversion. The supplied Markdown remains an editorial input.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Design Library founder introduction — 2026-11-04
+
+- The user requested a right-side panel occupying about one-third of the Design Library landing page, using `public/images/jimdee-headshot.png` and their supplied introduction text.
+- Keep the six category links in the main column. On narrow screens, show the founder panel after the categories. The Design Library publication gate remains unchanged.
