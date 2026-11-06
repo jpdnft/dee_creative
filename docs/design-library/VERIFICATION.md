@@ -246,3 +246,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Added the supplied portrait and introduction to a right-side founder panel on `/design-library`; the six category links remain in the main column. The panel follows them on mobile.
 - `npm run typecheck` passed. Local browser checks at 1440px, 900px, and 390px returned 200, loaded the portrait, found all six categories, and found no horizontal overflow. The desktop full page and mobile opening were visually inspected.
 - The page remains inside the existing private Design Library gate. No push or deployment was performed.
+
+## Coffered, Beamed, and Decorative Ceilings draft check — 2026-11-05
+
+- Adapted the supplied draft and all eight PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown is editorial input. The article has eleven body sections and approximately 1,909 introduction/body prose words. All eight images have WebP derivatives outside `public/`.
+- Checked ancient coffer precedents with the Metropolitan Museum of Art, pressed-metal and ornamental-plaster history with National Park Service briefs, decorative wood-beam construction with This Old House, and lead-safe renovation context with the US EPA.
+- `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded eight images, and had no horizontal overflow. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.
