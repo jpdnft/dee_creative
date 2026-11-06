@@ -43,7 +43,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — planned
+- [ ] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Interior Arches and Architectural Openings — `interior-arches-openings` — planned
 - [ ] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — planned
 - [ ] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — planned

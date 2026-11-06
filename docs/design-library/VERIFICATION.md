@@ -253,3 +253,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked ancient coffer precedents with the Metropolitan Museum of Art, pressed-metal and ornamental-plaster history with National Park Service briefs, decorative wood-beam construction with This Old House, and lead-safe renovation context with the US EPA.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded eight images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Built-In Bookcases and Architectural Cabinetry draft check — 2026-11-05
+
+- Adapted the supplied draft and all seven PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown is editorial input. The article has nine body sections and approximately 1,755 introduction/body prose words. All seven images have WebP derivatives outside `public/`.
+- Checked Arts and Crafts context against The Gamble House, casework standards against the Architectural Woodwork Institute, wood behavior against the USDA Forest Service, and historic-interior considerations against the National Park Service.
+- `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

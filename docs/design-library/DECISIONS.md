@@ -198,3 +198,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the third Architectural Elements & Details article using the supplied text and eight images. The queue slug `decorative-ceilings` is canonical; the asset folder is `architectural-elements/coffered-beamed-decorative-ceilings`.
 - The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Built-In Bookcases and Architectural Cabinetry preview — 2026-11-05
+
+- The user explicitly requested the fourth Architectural Elements & Details article using the supplied text and seven images. The queue slug and asset folder are both `built-in-bookcases-cabinetry`.
+- The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. The seven supplied images determine the actual image plan; the draft's eighth brief is not represented as a finished image.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
