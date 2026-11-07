@@ -35,6 +35,7 @@ import { builtInBookcasesCabinetry } from '../content/design-library/built-in-bo
 import { interiorArchesOpenings } from '../content/design-library/interior-arches-openings.ts';
 import { staircasesBalustradesRailings } from '../content/design-library/staircases-balustrades-railings.ts';
 import { fireplacesSurrounds } from '../content/design-library/fireplaces-surrounds.ts';
+import { interiorWoodSpecies } from '../content/design-library/interior-wood-species.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -55,6 +56,8 @@ test('article categories resolve to the intended private asset topic folders', (
   assert.equal(libraryAssetFolder(interiorArchesOpenings), 'interior-arches-and-openings');
   assert.equal(libraryAssetFolder(staircasesBalustradesRailings), 'staircases-balustrades-railings');
   assert.equal(libraryAssetFolder(fireplacesSurrounds), 'fireplaces-and-surrounds');
+  assert.equal(libraryAssetFolder(interiorWoodSpecies), 'interior-wood-species');
+  assert.equal(libraryAssetTopic(interiorWoodSpecies.category), 'materials-and-finishes');
   assert.equal(libraryAssetFolder(townhouseRowhouse), 'townhouse');
   assert.equal(libraryAssetFolder(shotgunDogtrotHouse), 'shotgun-dogtrot');
   assert.equal(libraryAssetFolder(splitLevelHouse), 'split-level');
@@ -63,7 +66,7 @@ test('article categories resolve to the intended private asset topic folders', (
 });
 
 test('every article image resolves from its category asset folder', async () => {
-  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds]) {
+  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies]) {
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
@@ -88,7 +91,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));

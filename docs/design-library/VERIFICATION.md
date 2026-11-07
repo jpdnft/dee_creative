@@ -281,3 +281,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked preservation context with the National Park Service and Historic England, and appliance and permit discussion with Portland, Oregon DEQ, and EPA sources. The EPA page is historical and no longer updated, so it is not used for current permit requirements.
 - `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local route returned 200, contained the article heading and `noindex` metadata, and all seven images returned 200. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Interior Wood Species and Their Characteristics draft check — 2026-11-07
+
+- Adapted the supplied draft and all eight PNGs into the first private Materials & Finishes article. The typed article is the canonical site copy; the Markdown in `docs/` is editorial input. The article has fourteen body sections and approximately 1,916 introduction/body prose words. Eight WebP derivatives live outside `public/`.
+- Checked species properties with the Hardwood Manufacturers Association, moisture and dimensional movement with the USDA Forest Service, and regulated timber sourcing with USDA APHIS. The generated comparison board is labeled illustrative, not an authenticated specimen chart.
+- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local category and article routes returned 200, the category linked to the article, the article carried `noindex`, and all eight images returned 200. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

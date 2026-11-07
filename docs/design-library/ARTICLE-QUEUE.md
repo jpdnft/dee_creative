@@ -49,7 +49,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
 
 ## E. Materials & Finishes (5)
-- [ ] Interior Wood Species and Their Characteristics — `interior-wood-species` — planned
+- [ ] Interior Wood Species and Their Characteristics — `interior-wood-species` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
 - [ ] Natural Stone in Residential Design — `natural-stone` — planned
 - [ ] Plaster, Roman Clay, and Decorative Wall Finishes — `plaster-roman-clay-decorative-finishes` — planned
 - [ ] Architectural Tile: Materials, Patterns, and Applications — `architectural-tile` — planned
