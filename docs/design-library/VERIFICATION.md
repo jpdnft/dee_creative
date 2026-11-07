@@ -267,3 +267,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked historic-interior context with the National Park Service, local construction-permit claims with Portland and Oregon government guidance, and Jaipur haveli variation and multifoil arches with the Rajasthan government heritage regulations.
 - `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the article-image test is blocked by the pre-existing deletion of `assets/design-library/architectural-elements/coffered-beamed-decorative-ceilings/decorative-ceilings-plaster.webp`, which is unrelated to this article. The local route returned 200 and contained the article heading, hero asset, and `noindex` metadata. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Staircases, Balustrades, and Railings draft check — 2026-11-06
+
+- Adapted the supplied draft and all six PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown is editorial input. The article has ten body sections and approximately 1,634 introduction/body prose words. Six WebP derivatives live outside `public/`.
+- Checked component terminology against the Stairbuilders and Manufacturers Association, Portland permit guidance, and the Oregon Building Codes Division's 2026 code adoption schedule.
+- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local route returned 200, contained the article heading and `noindex` metadata, and all six images returned 200. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

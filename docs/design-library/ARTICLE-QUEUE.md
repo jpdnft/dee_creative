@@ -45,7 +45,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Interior Arches and Architectural Openings — `interior-arches-openings` — draft — **user-supplied text and eight selected images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — planned
+- [ ] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — draft — **user-supplied text and six images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — planned
 
 ## E. Materials & Finishes (5)

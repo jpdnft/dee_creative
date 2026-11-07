@@ -210,3 +210,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested this Architectural Elements & Details article from the supplied text and images. The queue slug is `interior-arches-openings`; the asset folder is `architectural-elements/interior-arches-and-openings`.
 - The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. Eight of nine supplied images are used; the additional Moroccan kitchen image is redundant with stronger examples in the sequence.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Staircases, Balustrades, and Railings preview — 2026-11-06
+
+- The user explicitly requested this Architectural Elements & Details article using the supplied text and six images. The queue slug and asset folder are both `staircases-balustrades-railings`.
+- The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. All six images are used as illustrations, without implying code compliance from their appearance.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

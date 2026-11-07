@@ -71,6 +71,8 @@ Built-In Bookcases and Architectural Cabinetry draft: `http://127.0.0.1:3002/des
 
 Interior Arches and Architectural Openings draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/interior-arches-openings`. It uses eight selected images from `architectural-elements/interior-arches-and-openings/`; image mapping and source notes are in `INTERIOR-ARCHES-OPENINGS-REVIEW.md`. It is private and unapproved.
 
+Staircases, Balustrades, and Railings draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/staircases-balustrades-railings`. It uses all six supplied images from `architectural-elements/staircases-balustrades-railings/`; image mapping and source notes are in `STAIRCASES-BALUSTRADES-RAILINGS-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
