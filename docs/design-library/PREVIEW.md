@@ -77,6 +77,8 @@ Fireplaces and Architectural Surrounds draft: `http://127.0.0.1:3002/design-libr
 
 Interior Wood Species and Their Characteristics draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/interior-wood-species`. It uses eight supplied images from `materials-and-finishes/interior-wood-species/`; image mapping and source notes are in `INTERIOR-WOOD-SPECIES-REVIEW.md`. It is private and unapproved.
 
+Natural Stone in Residential Design draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/natural-stone`. It uses eight supplied images from `materials-and-finishes/natural-stone/`; image mapping and source notes are in `NATURAL-STONE-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

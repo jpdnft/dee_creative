@@ -288,3 +288,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked species properties with the Hardwood Manufacturers Association, moisture and dimensional movement with the USDA Forest Service, and regulated timber sourcing with USDA APHIS. The generated comparison board is labeled illustrative, not an authenticated specimen chart.
 - `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local category and article routes returned 200, the category linked to the article, the article carried `noindex`, and all eight images returned 200. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Natural Stone in Residential Design draft check — 2026-11-07
+
+- Adapted the supplied draft and all eight PNGs into the second private Materials & Finishes article. The typed article is the canonical site copy; the Markdown in `docs/` is editorial input. The article has thirteen body sections and approximately 1,711 introduction/body prose words. Eight WebP derivatives live outside `public/`.
+- Checked dimension-stone terminology with the U.S. Geological Survey, material testing and acid sensitivity with the Natural Stone Institute, and routine care with Arizona Tile. The generated images and finish comparison are labeled illustrations, not authenticated specimens.
+- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local category and article routes returned 200, the category linked to this article, the article carried `noindex`, and all eight images returned 200. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

@@ -50,7 +50,7 @@ Track each article's slug, status, last review, and review notes in this file or
 
 ## E. Materials & Finishes (5)
 - [ ] Interior Wood Species and Their Characteristics — `interior-wood-species` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
-- [ ] Natural Stone in Residential Design — `natural-stone` — planned
+- [ ] Natural Stone in Residential Design — `natural-stone` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
 - [ ] Plaster, Roman Clay, and Decorative Wall Finishes — `plaster-roman-clay-decorative-finishes` — planned
 - [ ] Architectural Tile: Materials, Patterns, and Applications — `architectural-tile` — planned
 - [ ] Metal Finishes in Interior Design — `metal-finishes` — planned

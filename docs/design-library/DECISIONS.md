@@ -228,3 +228,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the first Materials & Finishes article using the supplied text and eight images. The queue slug and asset folder are both `interior-wood-species` under their respective category paths.
 - The typed article file is the authoritative site copy after conversion. The source Markdown in `docs/` remains editorial input. The generated comparison board is explicitly labeled as an illustration, not verified wood specimens.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Natural Stone in Residential Design preview — 2026-11-07
+
+- The user explicitly requested the second Materials & Finishes article using the supplied text and eight images. The queue slug and asset folder are both `natural-stone` under their respective category paths.
+- The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. Images, including the finish comparison, illustrate concepts rather than verify a specific rock type or performance.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
