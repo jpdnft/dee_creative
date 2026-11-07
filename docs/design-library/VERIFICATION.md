@@ -260,3 +260,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked Arts and Crafts context against The Gamble House, casework standards against the Architectural Woodwork Institute, wood behavior against the USDA Forest Service, and historic-interior considerations against the National Park Service.
 - `npm run typecheck` passed; `npm test` passed (14 tests). Local desktop (1365px) and mobile (390px) browser previews returned 200, decoded seven images, and had no horizontal overflow. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Interior Arches and Architectural Openings draft check — 2026-11-06
+
+- Adapted the supplied draft and eight of nine PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown is editorial input. The article has nine body sections and approximately 1,640 introduction/body prose words. Eight WebP derivatives live outside `public/`.
+- Checked historic-interior context with the National Park Service, local construction-permit claims with Portland and Oregon government guidance, and Jaipur haveli variation and multifoil arches with the Rajasthan government heritage regulations.
+- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the article-image test is blocked by the pre-existing deletion of `assets/design-library/architectural-elements/coffered-beamed-decorative-ceilings/decorative-ceilings-plaster.webp`, which is unrelated to this article. The local route returned 200 and contained the article heading, hero asset, and `noindex` metadata. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.
