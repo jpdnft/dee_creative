@@ -274,3 +274,10 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Checked component terminology against the Stairbuilders and Manufacturers Association, Portland permit guidance, and the Oregon Building Codes Division's 2026 code adoption schedule.
 - `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local route returned 200, contained the article heading and `noindex` metadata, and all six images returned 200. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Fireplaces and Architectural Surrounds draft check — 2026-11-07
+
+- Adapted the supplied draft and all seven PNGs into a private Architectural Elements & Details article. The typed article is the canonical site copy; the Markdown in `docs/` is editorial input. The article has ten body sections and approximately 2,060 introduction/body prose words. Seven WebP derivatives live outside `public/`.
+- Checked preservation context with the National Park Service and Historic England, and appliance and permit discussion with Portland, Oregon DEQ, and EPA sources. The EPA page is historical and no longer updated, so it is not used for current permit requirements.
+- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local route returned 200, contained the article heading and `noindex` metadata, and all seven images returned 200. Full build deferred to the publication gate.
+- Editorial status: draft; no push, publication, or deployment authorized by this article request.

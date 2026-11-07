@@ -216,3 +216,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested this Architectural Elements & Details article using the supplied text and six images. The queue slug and asset folder are both `staircases-balustrades-railings`.
 - The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. All six images are used as illustrations, without implying code compliance from their appearance.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Fireplaces and Architectural Surrounds preview — 2026-11-07
+
+- The user explicitly requested this Architectural Elements & Details article using the supplied text and seven images. The queue slug is `fireplaces-surrounds`; the asset folder is `architectural-elements/fireplaces-and-surrounds`.
+- The typed article file is the authoritative site copy after conversion. The source Markdown in `docs/` remains editorial input. All seven supplied images are used as illustrations, without implying appliance or code compliance.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
