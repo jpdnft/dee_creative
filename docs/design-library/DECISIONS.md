@@ -246,3 +246,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the fourth Materials & Finishes article from supplied text and eight images. The queue slug and asset folder are `architectural-tile`.
 - The typed article file is the authoritative site copy after conversion. All eight supplied images are used as illustrations; the pattern comparison is an infographic, not a construction specification.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Metal Finishes in Interior Design preview — 2026-11-08
+
+- The user explicitly requested the fifth Materials & Finishes article using supplied text and nine images. The queue slug and normalized asset folder are `metal-finishes`.
+- The typed article file is the authoritative site copy after conversion. The nine images illustrate rooms and finish appearances, without verifying a pictured alloy, coating, safety detail, or installation.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

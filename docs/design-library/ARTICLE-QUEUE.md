@@ -53,7 +53,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Natural Stone in Residential Design — `natural-stone` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
 - [ ] Plaster, Roman Clay, and Decorative Wall Finishes — `plaster-roman-clay-decorative-finishes` — draft for editorial review
 - [ ] Architectural Tile: Materials, Patterns, and Applications — `architectural-tile` — draft for editorial review
-- [ ] Metal Finishes in Interior Design — `metal-finishes` — planned
+- [ ] Metal Finishes in Interior Design — `metal-finishes` — draft for editorial review
 
 ## F. Design Principles & Philosophies (9)
 - [ ] Color Theory for Interior Design — `color-theory` — planned
