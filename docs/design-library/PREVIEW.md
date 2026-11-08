@@ -87,6 +87,8 @@ Metal Finishes in Interior Design draft: `http://127.0.0.1:3002/design-library/m
 
 Window Treatments: Curtains, Shades, Shutters, and Architectural Design draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/window-treatments`. It uses ten supplied images from `architectural-elements/window-treatments/`; image mapping and source notes are in `WINDOW-TREATMENTS-REVIEW.md`. It is private and unapproved.
 
+Decorative Lighting Fixtures: Styles, Materials, and Selection draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/decorative-lighting-fixtures`. It uses eight supplied images from `architectural-elements/decorative-lighting-fixtures/`; image mapping and source notes are in `DECORATIVE-LIGHTING-FIXTURES-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

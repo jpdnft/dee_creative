@@ -258,3 +258,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested an additional Architectural Elements & Details article from supplied text and ten images. Its slug and asset folder are `window-treatments`.
 - The typed article file is the authoritative site copy after conversion. Ten supplied images illustrate the treatment types and their relationship to room architecture; the labeled triptych is a design comparison, not an installation specification.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Decorative Lighting Fixtures preview — 2026-11-08
+
+- The user explicitly requested another Architectural Elements & Details article using supplied text and eight images. Its slug and asset folder are `decorative-lighting-fixtures`.
+- The typed article file is the authoritative site copy after conversion. Eight supplied images illustrate fixture types and room effects; the labeled triptych is a design comparison, not a product or installation specification.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

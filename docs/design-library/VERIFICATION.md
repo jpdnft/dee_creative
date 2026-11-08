@@ -317,5 +317,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Adapted supplied copy and ten images into a private Architectural Elements & Details article. The typed article is canonical site copy; supplied Markdown remains editorial input.
 - Checked cellular-shade performance against U.S. Department of Energy guidance and cord safety against U.S. Consumer Product Safety Commission guidance. The triptych is identified as illustrative.
 - Typecheck passed. The private localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
-- `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local category and article routes returned 200, the category linked to this article, the article carried `noindex`, and all eight images returned 200. Full build deferred to the publication gate.
-- Editorial status: draft; no push, publication, or deployment authorized by this article request.
+
+## Decorative Lighting Fixtures draft check — 2026-11-08
+
+- Adapted supplied copy and eight images into a private Architectural Elements & Details article. The typed article is canonical site copy; supplied Markdown remains editorial input.
+- Checked light quality and fixture selection against UC Davis and Natural Resources Canada guidance. Dining fixture measurements remain design starting points, and electrical suitability requires product and project review.
+- Typecheck passed. The private localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
