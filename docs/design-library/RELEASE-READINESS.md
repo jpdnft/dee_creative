@@ -22,6 +22,8 @@ Architectural Tile: Materials, Patterns, and Applications is also a private draf
 
 Metal Finishes in Interior Design is also a private draft awaiting editorial approval.
 
+Window Treatments: Curtains, Shades, Shutters, and Architectural Design is also a private draft awaiting editorial approval.
+
 ## Later, only after explicit release authorization
 
 1. Agree on the launch selection. Verify that every selected article has final content and image approval.

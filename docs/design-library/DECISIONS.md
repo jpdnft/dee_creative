@@ -252,3 +252,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the fifth Materials & Finishes article using supplied text and nine images. The queue slug and normalized asset folder are `metal-finishes`.
 - The typed article file is the authoritative site copy after conversion. The nine images illustrate rooms and finish appearances, without verifying a pictured alloy, coating, safety detail, or installation.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Window Treatments preview — 2026-11-08
+
+- The user explicitly requested an additional Architectural Elements & Details article from supplied text and ten images. Its slug and asset folder are `window-treatments`.
+- The typed article file is the authoritative site copy after conversion. Ten supplied images illustrate the treatment types and their relationship to room architecture; the labeled triptych is a design comparison, not an installation specification.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

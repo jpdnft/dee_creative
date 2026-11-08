@@ -39,7 +39,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Eclectic Interior Design — `eclectic` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
 - [ ] Industrial Interior Design — `industrial` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
 
-## D. Architectural Elements & Details (7)
+## D. Architectural Elements & Details (8)
 - [ ] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
@@ -47,6 +47,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Interior Arches and Architectural Openings — `interior-arches-openings` — draft — **user-supplied text and eight selected images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — draft — **user-supplied text and six images adapted for private Architectural Elements & Details preview; editorial review pending**
 - [ ] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
+- [ ] Window Treatments: Curtains, Shades, Shutters, and Architectural Design — `window-treatments` — draft for editorial review
 
 ## E. Materials & Finishes (5)
 - [ ] Interior Wood Species and Their Characteristics — `interior-wood-species` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
