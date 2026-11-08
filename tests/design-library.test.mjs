@@ -44,6 +44,7 @@ import { windowTreatments } from '../content/design-library/window-treatments.ts
 import { decorativeLightingFixtures } from '../content/design-library/decorative-lighting-fixtures.ts';
 import { interiorDoorsHardware } from '../content/design-library/interior-doors-hardware.ts';
 import { colorTheory } from '../content/design-library/color-theory.ts';
+import { scaleProportion } from '../content/design-library/scale-proportion.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -75,6 +76,7 @@ test('article categories resolve to the intended private asset topic folders', (
   assert.equal(libraryAssetFolder(interiorDoorsHardware), 'interior-doors');
   assert.equal(libraryAssetTopic(colorTheory.category), 'design-principles');
   assert.equal(libraryAssetFolder(colorTheory), 'color-theory');
+  assert.equal(libraryAssetFolder(scaleProportion), 'scale-and-proportion');
   assert.equal(libraryAssetFolder(townhouseRowhouse), 'townhouse');
   assert.equal(libraryAssetFolder(shotgunDogtrotHouse), 'shotgun-dogtrot');
   assert.equal(libraryAssetFolder(splitLevelHouse), 'split-level');
@@ -83,7 +85,7 @@ test('article categories resolve to the intended private asset topic folders', (
 });
 
 test('every article image resolves from its category asset folder', async () => {
-  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory]) {
+  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion]) {
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
@@ -108,7 +110,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));

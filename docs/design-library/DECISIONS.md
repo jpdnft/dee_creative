@@ -276,3 +276,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the first Design Principles & Philosophies article using supplied text and imagery. Its category uses the private asset topic `design-principles`, and its slug and folder are `color-theory`.
 - The typed article file is authoritative site copy after conversion. Seven supplied room and material photographs are used. The supplied simultaneous-contrast graphic was omitted because its supposedly identical center colors differ in sampled pixels; an exact-color diagram replaces it.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Scale and Proportion in Interior Spaces preview — 2026-11-08
+
+- The user explicitly requested the second Design Principles & Philosophies article using supplied text and imagery. The queue slug is `scale-proportion`; its private asset folder is `design-principles/scale-and-proportion`.
+- The typed article file is authoritative site copy after conversion. Seven of eight supplied images are used. The built-in guide was omitted because its numerical callouts are internally inconsistent.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

@@ -335,3 +335,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Adapted supplied copy and seven photographs into the first private Design Principles & Philosophies article, with one exact-color diagram replacing the supplied inaccurate graphic. The typed article is canonical site copy; supplied Markdown remains editorial input.
 - Checked color-context discussion against Yale University Press's Josef Albers edition and sample-testing guidance against the cited paint manufacturers. Verified matching RGB center pixels in the new diagram.
 - Typecheck passed. The private localhost article, category page, and diagram endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
+
+## Scale and Proportion in Interior Spaces draft check — 2026-11-08
+
+- Adapted supplied copy and seven selected images into the second private Design Principles & Philosophies article. The typed article is canonical site copy; supplied Markdown remains editorial input.
+- Checked NKBA kitchen planning guidance, the U.S. Access Board's applicability language, and Patrice Foutakis's published study on ancient Greek architecture and the golden ratio. Omitted an internally inconsistent dimensional illustration.
+- Typecheck passed. The private localhost article, category page, and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
