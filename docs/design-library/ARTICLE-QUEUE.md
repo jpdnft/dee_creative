@@ -59,7 +59,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Metal Finishes in Interior Design — `metal-finishes` — draft for editorial review
 
 ## F. Design Principles & Philosophies (9)
-- [ ] Color Theory for Interior Design — `color-theory` — planned
+- [ ] Color Theory for Interior Design — `color-theory` — draft for editorial review
 - [ ] Scale and Proportion in Interior Spaces — `scale-proportion` — planned
 - [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — planned
 - [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — planned

@@ -329,3 +329,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Adapted supplied copy and seven selected images into a private Architectural Elements & Details article. The typed article is canonical site copy; supplied Markdown remains editorial input.
 - Reviewed National Park Service historic-interior guidance and U.S. Access Board standards. The latter apply to covered facilities, not every single-family home; project-specific local code requirements remain to be verified.
 - Typecheck passed. The private localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
+
+## Color Theory for Interior Design draft check — 2026-11-08
+
+- Adapted supplied copy and seven photographs into the first private Design Principles & Philosophies article, with one exact-color diagram replacing the supplied inaccurate graphic. The typed article is canonical site copy; supplied Markdown remains editorial input.
+- Checked color-context discussion against Yale University Press's Josef Albers edition and sample-testing guidance against the cited paint manufacturers. Verified matching RGB center pixels in the new diagram.
+- Typecheck passed. The private localhost article, category page, and diagram endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
