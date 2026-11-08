@@ -79,6 +79,10 @@ Interior Wood Species and Their Characteristics draft: `http://127.0.0.1:3002/de
 
 Natural Stone in Residential Design draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/natural-stone`. It uses eight supplied images from `materials-and-finishes/natural-stone/`; image mapping and source notes are in `NATURAL-STONE-REVIEW.md`. It is private and unapproved.
 
+Plaster, Roman Clay, and Decorative Wall Finishes draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/plaster-roman-clay-decorative-finishes`. It uses nine supplied images from `materials-and-finishes/plaster-roman-clay-decorative-finishes/`; image mapping and source notes are in `PLASTER-ROMAN-CLAY-DECORATIVE-FINISHES-REVIEW.md`. It is private and unapproved.
+
+Architectural Tile: Materials, Patterns, and Applications draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/architectural-tile`. It uses eight supplied images from `materials-and-finishes/architectural-tile/`; image mapping and source notes are in `ARCHITECTURAL-TILE-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.

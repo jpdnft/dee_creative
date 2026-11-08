@@ -234,3 +234,15 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the second Materials & Finishes article using the supplied text and eight images. The queue slug and asset folder are both `natural-stone` under their respective category paths.
 - The typed article file is the authoritative site copy after conversion. The supplied Markdown remains editorial input. Images, including the finish comparison, illustrate concepts rather than verify a specific rock type or performance.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Plaster, Roman Clay, and Decorative Wall Finishes preview — 2026-11-07
+
+- The user explicitly requested this Materials & Finishes article using supplied text and images. The queue slug and asset folder are `plaster-roman-clay-decorative-finishes`.
+- The typed article file is the authoritative site copy after conversion. Nine supplied images illustrate rooms and finish appearances; none verifies a specific product or installation system.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Architectural Tile preview — 2026-11-08
+
+- The user explicitly requested the fourth Materials & Finishes article from supplied text and eight images. The queue slug and asset folder are `architectural-tile`.
+- The typed article file is the authoritative site copy after conversion. All eight supplied images are used as illustrations; the pattern comparison is an infographic, not a construction specification.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

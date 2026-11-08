@@ -293,5 +293,17 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 
 - Adapted the supplied draft and all eight PNGs into the second private Materials & Finishes article. The typed article is the canonical site copy; the Markdown in `docs/` is editorial input. The article has thirteen body sections and approximately 1,711 introduction/body prose words. Eight WebP derivatives live outside `public/`.
 - Checked dimension-stone terminology with the U.S. Geological Survey, material testing and acid sensitivity with the Natural Stone Institute, and routine care with Arizona Tile. The generated images and finish comparison are labeled illustrations, not authenticated specimens.
+
+## Plaster, Roman Clay, and Decorative Wall Finishes draft check — 2026-11-07
+
+- Typecheck passed. The private localhost article and hero image endpoint returned 200.
+- Test suite: 13 passed, one existing failure because `architectural-elements/coffered-beamed-decorative-ceilings/decorative-ceilings-plaster.webp` is missing from the working tree. This is unrelated to the plaster article and its asset folder was left untouched.
+- Checked distinctions among traditional plaster, limewash, and Roman Clay against the National Park Service preservation brief and Portola Paints product guidance. Product and wet-area details remain system-specific.
+
+## Architectural Tile draft check — 2026-11-08
+
+- Adapted supplied copy and eight images into a private Materials & Finishes article. The typed article is the canonical site copy; supplied Markdown remains editorial input.
+- Checked porcelain's water absorption definition and product suitability cautions against the Tile Council of North America. The pattern board is labeled as illustrative.
+- Typecheck passed. The localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains a missing decorative ceilings asset in the pre-existing working tree.
 - `npm run typecheck` passed. `npm test` passed 13 of 14 tests; the image test still fails on the pre-existing missing `decorative-ceilings-plaster.webp` asset in an unrelated article. The local category and article routes returned 200, the category linked to this article, the article carried `noindex`, and all eight images returned 200. Full build deferred to the publication gate.
 - Editorial status: draft; no push, publication, or deployment authorized by this article request.
