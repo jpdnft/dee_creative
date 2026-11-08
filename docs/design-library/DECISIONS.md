@@ -264,3 +264,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested another Architectural Elements & Details article using supplied text and eight images. Its slug and asset folder are `decorative-lighting-fixtures`.
 - The typed article file is the authoritative site copy after conversion. Eight supplied images illustrate fixture types and room effects; the labeled triptych is a design comparison, not a product or installation specification.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Interior Doors, Hardware, and Architectural Character preview — 2026-11-08
+
+- The user explicitly requested another Architectural Elements & Details article using supplied text and imagery. Its queue slug is `interior-doors-hardware`; its asset folder is `interior-doors`.
+- The typed article file is authoritative site copy after conversion. Seven of eight supplied images illustrate interior doors. The exterior glass-wall image was omitted because it does not show an interior door.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

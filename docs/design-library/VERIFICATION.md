@@ -323,3 +323,9 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Adapted supplied copy and eight images into a private Architectural Elements & Details article. The typed article is canonical site copy; supplied Markdown remains editorial input.
 - Checked light quality and fixture selection against UC Davis and Natural Resources Canada guidance. Dining fixture measurements remain design starting points, and electrical suitability requires product and project review.
 - Typecheck passed. The private localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
+
+## Interior Doors, Hardware, and Architectural Character draft check — 2026-11-08
+
+- Adapted supplied copy and seven selected images into a private Architectural Elements & Details article. The typed article is canonical site copy; supplied Markdown remains editorial input.
+- Reviewed National Park Service historic-interior guidance and U.S. Access Board standards. The latter apply to covered facilities, not every single-family home; project-specific local code requirements remain to be verified.
+- Typecheck passed. The private localhost article and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.

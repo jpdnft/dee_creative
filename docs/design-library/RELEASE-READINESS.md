@@ -26,6 +26,8 @@ Window Treatments: Curtains, Shades, Shutters, and Architectural Design is also 
 
 Decorative Lighting Fixtures: Styles, Materials, and Selection is also a private draft awaiting editorial approval.
 
+Interior Doors, Hardware, and Architectural Character is also a private draft awaiting editorial approval.
+
 ## Later, only after explicit release authorization
 
 1. Agree on the launch selection. Verify that every selected article has final content and image approval.
