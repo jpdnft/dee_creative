@@ -32,6 +32,8 @@ Color Theory for Interior Design is also a private draft awaiting editorial appr
 
 Scale and Proportion in Interior Spaces is also a private draft awaiting editorial approval.
 
+Balance, Symmetry, and Asymmetry is also a private draft awaiting editorial approval.
+
 ## Later, only after explicit release authorization
 
 1. Agree on the launch selection. Verify that every selected article has final content and image approval.

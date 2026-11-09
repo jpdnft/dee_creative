@@ -282,3 +282,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the second Design Principles & Philosophies article using supplied text and imagery. The queue slug is `scale-proportion`; its private asset folder is `design-principles/scale-and-proportion`.
 - The typed article file is authoritative site copy after conversion. Seven of eight supplied images are used. The built-in guide was omitted because its numerical callouts are internally inconsistent.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## Balance, Symmetry, and Asymmetry preview — 2026-11-08
+
+- The user explicitly requested the third Design Principles & Philosophies article using supplied text and seven images. The queue slug and private asset folder are `balance-symmetry-asymmetry`.
+- The typed article file is authoritative site copy after conversion. All seven supplied images illustrate different compositional relationships; captions do not represent them as completed Studio Dee work.
+- Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.

@@ -61,7 +61,7 @@ Track each article's slug, status, last review, and review notes in this file or
 ## F. Design Principles & Philosophies (9)
 - [ ] Color Theory for Interior Design — `color-theory` — draft for editorial review
 - [ ] Scale and Proportion in Interior Spaces — `scale-proportion` — draft for editorial review
-- [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — planned
+- [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — draft for editorial review
 - [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — planned
 - [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — planned
 - [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — planned
