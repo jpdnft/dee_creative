@@ -62,7 +62,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Color Theory for Interior Design — `color-theory` — draft for editorial review
 - [ ] Scale and Proportion in Interior Spaces — `scale-proportion` — draft for editorial review
 - [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — draft for editorial review
-- [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — planned
+- [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — draft for editorial review
 - [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — planned
 - [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — planned
 - [ ] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — planned

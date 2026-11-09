@@ -97,6 +97,8 @@ Scale and Proportion in Interior Spaces draft: `http://127.0.0.1:3002/design-lib
 
 Balance, Symmetry, and Asymmetry draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/balance-symmetry-asymmetry`. It uses all seven supplied images from `design-principles/balance-symmetry-asymmetry/`; image mapping and source notes are in `BALANCE-SYMMETRY-ASYMMETRY-REVIEW.md`. It is private and unapproved.
 
+Rhythm, Repetition, and Visual Harmony draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/rhythm-repetition-harmony`. It uses all eight supplied images from `design-principles/rhythm-repetition-visual-harmony/`; image mapping and source notes are in `RHYTHM-REPETITION-HARMONY-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
