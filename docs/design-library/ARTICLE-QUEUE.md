@@ -63,7 +63,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Scale and Proportion in Interior Spaces — `scale-proportion` — draft for editorial review
 - [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — draft for editorial review
 - [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — draft for editorial review
-- [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — planned
+- [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — draft for editorial review
 - [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — planned
 - [ ] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — planned
 - [ ] Biophilic Design: Connecting Interiors with Nature — `biophilic-design` — planned
