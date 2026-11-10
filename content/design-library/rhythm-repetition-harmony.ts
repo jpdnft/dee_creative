@@ -164,7 +164,20 @@ export const rhythmRepetitionHarmony: LibraryArticle = {
         "Identical or related elements recur at consistent intervals: evenly spaced ceiling beams, a row of pendants, uniformly sized cabinetry bays, or a continuous run of windows.",
         "Regular rhythm conveys order and clarity. Its success depends on dimensional care. A sequence that begins with equal spaces but ends with a squeezed, undersized bay often looks unresolved. That does not mean every existing room must be rebuilt around a strict grid; it means designing the sequence around real constraints before committing to dimensions."
       ],
-      "sources": []
+      "sources": [],
+      "figure": {
+        "id": "millwork",
+        "title": "Regular rhythm in millwork",
+        "caption": "Vertical wood slats form a measured backdrop for the reading area.",
+        "alt": "Modern reading nook beside a wall of regularly spaced vertical wood slats.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/rhythm-millwork.webp",
+        "width": 1448,
+        "height": 1086,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "2-alternating-rhythm",
@@ -173,7 +186,20 @@ export const rhythmRepetitionHarmony: LibraryArticle = {
         "Two or more features recur in a predictable order: wide and narrow cabinet doors, light and dark flooring strips, plain and patterned tiles, or paneled wall sections separated by narrower pilasters.",
         "Alternation adds complexity while keeping the pattern legible. A traditional black-and-white checkerboard is an obvious example, but alternation can be as subtle as large and small niches repeating along a gallery wall."
       ],
-      "sources": []
+      "sources": [],
+      "figure": {
+        "id": "bathroom",
+        "title": "Alternating color bands",
+        "caption": "Teal and ivory tile bands give this bathroom a clear alternating sequence.",
+        "alt": "Bathroom with alternating vertical bands of teal and ivory tile.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/rhythm-bathroom.webp",
+        "width": 1448,
+        "height": 1086,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "3-progressive-rhythm",
@@ -182,7 +208,20 @@ export const rhythmRepetitionHarmony: LibraryArticle = {
         "A quality changes in a deliberate sequence—size, height, spacing, color value, or density. Picture a group of pendant lights stepping down a stairwell or shelves that gradually increase in height toward a central architectural feature.",
         "Progression is more expressive than a uniform repeat, but it requires exact coordination. A series of intentionally staggered lights must still maintain appropriate head clearance and access for servicing."
       ],
-      "sources": []
+      "sources": [],
+      "figure": {
+        "id": "stair",
+        "title": "A sequence along the stair",
+        "caption": "Suspended lights follow the stair and pull attention through the double-height space.",
+        "alt": "Staircase with a sequence of globe pendant lights suspended beside the stair.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/rhythm-stair.webp",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "4-flowing-rhythm",
@@ -191,7 +230,22 @@ export const rhythmRepetitionHarmony: LibraryArticle = {
         "Curves, undulating lines, and related organic forms guide the eye through a space. A curved banquette might connect visually to an arched opening and the rounded profile of a table. Repeated botanical forms can do something similar in fabrics and artwork.",
         "Flowing rhythm need not involve repeating identical curves. The relationship may be one of gesture and direction rather than matching geometry. Cooper Hewitt's discussion of the 1972 textile Rhythm offers an illuminating example: a pattern developed to carry visual flow continuously across installed fabric panels."
       ],
-      "sources": []
+      "sources": [
+        "cooper-hewitt-rhythm"
+      ],
+      "figure": {
+        "id": "living",
+        "title": "Related curves in a living room",
+        "caption": "Rounded furnishings and arched openings establish a flowing visual relationship.",
+        "alt": "Sunlit living room with curved sofa, rounded chairs, circular table, and arches.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/rhythm-living.webp",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "5-contrasting-or-interrupted-rhythm",
@@ -200,7 +254,20 @@ export const rhythmRepetitionHarmony: LibraryArticle = {
         "One element breaks an established sequence: a prominent arch among rectangular openings, one dark cabinet among pale units, or a large canvas in a row of smaller framed artworks.",
         "A break works best when the underlying sequence is strong enough to make the exception meaningful. Without a discernible order, an exception is simply another unrelated object."
       ],
-      "sources": []
+      "sources": [],
+      "figure": {
+        "id": "gallery",
+        "title": "An ordered gallery wall",
+        "caption": "Repeated frames create a regular sequence, while a central artwork provides emphasis.",
+        "alt": "Olive dining room with several aligned framed artworks and a larger central work.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/rhythm-gallery.webp",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "architectural-rhythm-openings-millwork-and-ceilings",

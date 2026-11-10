@@ -90,6 +90,13 @@ test('article categories resolve to the intended private asset topic folders', (
   assert.throws(() => libraryAssetFolder({ slug: 'safe', assetFolder: '../unsafe' }));
 });
 
+test('Rhythm article places all eight supplied illustrations in the page', () => {
+  assert.deepEqual(
+    libraryArticleImages(rhythmRepetitionHarmony).map(figure => figure.src?.split('/').at(-1)).sort(),
+    ['rhythm-passage.webp', 'rhythm-millwork.webp', 'rhythm-bathroom.webp', 'rhythm-stair.webp', 'rhythm-living.webp', 'rhythm-craftsman.webp', 'rhythm-bedroom.webp', 'rhythm-gallery.webp'].sort(),
+  );
+});
+
 test('every article image resolves from its category asset folder', async () => {
   for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign]) {
     for (const figure of libraryArticleImages(article)) {
