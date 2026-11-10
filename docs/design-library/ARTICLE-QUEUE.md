@@ -64,7 +64,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — draft for editorial review
 - [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — draft for editorial review
 - [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — draft for editorial review
-- [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — planned
+- [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — draft for editorial review
 - [ ] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — planned
 - [ ] Biophilic Design: Connecting Interiors with Nature — `biophilic-design` — planned
 - [ ] Wabi-Sabi: Imperfection, Impermanence, and Beauty — `wabi-sabi` — planned

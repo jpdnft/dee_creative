@@ -48,6 +48,7 @@ import { scaleProportion } from '../content/design-library/scale-proportion.ts';
 import { balanceSymmetryAsymmetry } from '../content/design-library/balance-symmetry-asymmetry.ts';
 import { rhythmRepetitionHarmony } from '../content/design-library/rhythm-repetition-harmony.ts';
 import { lightingDesign } from '../content/design-library/lighting-design.ts';
+import { spatialPlanningFlow } from '../content/design-library/spatial-planning-flow.ts';
 import { libraryCategories } from '../content/design-library/categories.ts';
 
 test('preview is explicit and development-only, even when a production environment contains the setting', () => {
@@ -83,6 +84,7 @@ test('article categories resolve to the intended private asset topic folders', (
   assert.equal(libraryAssetFolder(balanceSymmetryAsymmetry), 'balance-symmetry-asymmetry');
   assert.equal(libraryAssetFolder(rhythmRepetitionHarmony), 'rhythm-repetition-visual-harmony');
   assert.equal(libraryAssetFolder(lightingDesign), 'lighting-design-layers-mood-function');
+  assert.equal(libraryAssetFolder(spatialPlanningFlow), 'spatial-planning-circulation-flow');
   assert.equal(libraryAssetFolder(townhouseRowhouse), 'townhouse');
   assert.equal(libraryAssetFolder(shotgunDogtrotHouse), 'shotgun-dogtrot');
   assert.equal(libraryAssetFolder(splitLevelHouse), 'split-level');
@@ -97,8 +99,15 @@ test('Rhythm article places all eight supplied illustrations in the page', () =>
   );
 });
 
+test('Spatial Planning article places all eight supplied illustrations in the page', () => {
+  assert.deepEqual(
+    libraryArticleImages(spatialPlanningFlow).map(figure => figure.src?.split('/').at(-1)).sort(),
+    ['spatial-hero.webp', 'spatial-comparison.webp', 'spatial-entry.webp', 'spatial-kitchen.webp', 'spatial-dining.webp', 'spatial-renovation.webp', 'spatial-bathroom.webp', 'spatial-layers.webp'].sort(),
+  );
+});
+
 test('every article image resolves from its category asset folder', async () => {
-  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign]) {
+  for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign, spatialPlanningFlow]) {
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
@@ -123,7 +132,7 @@ test('content approval never publishes a draft; all public discovery uses public
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
- for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign]) {
+ for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign, spatialPlanningFlow]) {
   assert(libraryCategories.some(category => category.slug === article.category));
   assert.equal(new Set(article.sections.map(section => section.id)).size, article.sections.length);
   for (const section of article.sections) for (const source of section.sources ?? []) assert(article.references.some(reference => reference.id === source));

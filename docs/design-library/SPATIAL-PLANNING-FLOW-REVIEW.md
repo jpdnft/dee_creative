@@ -1,0 +1,11 @@
+# Spatial Planning, Circulation, and Flow — editorial review
+
+Status: private draft, awaiting content and image approval. Canonical article copy is `content/design-library/spatial-planning-flow.ts`. The supplied Markdown is editorial input and remains outside the release source.
+
+Preview: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/spatial-planning-flow`
+
+The article has 2,437 prose words and uses all eight supplied PNGs, converted to WebP in the private `design-principles/spatial-planning-circulation-flow` asset folder. The Craftsman living/dining view is the hero. The entry illustrates a clear destination; the supplied comparison graphic illustrates a blocked route and a better furniture arrangement; layered rooms show connection with distinct zones; kitchen, dining, and bathroom scenes illustrate their corresponding planning sections; and the second Craftsman living room supports the renovation discussion. The images are conceptual examples, not completed Studio Dee projects. The comparison and kitchen images include small embedded labels supplied with the artwork; their captions explain the intended lesson without relying on the labels.
+
+The source's image briefs and editorial appendix are excluded from the article body. The site supplies its existing footer CTA. Kitchen and seating dimensions were checked against the National Kitchen & Bath Association's original planning guidelines, and accessible route and doorway dimensions against the U.S. Access Board's standards. The article distinguishes planning recommendations and ADA reference dimensions from requirements applicable to a particular private home.
+
+Focused verification on 2026-11-09: typecheck passed; focused image and article-coherence checks passed; the article, category, and hero image returned 200 on localhost; rendered HTML included all eight distinct images. The known full-suite failure from a missing coffered-ceilings image remains outside this article. No full build or deployment was run.
