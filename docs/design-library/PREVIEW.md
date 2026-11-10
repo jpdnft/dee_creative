@@ -103,6 +103,8 @@ Lighting Design: Layers, Mood, and Function draft: `http://127.0.0.1:3002/design
 
 Spatial Planning, Circulation, and Flow draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/spatial-planning-flow`. It uses all eight supplied images from `design-principles/spatial-planning-circulation-flow/`; image mapping and source notes are in `SPATIAL-PLANNING-FLOW-REVIEW.md`. It is private and unapproved.
 
+Feng Shui: Principles, Traditions, and Applications draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/feng-shui`. It uses all eight supplied images from `design-principles/feng-shui/`; image mapping and source notes are in `FENG-SHUI-REVIEW.md`. It is private and unapproved.
+
 Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
 
 The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
