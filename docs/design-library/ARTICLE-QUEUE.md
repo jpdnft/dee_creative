@@ -67,7 +67,7 @@ Track each article's slug, status, last review, and review notes in this file or
 - [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — draft for editorial review
 - [ ] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — draft for editorial review
 - [ ] Biophilic Design: Connecting Interiors with Nature — `biophilic-design` — draft for editorial review
-- [ ] Wabi-Sabi: Imperfection, Impermanence, and Beauty — `wabi-sabi` — planned
+- [ ] Wabi-Sabi: Imperfection, Impermanence, and Beauty — `wabi-sabi` — draft for editorial review
 
 ## Review record template
 
