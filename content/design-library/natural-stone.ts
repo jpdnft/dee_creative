@@ -328,7 +328,7 @@ export const naturalStone: LibraryArticle = {
       "figure": {
         "id": "finish-comparison",
         "title": "The effect of finish",
-        "caption": "This generated comparison illustrates polished, honed, and textured looks. It is not a set of authenticated stone samples or a performance test.",
+        "caption": "This comparison illustrates polished, honed, and textured looks. It is not a set of authenticated stone samples or a performance test.",
         "alt": "Three labeled illustrative stone panels with glossy, matte, and textured finishes.",
         "brief": "Image supplied by Studio Dee for this article; illustrative, not a verified stone specimen.",
         "kind": "supplied",

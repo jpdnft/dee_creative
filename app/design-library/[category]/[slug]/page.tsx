@@ -25,7 +25,7 @@ export default async function LibraryArticlePage({ params }: Props) {
         <LibraryBreadcrumbs items={[{ name: category.title, path: `/design-library/${category.slug}` }, { name: article.title, path: libraryArticlePath(article) }]} />
         <p className="eyebrow">{category.title}</p><h1>{article.title}</h1>
         <p className={styles.introduction}>{article.introduction}</p>
-        <p className={styles.byline}>By {article.author} · {libraryPreview && article.status === "draft" ? "Draft updated" : "Last reviewed"} <time dateTime={article.lastReviewed}>{new Date(`${article.lastReviewed}T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}</time></p>
+        <p className={styles.byline}>By {article.author} · Last reviewed <time dateTime={article.lastReviewed}>{new Date(`${article.lastReviewed}T12:00:00Z`).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric", timeZone: "UTC" })}</time></p>
       </header>
       <LibraryFigureView figure={article.hero} hero />
       <div className={styles.body}>

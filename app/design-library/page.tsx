@@ -1,11 +1,19 @@
 import Image from "next/image";
-import { libraryCategories } from "@/content/design-library";
-import { libraryMetadata, requireLibrary } from "@/lib/design-library";
+import { libraryArticles, libraryCategories } from "@/content/design-library";
+import { libraryMetadata, libraryPreview, requireLibrary } from "@/lib/design-library";
 import { LibraryBreadcrumbs } from "@/components/design-library/library";
 import editorial from "@/app/editorial.module.css";
 import styles from "./library.module.css";
 
 export function generateMetadata() { return libraryMetadata("The Design Library", "An evolving reference to residential architecture, interiors, materials, and the ideas that shape a home.", "/design-library"); }
+const categoryImages: Record<(typeof libraryCategories)[number]["slug"], string> = {
+  "architectural-styles": "victorian",
+  "house-types-and-forms": "farmhouse",
+  "interior-design-styles": "scandinavian",
+  "architectural-elements-and-details": "interior-arches-openings",
+  "materials-and-finishes": "natural-stone",
+  "design-principles-and-philosophies": "biophilic-design",
+};
 export default function DesignLibraryPage() {
   requireLibrary();
   return <main id="main" className={styles.landing}>
@@ -17,12 +25,13 @@ export default function DesignLibraryPage() {
         <p className={styles.landingLead}>A place to look closely at houses and the rooms within them. Explore the histories, materials, and design decisions that give a home its character.</p>
       </section>
       <section className={styles.categories} aria-label="Library categories">
-        {libraryCategories.map((category, index) => <article className={styles.category} key={category.slug}>
+        {libraryCategories.map((category, index) => { const hero = libraryArticles.find(article => article.slug === categoryImages[category.slug])!.hero; return <article className={styles.category} key={category.slug}>
+          {hero.src && hero.width && hero.height && <a className={styles.categoryImageLink} href={`/design-library/${category.slug}`} tabIndex={-1} aria-hidden="true"><Image className={styles.categoryImage} src={hero.src} alt="" width={hero.width} height={hero.height} sizes="(max-width: 760px) 100vw, (max-width: 1100px) 66vw, 30vw" unoptimized={libraryPreview} /></a>}
           <p className="eyebrow">0{index + 1}</p>
           <h2><a href={`/design-library/${category.slug}`}>{category.title}</a></h2>
           <p>{category.description}</p>
           <a className="text-link" href={`/design-library/${category.slug}`}>Explore the category</a>
-        </article>)}
+        </article>; })}
       </section>
     </div>
     <aside className={styles.founderNote} aria-labelledby="founder-note-title">

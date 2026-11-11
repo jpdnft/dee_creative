@@ -4,15 +4,15 @@ const figure = (id: string, title: string, caption: string, alt: string): Librar
   id, title, caption, alt,
   brief: `Educational architectural illustration: ${title}. A fictional design, not a named building or Studio Dee project.`,
   kind: "generated", src: `/api/design-library-images/victorian-${id}.webp`, width: 1536, height: 1024,
-  credit: "Created with OpenAI image generation for Studio Dee", license: "Generated for Studio Dee; not documentary photography", approvedAt: "2026-10-25",
+  credit: "Image provided by Studio Dee", license: "Generated for Studio Dee; not documentary photography", approvedAt: "2026-10-25",
 });
 
 const thumbnail = (id: string, title: string, alt: string): LibraryFigure => ({
   id: `snapshot-${id}`, title, alt,
   brief: `Small hand-colored engraving-style illustration for the ${title} summary item.`,
-  caption: `Generated illustration for ${title}; not a documentary image.`,
+  caption: `An editorial illustration for ${title}.`,
   kind: "generated", src: `/api/design-library-images/victorian-snapshot-${id}.webp`, width: 384, height: 256,
-  credit: "Created with OpenAI image generation for Studio Dee", license: "Generated for Studio Dee; not documentary photography", approvedAt: "2026-10-25",
+  credit: "Image provided by Studio Dee", license: "Generated for Studio Dee; not documentary photography", approvedAt: "2026-10-25",
 });
 
 export const victorian: LibraryArticle = {
@@ -22,7 +22,7 @@ export const victorian: LibraryArticle = {
   status: "approved", contentApprovedAt: "2026-10-25", author: "Dee Creative Enterprises", publisher: "Dee Creative Enterprises, LLC", lastReviewed: "2026-10-25",
   introduction: "A bracket beneath an eave, a bay that turns toward the street, a porch worked into a delicate screen: Victorian houses invite you to look closely. Yet the label tells you less than it first appears to. A quiet Italianate house and a richly textured Queen Anne can both be Victorian. Understanding the difference makes their details more interesting—and decisions about their future more thoughtful.",
   snapshot: {
-    illustrationNote: "Thumbnail illustrations generated for this guide; Victoria’s portrait is an imagined historical likeness.",
+    illustrationNote: "Thumbnail illustrations are editorial interpretations; Victoria’s portrait is an imagined historical likeness.",
     facts: [
       { label: "When", text: "The name refers to Victoria’s reign, 1837–1901; American style dates overlap and sometimes extend later.", image: thumbnail("when", "When", "An imagined engraved portrait of Queen Victoria wearing a white veil and dark dress.") },
       { label: "The idea", text: "An era of several styles, shared through publications and an expanding market for architectural ornament.", image: thumbnail("idea", "The idea", "An illustrative pattern book showing house designs beside turned wood spindles and a shaped bracket.") },

@@ -281,7 +281,20 @@ export const lightingDesign: LibraryArticle = {
         "Glare occurs when a bright source or reflection interferes with comfortable seeing. Exposed LEDs in the direct line of sight, polished countertop reflections, shiny tile, and fixtures reflected in mirrors can all cause it. Shielding, diffusion, thoughtful angles, and dimming help. A beautifully minimal recessed fixture is only successful if its beam and trim suit the ceiling height and intended target.",
         "Contrast, meanwhile, is valuable when controlled. A bright reading page against a nearly black room may be tiring; gentle surrounding illumination can make the transition easier. A softly lit painting against a dim wall can be dramatic. The objective is not uniformity, but a comfortable visual hierarchy."
       ],
-      "sources": []
+      "sources": [],
+      "figure": {
+        "id": "piano",
+        "title": "Indirect light and visual hierarchy",
+        "caption": "A soft ceiling glow gives the room ambient light while the piano, artwork, and shelves remain distinct points of interest.",
+        "alt": "Piano room with warm cove lighting, illuminated artwork, and shelving beside arched windows.",
+        "brief": "Image supplied by Studio Dee; illustrative composition, not a completed project.",
+        "kind": "supplied",
+        "src": "/api/design-library-images/lighting-piano.webp",
+        "width": 1536,
+        "height": 1024,
+        "credit": "Image provided by Studio Dee",
+        "license": "Studio Dee authorized use"
+      }
     },
     {
       "id": "lighting-the-rooms-people-actually-use",

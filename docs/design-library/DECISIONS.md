@@ -293,3 +293,10 @@ The final library name, inventory approval, sample content approval, image appro
 
 - The user requested that all Design Library articles omit visible source citations from the article text, including summaries, recognition guides, and individual sections. Keep the end-of-article "Sources & further reading" list for readers who want to explore further.
 - Preserve source mappings in typed article data for fact-checking and future editorial work. This display change does not authorize publication or deployment.
+
+## Design Library image presentation — 2026-11-10
+
+- The user requested wide representative images for the six category panels and each article's existing hero image above its title in category listings. Decorative listing images need no captions. Keep category and article imagery under the existing private image route.
+- Remove visible editorial status notices from listing pages and the library preview banner. Keep the underlying draft/publication safeguards and status metadata.
+- Keep descriptive article captions and end each displayed caption with "Image provided by Studio Dee." Omit image-generation and OpenAI labels from reader-facing captions; retain provenance in metadata.
+- A source-image audit found one unused lighting derivative, which was added to the lighting article. Previously documented omissions remain intentional: redundant Mid-Century exteriors and Moroccan kitchen, an exterior glass wall in the interior-doors article, and an inconsistent scale guide. The Spatial Planning article retains the original sofa image alongside the replacement in its source folder; the replacement is used. The extra botanical mural image in the plaster folder depicts wallcovering rather than a plaster finish and was not added.

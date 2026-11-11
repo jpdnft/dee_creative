@@ -5,7 +5,7 @@ const figure = (id: string, title: string, brief: string, caption: string, alt: 
   alt: alt.replace(/^Proposed /, ""),
   kind: "generated",
   src: `/api/design-library-images/craftsman-${id}.webp`, width: 1536, height: 1024,
-  credit: "Created with OpenAI image generation for Studio Dee",
+  credit: "Image provided by Studio Dee",
   sourceUrl: undefined,
   license: "Generated for Studio Dee; not documentary photography",
   approvedAt: "2026-10-25",

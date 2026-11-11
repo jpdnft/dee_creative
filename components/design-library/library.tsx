@@ -12,19 +12,16 @@ export function LibraryBreadcrumbs({ items }: { items: { name: string; path: str
 export function JsonLd({ data }: { data: object }) {
   return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data).replace(/</g, "\\u003c") }} />;
 }
-export function LibraryPreviewNotice() {
-  return libraryPreview ? <aside className={styles.preview} aria-label="Editorial review status">Private editorial preview · Approved and draft articles · Publication on hold</aside> : null;
-}
 export function LibraryFigureView({ figure, hero = false }: { figure: LibraryFigure; hero?: boolean }) {
   return <figure className={hero ? styles.heroFigure : styles.figure}>
     {figure.kind === "brief" ? <div className={styles.imageBrief}><p className="eyebrow">Image brief / asset pending</p><p className={styles.briefTitle}>{figure.title}</p><p>{figure.brief}</p></div>
       : figure.src && figure.width && figure.height ? <Image src={figure.src} alt={figure.alt} width={figure.width} height={figure.height} sizes={hero ? "(max-width: 760px) 100vw, 90vw" : "(max-width: 760px) 100vw, 760px"} unoptimized={libraryPreview} preload={hero} /> : null}
-    <figcaption>{figure.kind === "brief" ? "Proposed caption: " : figure.kind === "generated" ? "Generated architectural illustration. " : figure.kind === "supplied" ? "" : "Documentary photograph. "}{figure.caption}{figure.credit && <> · {figure.credit}</>}{figure.sourceUrl && <> · <a href={figure.sourceUrl}>Image source</a></>}{figure.kind === "documentary" && figure.license && <> · {figure.license}</>}</figcaption>
+    <figcaption>{figure.caption.replace(/\s*Image provided by Studio Dee\.?\s*$/i, "").trim()} <span>Image provided by Studio Dee.</span></figcaption>
   </figure>;
 }
 function SnapshotThumbnail({ image }: { image?: LibraryFigure }) {
   if (!image?.src || !image.width || !image.height) return null;
-  return <Image className={styles.snapshotThumbnail} src={image.src} alt={`Generated illustration: ${image.alt}`} width={image.width} height={image.height} sizes="108px" unoptimized={libraryPreview} />;
+  return <Image className={styles.snapshotThumbnail} src={image.src} alt={image.alt} width={image.width} height={image.height} sizes="108px" unoptimized={libraryPreview} />;
 }
 function ShotgunDogtrotDiagram() {
   return <svg viewBox="0 0 360 220" className={styles.houseDiagram} role="img" aria-labelledby="plan-diagram-title plan-diagram-description">
@@ -83,7 +80,7 @@ export function LibrarySnapshot({ article }: { article: LibraryArticle }) {
     {snapshot.diagram === "farmstead" && <FarmsteadDiagram />}
     {snapshot.diagram === "cape-cod" && <CapeCodDiagram />}
     {snapshot.diagram === "traditional-room" && <TraditionalRoomDiagram />}
-    <ol className={styles.snapshotFeatures}>{snapshot.features.map((feature, index) => feature.image ? <li key={feature.label} className={styles.illustratedFeature}><SnapshotThumbnail image={feature.image} /><div className={styles.snapshotFeatureHeading}><span aria-hidden="true">0{index + 1}</span><h3>{feature.label}</h3></div><p>{feature.text}</p></li> : <li key={feature.label}><span aria-hidden="true">0{index + 1}</span><div><h3>{feature.label}</h3><p>{feature.text}</p></div></li>)}</ol></div><p className={styles.distinction}><strong>One useful distinction</strong>{snapshot.distinction}</p>{hasThumbnails && <p className={styles.snapshotIllustrationNote}>{snapshot.illustrationNote ?? "Thumbnails are generated editorial illustrations."}</p>}</section>;
+    <ol className={styles.snapshotFeatures}>{snapshot.features.map((feature, index) => feature.image ? <li key={feature.label} className={styles.illustratedFeature}><SnapshotThumbnail image={feature.image} /><div className={styles.snapshotFeatureHeading}><span aria-hidden="true">0{index + 1}</span><h3>{feature.label}</h3></div><p>{feature.text}</p></li> : <li key={feature.label}><span aria-hidden="true">0{index + 1}</span><div><h3>{feature.label}</h3><p>{feature.text}</p></div></li>)}</ol></div><p className={styles.distinction}><strong>One useful distinction</strong>{snapshot.distinction}</p>{hasThumbnails && <p className={styles.snapshotIllustrationNote}>{snapshot.illustrationNote ?? "Thumbnail illustrations are editorial interpretations."}</p>}</section>;
 }
 export function LibraryRecognition({ article }: { article: LibraryArticle }) {
   const recognition = article.recognition;
@@ -91,7 +88,10 @@ export function LibraryRecognition({ article }: { article: LibraryArticle }) {
   return <aside className={styles.recognition} aria-labelledby="colors-materials"><p className="eyebrow">A quick recognition guide</p><h3 id="colors-materials">{recognition.colors.length ? "Common colors & materials" : "Common materials"}</h3>{recognition.colors.length > 0 && <ul className={styles.swatches} aria-label="Illustrative color families">{recognition.colors.map(color => <li key={color.name}><span className={styles.swatch} style={{ backgroundColor: color.hex }} aria-hidden="true" /><strong>{color.name}</strong><span>{color.use}</span></li>)}</ul>}<dl className={styles.materialList}>{recognition.materials.map(material => <div key={material.name}><dt>{material.name}</dt><dd>{material.detail}</dd></div>)}</dl><p className={styles.recognitionNote}>{recognition.note}</p></aside>;
 }
 export function LibraryArticleList({ articles }: { articles: LibraryArticle[] }) {
-  return articles.length ? <div className={styles.entries}>{articles.map(article => <article key={article.slug} className={styles.entry}><p className="eyebrow">{libraryPreview && article.status === "approved" ? "Approved · Awaiting publication" : libraryPreview && article.status !== "published" ? "Draft for review" : "Reference essay"}</p><h2><a href={libraryArticlePath(article)}>{article.title}</a></h2><p>{article.excerpt}</p><a className="text-link" href={libraryArticlePath(article)}>Read the article</a></article>)}</div> : <p className={styles.empty}>No articles are published in this category yet.</p>;
+  return articles.length ? <div className={styles.entries}>{articles.map(article => <article key={article.slug} className={styles.entry}>
+    {article.hero.src && article.hero.width && article.hero.height && <a className={styles.entryImageLink} href={libraryArticlePath(article)} tabIndex={-1} aria-hidden="true"><Image className={styles.entryImage} src={article.hero.src} alt="" width={article.hero.width} height={article.hero.height} sizes="(max-width: 760px) 100vw, 44vw" unoptimized={libraryPreview} /></a>}
+    <h2><a href={libraryArticlePath(article)}>{article.title}</a></h2><p>{article.excerpt}</p><a className="text-link" href={libraryArticlePath(article)}>Read the article</a>
+  </article>)}</div> : <p className={styles.empty}>No articles are published in this category yet.</p>;
 }
 export function LibraryClosingInvitation() {
   return <aside className={styles.invitation} aria-labelledby="library-invitation"><h2 id="library-invitation">Have a project in mind?</h2><p>Whether you’re restoring a home’s original character or imagining something entirely new, Studio Dee can help bring your ideas to life.</p><a className="text-link" href="/start-a-project">Start a Project</a></aside>;

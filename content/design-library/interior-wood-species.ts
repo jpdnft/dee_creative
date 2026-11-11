@@ -320,7 +320,7 @@ export const interiorWoodSpecies: LibraryArticle = {
       "figure": {
         "id": "wood-comparison",
         "title": "Compare, then verify",
-        "caption": "This generated comparison board illustrates how species, sawing, and finish can alter appearance. Its labels are conceptual, not authenticated wood specimens.",
+        "caption": "This comparison board illustrates how species, sawing, and finish can alter appearance. Its labels are conceptual, not authenticated wood specimens.",
         "alt": "Illustrative labeled board comparing common wood names, grain cuts, and finish colors.",
         "brief": "Image supplied by Studio Dee for this article; illustrative, not a verified species specimen.",
         "kind": "supplied",
