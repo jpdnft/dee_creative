@@ -288,3 +288,8 @@ The final library name, inventory approval, sample content approval, image appro
 - The user explicitly requested the third Design Principles & Philosophies article using supplied text and seven images. The queue slug and private asset folder are `balance-symmetry-asymmetry`.
 - The typed article file is authoritative site copy after conversion. All seven supplied images illustrate different compositional relationships; captions do not represent them as completed Studio Dee work.
 - Assemble a private draft for editorial review. No push, merge, or deployment is authorized by this request.
+
+## End-of-article sources only — 2026-11-10
+
+- The user requested that all Design Library articles omit visible source citations from the article text, including summaries, recognition guides, and individual sections. Keep the end-of-article "Sources & further reading" list for readers who want to explore further.
+- Preserve source mappings in typed article data for fact-checking and future editorial work. This display change does not authorize publication or deployment.

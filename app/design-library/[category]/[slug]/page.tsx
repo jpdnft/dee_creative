@@ -1,6 +1,6 @@
 import { availableLibraryArticles, findLibraryArticle, findLibraryCategory, libraryArticlePath, libraryMetadata, libraryPreview } from "@/lib/design-library";
 import { site } from "@/lib/site";
-import { JsonLd, LibraryArticleList, LibraryBreadcrumbs, LibraryClosingInvitation, LibraryFigureView, LibraryRecognition, LibrarySnapshot, LibrarySourceLinks } from "@/components/design-library/library";
+import { JsonLd, LibraryArticleList, LibraryBreadcrumbs, LibraryClosingInvitation, LibraryFigureView, LibraryRecognition, LibrarySnapshot } from "@/components/design-library/library";
 import styles from "../../library.module.css";
 
 export const dynamicParams = false;
@@ -37,7 +37,6 @@ export default async function LibraryArticlePage({ params }: Props) {
         {article.sections.map(section => <section id={section.id} key={section.id} aria-labelledby={`${section.id}-heading`}>
           <h2 id={`${section.id}-heading`}>{section.heading}</h2>
           {section.paragraphs.map(paragraph => <p key={paragraph}>{paragraph}</p>)}
-          {section.sources && <LibrarySourceLinks article={article} ids={section.sources} />}
           {article.recognition?.section === section.id && <LibraryRecognition article={article} />}
           {section.figure && <LibraryFigureView figure={section.figure} />}
         </section>)}

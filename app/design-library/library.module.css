@@ -3,7 +3,7 @@
 .breadcrumbs ol { list-style: none; display: flex; flex-wrap: wrap; gap: .5rem .8rem; padding: 0; margin: 0; }
 .breadcrumbs li { display: flex; gap: .8rem; }
 .breadcrumbs li + li::before { content: "/"; }
-.breadcrumbs a, .sources a, .citations a, .further a, .figure figcaption a { text-decoration: underline; text-underline-offset: .2em; }
+.breadcrumbs a, .sources a, .further a, .figure figcaption a { text-decoration: underline; text-underline-offset: .2em; }
 .landing { max-width: var(--max); margin-inline: auto; padding: 3.5rem var(--gutter) var(--space); display: grid; grid-template-columns: minmax(0, 2fr) minmax(290px, 1fr); gap: clamp(2.5rem, 5vw, 5rem); align-items: start; }
 .landingMain { min-width: 0; }
 .landingMain :global(.eyebrow) { margin-top: 0; }
@@ -47,7 +47,6 @@
 .imageBrief .briefTitle { font-family: var(--serif); font-size: clamp(1.8rem, 3vw, 2.8rem); line-height: 1.2; margin-block: 1rem; }
 .imageBrief p:last-child { max-width: 70ch; font-size: .9375rem; margin-bottom: 0; }
 .figure figcaption, .heroFigure figcaption { padding-top: .8rem; font-size: .8125rem; color: var(--muted); line-height: 1.6; }
-.body .citations { font-size: .8125rem; color: var(--muted); }
 .sources { padding-left: 1.3rem; }
 .sources li { margin-bottom: 1.5rem; scroll-margin-top: 9rem; }
 .sources span { display: block; font-size: .875rem; margin-top: .4rem; color: var(--muted); }
