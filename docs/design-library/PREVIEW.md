@@ -1,0 +1,122 @@
+# Local Design Library review
+
+No hosting, upload, publication, or deployment is authorized.
+
+From PowerShell, with the repository's Node 22+ tooling on PATH:
+
+```powershell
+$env:DESIGN_LIBRARY_PREVIEW = 'true'
+npm run dev -- --hostname 127.0.0.1 --port 3002
+```
+
+Open `http://127.0.0.1:3002/design-library` or `http://127.0.0.1:3002/design-library/architectural-styles/craftsman`.
+
+Victorian approved article: `http://127.0.0.1:3002/design-library/architectural-styles/victorian`. Craftsman and Victorian are approved editorially; both remain private.
+
+Modern draft: `http://127.0.0.1:3002/design-library/architectural-styles/modern`. It uses the supplied Markdown draft and five supplied images; editorial approval is pending. Like the approved articles, it is visible only in the local development preview.
+
+Mid-Century Modern draft: `http://127.0.0.1:3002/design-library/architectural-styles/mid-century-modern`. Six images were selected from the nine supplied; image mapping and review notes are in `MID-CENTURY-MODERN-REVIEW.md`. Modern and Mid-Century Modern remain private drafts, not approved articles.
+
+Contemporary draft: `http://127.0.0.1:3002/design-library/architectural-styles/contemporary`. All five supplied images are used with captions that follow the visible scenes; mapping and review notes are in `CONTEMPORARY-REVIEW.md`. It is also private and unapproved.
+
+Art Deco draft: `http://127.0.0.1:3002/design-library/architectural-styles/art-deco`. All five supplied images are used; image mapping and research corrections are in `ART-DECO-REVIEW.md`. It is private and unapproved.
+
+Tudor Revival draft: `http://127.0.0.1:3002/design-library/architectural-styles/tudor-revival`. All five supplied images are used, including the supplemental infographic. Text equivalents of its main feature labels remain in the article. Image mapping and source notes are in `TUDOR-REVIVAL-REVIEW.md`. It is private and unapproved.
+
+Colonial Revival draft: `http://127.0.0.1:3002/design-library/architectural-styles/colonial-revival`. All five supplied images are used as conceptual illustrations; mapping and source notes are in `COLONIAL-REVIVAL-REVIEW.md`. It is private and unapproved.
+
+Prairie School draft: `http://127.0.0.1:3002/design-library/architectural-styles/prairie-school`. All five supplied images are used as conceptual illustrations; mapping and source notes are in `PRAIRIE-SCHOOL-REVIEW.md`. It is private and unapproved.
+
+Mediterranean Revival draft: `http://127.0.0.1:3002/design-library/architectural-styles/mediterranean-revival`. All five supplied images are used as conceptual illustrations; mapping and source notes are in `MEDITERRANEAN-REVIVAL-REVIEW.md`. It is private and unapproved.
+
+Bungalow draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/bungalow`. The first House Types & Forms article uses five supplied images; image mapping and source notes are in `BUNGALOW-REVIEW.md`. It is private and unapproved.
+
+American Foursquare draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/american-foursquare`. It uses the five official images supplied under `home-types/american-foursquare/`; image mapping and source notes are in `AMERICAN-FOURSQUARE-REVIEW.md`. It is private and unapproved.
+
+Ranch House draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/ranch-house`. It uses all five supplied exteriors; image mapping and source notes are in `RANCH-HOUSE-REVIEW.md`. It is private and unapproved.
+
+Townhouse and Rowhouse draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/townhouse-rowhouse`. It uses all five supplied illustrations from `home-types/townhouse/`; image mapping and source notes are in `TOWNHOUSE-ROWHOUSE-REVIEW.md`. It is private and unapproved.
+
+Shotgun and Dogtrot House draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/shotgun-dogtrot-house`. It uses all five supplied illustrations from `home-types/shotgun-dogtrot/`; image mapping and source notes are in `SHOTGUN-AND-DOGTROT-REVIEW.md`. It is private and unapproved.
+
+Split-Level House draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/split-level-house`. It uses all five supplied illustrations from `home-types/split-level/`; image mapping and source notes are in `SPLIT-LEVEL-HOUSE-REVIEW.md`. It is private and unapproved.
+
+Farmhouse draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/farmhouse`. It uses all five supplied illustrations from `home-types/farmhouse/`; image mapping and source notes are in `FARMHOUSE-REVIEW.md`. It is private and unapproved.
+
+Cape Cod House draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/cape-cod-house`. It uses all five supplied illustrations from `home-types/cape-cod/`; image mapping and source notes are in `CAPE-COD-HOUSE-REVIEW.md`. It is private and unapproved.
+
+Cottage draft: `http://127.0.0.1:3002/design-library/house-types-and-forms/cottage`. It uses all five supplied illustrations from `home-types/cottage/`; image mapping and source notes are in `COTTAGE-REVIEW.md`. It is private and unapproved.
+
+Traditional Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/traditional`. It uses all five supplied interiors from `interior-design-styles/traditional/`; image mapping and source notes are in `TRADITIONAL-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Transitional Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/transitional`. It uses all five supplied interiors from `interior-design-styles/transitional/`; image mapping and source notes are in `TRANSITIONAL-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Scandinavian Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/scandinavian`. It uses all five supplied interiors from `interior-design-styles/scandinavian/`; image mapping and source notes are in `SCANDINAVIAN-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Minimalist Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/minimalist`. It uses all five supplied interiors from `interior-design-styles/minimalist/`; image mapping and source notes are in `MINIMALIST-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Maximalist Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/maximalist`. It uses all six supplied images from `interior-design-styles/maximalist/`; image mapping and source notes are in `MAXIMALIST-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Eclectic Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/eclectic`. It uses all seven supplied images from `interior-design-styles/eclectic/`; image mapping and source notes are in `ECLECTIC-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Industrial Interior Design draft: `http://127.0.0.1:3002/design-library/interior-design-styles/industrial`. It uses all seven supplied images from `interior-design-styles/industrial/`; image mapping and source notes are in `INDUSTRIAL-INTERIOR-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Wainscoting and Wall Paneling draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/wainscoting-wall-paneling`. It uses all seven supplied images from `architectural-elements/wainscoting-and-wall-paneling/`; image mapping and source notes are in `WAINSCOTING-AND-WALL-PANELING-REVIEW.md`. It is private and unapproved.
+
+Crown Molding, Baseboards, and Interior Trim draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/interior-trim`. It uses all eight supplied images from `architectural-elements/crown-molding-baseboards/`; image mapping and source notes are in `INTERIOR-TRIM-REVIEW.md`. It is private and unapproved.
+
+Coffered, Beamed, and Decorative Ceilings draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/decorative-ceilings`. It uses all eight supplied images from `architectural-elements/coffered-beamed-decorative-ceilings/`; image mapping and source notes are in `DECORATIVE-CEILINGS-REVIEW.md`. It is private and unapproved.
+
+Built-In Bookcases and Architectural Cabinetry draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/built-in-bookcases-cabinetry`. It uses all seven supplied images from `architectural-elements/built-in-bookcases-cabinetry/`; image mapping and source notes are in `BUILT-IN-BOOKCASES-CABINETRY-REVIEW.md`. It is private and unapproved.
+
+Interior Arches and Architectural Openings draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/interior-arches-openings`. It uses eight selected images from `architectural-elements/interior-arches-and-openings/`; image mapping and source notes are in `INTERIOR-ARCHES-OPENINGS-REVIEW.md`. It is private and unapproved.
+
+Staircases, Balustrades, and Railings draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/staircases-balustrades-railings`. It uses all six supplied images from `architectural-elements/staircases-balustrades-railings/`; image mapping and source notes are in `STAIRCASES-BALUSTRADES-RAILINGS-REVIEW.md`. It is private and unapproved.
+
+Fireplaces and Architectural Surrounds draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/fireplaces-surrounds`. It uses all seven supplied images from `architectural-elements/fireplaces-and-surrounds/`; image mapping and source notes are in `FIREPLACES-SURROUNDS-REVIEW.md`. It is private and unapproved.
+
+Interior Wood Species and Their Characteristics draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/interior-wood-species`. It uses eight supplied images from `materials-and-finishes/interior-wood-species/`; image mapping and source notes are in `INTERIOR-WOOD-SPECIES-REVIEW.md`. It is private and unapproved.
+
+Natural Stone in Residential Design draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/natural-stone`. It uses eight supplied images from `materials-and-finishes/natural-stone/`; image mapping and source notes are in `NATURAL-STONE-REVIEW.md`. It is private and unapproved.
+
+Plaster, Roman Clay, and Decorative Wall Finishes draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/plaster-roman-clay-decorative-finishes`. It uses nine supplied images from `materials-and-finishes/plaster-roman-clay-decorative-finishes/`; image mapping and source notes are in `PLASTER-ROMAN-CLAY-DECORATIVE-FINISHES-REVIEW.md`. It is private and unapproved.
+
+Architectural Tile: Materials, Patterns, and Applications draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/architectural-tile`. It uses eight supplied images from `materials-and-finishes/architectural-tile/`; image mapping and source notes are in `ARCHITECTURAL-TILE-REVIEW.md`. It is private and unapproved.
+
+Metal Finishes in Interior Design draft: `http://127.0.0.1:3002/design-library/materials-and-finishes/metal-finishes`. It uses nine supplied images from `materials-and-finishes/metal-finishes/`; image mapping and source notes are in `METAL-FINISHES-REVIEW.md`. It is private and unapproved.
+
+Window Treatments: Curtains, Shades, Shutters, and Architectural Design draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/window-treatments`. It uses ten supplied images from `architectural-elements/window-treatments/`; image mapping and source notes are in `WINDOW-TREATMENTS-REVIEW.md`. It is private and unapproved.
+
+Decorative Lighting Fixtures: Styles, Materials, and Selection draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/decorative-lighting-fixtures`. It uses eight supplied images from `architectural-elements/decorative-lighting-fixtures/`; image mapping and source notes are in `DECORATIVE-LIGHTING-FIXTURES-REVIEW.md`. It is private and unapproved.
+
+Interior Doors, Hardware, and Architectural Character draft: `http://127.0.0.1:3002/design-library/architectural-elements-and-details/interior-doors-hardware`. It uses seven selected images from `architectural-elements/interior-doors/`; image mapping and source notes are in `INTERIOR-DOORS-HARDWARE-REVIEW.md`. It is private and unapproved.
+
+Color Theory for Interior Design draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/color-theory`. It uses seven supplied photographs and one exact-color diagram from `design-principles/color-theory/`; image mapping and source notes are in `COLOR-THEORY-REVIEW.md`. It is private and unapproved.
+
+Scale and Proportion in Interior Spaces draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/scale-proportion`. It uses seven selected images from `design-principles/scale-and-proportion/`; image mapping and source notes are in `SCALE-PROPORTION-REVIEW.md`. It is private and unapproved.
+
+Balance, Symmetry, and Asymmetry draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/balance-symmetry-asymmetry`. It uses all seven supplied images from `design-principles/balance-symmetry-asymmetry/`; image mapping and source notes are in `BALANCE-SYMMETRY-ASYMMETRY-REVIEW.md`. It is private and unapproved.
+
+Rhythm, Repetition, and Visual Harmony draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/rhythm-repetition-harmony`. It uses all eight supplied images from `design-principles/rhythm-repetition-visual-harmony/`; image mapping and source notes are in `RHYTHM-REPETITION-HARMONY-REVIEW.md`. It is private and unapproved.
+
+Lighting Design: Layers, Mood, and Function draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/lighting-design`. It uses all eight supplied images from `design-principles/lighting-design-layers-mood-function/`; image mapping and source notes are in `LIGHTING-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Spatial Planning, Circulation, and Flow draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/spatial-planning-flow`. It uses all eight supplied images from `design-principles/spatial-planning-circulation-flow/`; image mapping and source notes are in `SPATIAL-PLANNING-FLOW-REVIEW.md`. It is private and unapproved.
+
+Feng Shui: Principles, Traditions, and Applications draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/feng-shui`. It uses all eight supplied images from `design-principles/feng-shui/`; image mapping and source notes are in `FENG-SHUI-REVIEW.md`. It is private and unapproved.
+
+Biophilic Design: Connecting Interiors with Nature draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/biophilic-design`. It uses all eight supplied images from `design-principles/biophilic-design/`; image mapping and source notes are in `BIOPHILIC-DESIGN-REVIEW.md`. It is private and unapproved.
+
+Wabi-Sabi: Imperfection, Impermanence, and Beauty draft: `http://127.0.0.1:3002/design-library/design-principles-and-philosophies/wabi-sabi`. It uses all eight supplied images from `design-principles/wabi-sabi/`; image mapping and source notes are in `WABI-SABI-REVIEW.md`. It is private and unapproved.
+
+Victorian's “At a glance” panel includes six approved 108 × 72-pixel generated engraving-style thumbnails. Provenance and exact prompts: `VICTORIAN-SNAPSHOT-IMAGES.md`.
+
+The setting must be exactly `true` and NODE_ENV must be `development`. Production builds ignore it. Library release is separately disabled in `lib/design-library-policy.ts`. Layout, page lookup, metadata, static parameters, navigation, related content, and sitemap use these controls. Sitemap generation always uses public eligibility, even during preview. No draft images are placed in `public/`.
+
+Run preview on loopback only. Do not tunnel it or bind it to a public interface. A hosted review requires a separately verified access-control and asset-protection strategy. Noindex is supplementary and is not access control.
+
+Review the prose, “At a glance” summary, color/material recognition panel, and five finished generated architectural illustrations. These images depict illustrative designs, not documentary views of identified buildings or completed Studio Dee work. Exact prompts and source outputs are recorded in `CRAFTSMAN-IMAGES.md`. Identify documentary buildings accurately if added later.
+
+WebP assets live in `assets/design-library/{topic}/{article-slug}/`, outside `public/`. Architectural Styles use `architectural-styles`; House Types & Forms use `home-types`. The `/api/design-library-images/[filename]` endpoint serves known assets during explicit development preview, with private/no-store and noindex headers. Preview images bypass the Next optimizer. The endpoint is prepared for later public serving only when both the library release and the owning article's publication authorization are recorded. With the current release hold, production still returns 404 for every library image. Next file tracing includes these server-only assets in the handler package; it does not make them static public files.
+
+Before eventual publication, record explicit content and publication approvals separately; prepare approved assets for public serving; verify the real canonical domain and metadata; change the release gate only with explicit authorization. No automated deployment is part of this workflow.

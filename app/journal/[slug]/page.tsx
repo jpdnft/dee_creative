@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const article = articles.find(item => item.slug === slug);
   if (!article) notFound();
-  return pageMetadata(article.title, article.description, `/journal/${slug}`);
+  return pageMetadata(article.title, article.description, `/journal/${slug}`, { type: "article" });
 }
 export default async function ArticlePage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;

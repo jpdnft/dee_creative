@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { site } from "@/lib/site";
 import { articles } from "@/content/journal";
 import { publishedProjects } from "@/content/projects";
+import { publicLibraryPaths } from "@/lib/design-library";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return site.url === "https://example.com" ? [] : [
@@ -26,5 +27,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${site.url}/journal`, changeFrequency: "monthly", priority: 0.6 },
     { url: `${site.url}/privacy`, changeFrequency: "yearly", priority: 0.2 },
     ...articles.map(article => ({ url: `${site.url}/journal/${article.slug}`, changeFrequency: "monthly" as const, priority: 0.6 })),
+    ...publicLibraryPaths().map(path => ({ url: `${site.url}${path}`, changeFrequency: "monthly" as const, priority: 0.6 })),
   ];
 }

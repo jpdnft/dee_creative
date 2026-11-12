@@ -1,0 +1,52 @@
+export type EditorialStatus = "planned" | "researching" | "draft" | "revision" | "approved" | "published";
+export type LibraryFigure = {
+  id: string;
+  title: string;
+  brief: string;
+  caption: string;
+  alt: string;
+  kind: "brief" | "documentary" | "generated" | "supplied";
+  src?: string;
+  width?: number;
+  height?: number;
+  credit?: string;
+  sourceUrl?: string;
+  license?: string;
+  approvedAt?: string;
+};
+export type LibraryArticle = {
+  slug: string;
+  category: string;
+  assetFolder?: string;
+  title: string;
+  excerpt: string;
+  description: string;
+  status: EditorialStatus;
+  author: string;
+  publisher: string;
+  lastReviewed: string;
+  contentApprovedAt?: string;
+  publicationAuthorizedAt?: string;
+  publishedAt?: string;
+  introduction: string;
+  snapshot: {
+    facts: { label: string; text: string; image?: LibraryFigure }[];
+    features: { label: string; text: string; image?: LibraryFigure }[];
+    distinction: string;
+    sources: string[];
+    diagram?: "house" | "shotgun-dogtrot" | "split-level" | "farmstead" | "cape-cod" | "traditional-room";
+    illustrationNote?: string;
+  };
+  recognition?: {
+    section: string;
+    colors: { name: string; hex: string; use: string }[];
+    materials: { name: string; detail: string }[];
+    note: string;
+    sources: string[];
+  };
+  hero: LibraryFigure;
+  sections: { id: string; heading: string; paragraphs: string[]; sources?: string[]; figure?: LibraryFigure }[];
+  references: { id: string; title: string; publisher: string; url: string; note: string }[];
+  related: string[];
+  furtherReading: { title: string; href: string }[];
+};

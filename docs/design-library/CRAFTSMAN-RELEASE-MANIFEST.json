@@ -1,0 +1,56 @@
+{
+  "article": "craftsman",
+  "contentApprovedAt": "2026-10-25",
+  "referenceTemplateApprovedAt": "2026-10-25",
+  "publicationAuthorized": true,
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
+  "editorialSha256": "2d9acede95baa1c03ddae6d66df43ce648bb26ac33880d37251858650145b820",
+  "assets": [
+    {
+      "id": "exterior",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-exterior.webp",
+      "bytes": 455700,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "91296ae964c3106837bf8bde6f047e55bf72b9f4ef59c176826b8815c3e4f9cf",
+      "approvedAt": "2026-10-25"
+    },
+    {
+      "id": "porch",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-porch.webp",
+      "bytes": 235000,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "b2092b4ccda369f1d419e5a07aa068dfbef1b004a2f7fa7d009d2574ebb0a65b",
+      "approvedAt": "2026-10-25"
+    },
+    {
+      "id": "eave",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-eave.webp",
+      "bytes": 175014,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "5ee4abd2bc460233d3eb77083e0e95dce444052cb0175612b6893be01f36679f",
+      "approvedAt": "2026-10-25"
+    },
+    {
+      "id": "rooms",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-rooms.webp",
+      "bytes": 232698,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "2a115a6740662d8730744bd68361929bbce314bf3568747e95bf1240d4f03846",
+      "approvedAt": "2026-10-25"
+    },
+    {
+      "id": "materials",
+      "file": "assets/design-library/architectural-styles/craftsman/craftsman-materials.webp",
+      "bytes": 282856,
+      "width": 1536,
+      "height": 1024,
+      "sha256": "66a8f91617383dc2f1d1a619c9c62646119e5d12d776cc40340536db6ea5e202",
+      "approvedAt": "2026-10-25"
+    }
+  ]
+}
