@@ -4,6 +4,7 @@
 /.next/
 /.netlify/
 /artifacts/
+/public/api/design-library-images/
 .env*
 !.env.example
 *.tsbuildinfo
