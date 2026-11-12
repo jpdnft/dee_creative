@@ -300,3 +300,9 @@ The final library name, inventory approval, sample content approval, image appro
 - Remove visible editorial status notices from listing pages and the library preview banner. Keep the underlying draft/publication safeguards and status metadata.
 - Keep descriptive article captions and end each displayed caption with "Image provided by Studio Dee." Omit image-generation and OpenAI labels from reader-facing captions; retain provenance in metadata.
 - A source-image audit found one unused lighting derivative, which was added to the lighting article. Previously documented omissions remain intentional: redundant Mid-Century exteriors and Moroccan kitchen, an exterior glass wall in the interior-doors article, and an inconsistent scale guide. The Spatial Planning article retains the original sofa image alongside the replacement in its source folder; the replacement is used. The extra botanical mural image in the plaster folder depicts wallcovering rather than a plaster finish and was not added.
+
+## Sitewide sharing metadata — 2026-11-11
+
+- The user approved a consistent sitewide title, description, canonical URL, Open Graph, and Twitter card pattern. The confirmed canonical site URL is `https://studiodeepdx.com`.
+- Use `/images/entry3.jpg` as the main site's default sharing image. Design Library pages use the first image shown on the page: the first category image on the landing page, the first listed article hero on category pages, and each article's hero on article pages.
+- Keep Design Library drafts private and non-indexable. Published article images may be fetched for social sharing only after the existing article and library release gates allow access. This metadata change does not authorize publication or deployment.

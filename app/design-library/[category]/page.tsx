@@ -1,5 +1,5 @@
 import { libraryCategories } from "@/content/design-library";
-import { availableLibraryArticles, findLibraryCategory, libraryAvailable, libraryMetadata } from "@/lib/design-library";
+import { availableLibraryArticles, findLibraryCategory, libraryAvailable, libraryMetadata, libraryShareImage } from "@/lib/design-library";
 import { LibraryArticleList, LibraryBreadcrumbs } from "@/components/design-library/library";
 import editorial from "@/app/editorial.module.css";
 
@@ -8,7 +8,8 @@ export function generateStaticParams() { return libraryAvailable ? libraryCatego
 type Props = { params: Promise<{ category: string }> };
 export async function generateMetadata({ params }: Props) {
   const category = findLibraryCategory((await params).category);
-  return libraryMetadata(category.title, category.description, `/design-library/${category.slug}`);
+  const firstArticle = availableLibraryArticles().find(article => article.category === category.slug);
+  return libraryMetadata(category.title, category.description, `/design-library/${category.slug}`, { image: libraryShareImage(firstArticle?.hero) });
 }
 export default async function LibraryCategoryPage({ params }: Props) {
   const category = findLibraryCategory((await params).category);

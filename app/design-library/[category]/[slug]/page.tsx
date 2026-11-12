@@ -1,4 +1,4 @@
-import { availableLibraryArticles, findLibraryArticle, findLibraryCategory, libraryArticlePath, libraryMetadata, libraryPreview } from "@/lib/design-library";
+import { availableLibraryArticles, findLibraryArticle, findLibraryCategory, libraryArticlePath, libraryMetadata, libraryPreview, libraryShareImage } from "@/lib/design-library";
 import { site } from "@/lib/site";
 import { JsonLd, LibraryArticleList, LibraryBreadcrumbs, LibraryClosingInvitation, LibraryFigureView, LibraryRecognition, LibrarySnapshot } from "@/components/design-library/library";
 import styles from "../../library.module.css";
@@ -9,8 +9,9 @@ type Props = { params: Promise<{ category: string; slug: string }> };
 export async function generateMetadata({ params }: Props) {
   const { category, slug } = await params;
   const article = findLibraryArticle(category, slug);
-  const metadata = libraryMetadata(article.title, article.description, libraryArticlePath(article));
-  return { ...metadata, openGraph: { ...metadata.openGraph, type: "article" as const, ...(article.publishedAt ? { publishedTime: article.publishedAt } : {}) } };
+  return libraryMetadata(article.title, article.description, libraryArticlePath(article), {
+    image: libraryShareImage(article.hero), type: "article", publishedTime: article.publishedAt,
+  });
 }
 export default async function LibraryArticlePage({ params }: Props) {
   const { category: categorySlug, slug } = await params;

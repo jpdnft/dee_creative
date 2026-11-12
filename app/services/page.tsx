@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import Image from "next/image";
 import { StudyImage } from "@/components/media/study-image";
 import { images, type ImageData } from "@/content/home";
@@ -6,6 +5,7 @@ import { kitchenBathImages } from "@/content/kitchens-and-baths";
 import { considerations, creativeServices, serviceGroups } from "@/content/services";
 import editorial from "@/app/editorial.module.css";
 import { site } from "@/lib/site";
+import { pageMetadata } from "@/lib/seo";
 import styles from "./services.module.css";
 
 const title = "Residential Design-Build & Architectural Interior Services in Portland";
@@ -20,13 +20,7 @@ const serviceImages: Record<string, ImageData> = {
   "architectural-interiors": images.idea,
 };
 
-export const metadata: Metadata = {
-  title,
-  description,
-  alternates: { canonical: "/services" },
-  openGraph: { title: `${title} | ${site.name}`, description, url: "/services" },
-  twitter: { title: `${title} | ${site.name}`, description },
-};
+export const metadata = pageMetadata(title, description, "/services");
 
 export default function ServicesPage() {
   const breadcrumbs = { "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [

@@ -2,7 +2,7 @@ export const site = {
   projectsEnabled: false,
   name: "Dee Creative Enterprises",
   legalName: "Dee Creative Enterprises, LLC",
-  url: process.env.NEXT_PUBLIC_SITE_URL || "https://example.com",
+  url: (process.env.NEXT_PUBLIC_SITE_URL || "https://studiodeepdx.com").replace(/\/+$/, ""),
   description:
     "Design-led architectural interiors, private libraries, creative spaces, and whole-room transformations in Portland, Oregon—from concept through construction.",
   ccb: "263380",
