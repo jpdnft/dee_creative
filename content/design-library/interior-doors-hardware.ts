@@ -8,7 +8,10 @@ export const interiorDoorsHardware: LibraryArticle = {
   "title": "Interior Doors, Hardware, and Architectural Character",
   "excerpt": "How door profiles, construction, hardware, and surrounding trim shape the character and function of an interior.",
   "description": "Explore paneled, flush, French, pocket, and other interior doors, along with cores, hardware, trim, restoration, and installation considerations.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-08",
@@ -124,7 +127,8 @@ export const interiorDoorsHardware: LibraryArticle = {
     "width": 1448,
     "height": 1086,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -163,7 +167,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -201,7 +206,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -226,7 +232,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -251,7 +258,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -276,7 +284,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -302,7 +311,8 @@ export const interiorDoorsHardware: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

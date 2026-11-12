@@ -8,7 +8,10 @@ export const interiorTrim: LibraryArticle = {
   "title": "Crown Molding, Baseboards, and Interior Trim",
   "excerpt": "How crown, baseboards, casing, and specialty trim work together to shape a room’s character and finish its edges.",
   "description": "Explore crown molding, baseboards, door and window casing, trim profiles, proportions, materials, and installation details in historic and contemporary homes.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-04",
@@ -126,7 +129,8 @@ export const interiorTrim: LibraryArticle = {
     "width": 1254,
     "height": 1254,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -173,7 +177,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -203,7 +208,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -233,7 +239,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1199,
         "height": 1312,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -261,7 +268,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -301,7 +309,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -330,7 +339,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -414,7 +424,8 @@ export const interiorTrim: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

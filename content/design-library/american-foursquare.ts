@@ -7,7 +7,10 @@ export const americanFoursquare: LibraryArticle = {
   "title": "The American Foursquare",
   "excerpt": "A compact two-story house form with generous rooms, a broad roof, and many possible styles.",
   "description": "Explore the American Foursquare house type: its origins, four-room plan, hipped roof, porch, stylistic variations, Portland examples, and renovation choices.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-01",
@@ -85,7 +88,8 @@ export const americanFoursquare: LibraryArticle = {
     "width": 1448,
     "height": 1086,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -111,7 +115,8 @@ export const americanFoursquare: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -164,7 +169,8 @@ export const americanFoursquare: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -193,7 +199,8 @@ export const americanFoursquare: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -219,7 +226,8 @@ export const americanFoursquare: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

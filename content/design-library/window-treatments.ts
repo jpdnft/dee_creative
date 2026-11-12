@@ -8,7 +8,10 @@ export const windowTreatments: LibraryArticle = {
   "title": "Window Treatments: Curtains, Shades, Shutters, and Architectural Design",
   "excerpt": "How curtains, shades, shutters, and their mounting shape a room’s light, privacy, proportions, and character.",
   "description": "Compare curtains, Roman and cellular shades, woven shades, blinds, and interior shutters, with guidance on mounting, layering, light, and safety.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-08",
@@ -124,7 +127,8 @@ export const windowTreatments: LibraryArticle = {
     "width": 1402,
     "height": 1122,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -159,7 +163,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -187,7 +192,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -210,7 +216,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -234,7 +241,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -257,7 +265,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -279,7 +288,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -306,7 +316,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -329,7 +340,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -365,7 +377,8 @@ export const windowTreatments: LibraryArticle = {
         "width": 1672,
         "height": 941,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

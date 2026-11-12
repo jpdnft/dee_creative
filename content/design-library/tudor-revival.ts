@@ -7,7 +7,10 @@ export const tudorRevival: LibraryArticle = {
   "title": "Tudor Revival Architecture",
   "excerpt": "Steep gables, masonry chimneys, layered materials, and intimate rooms give this twentieth-century revival its enduring character.",
   "description": "Explore Tudor Revival architecture through its English precedents, American house forms, materials, interiors, Portland examples, and thoughtful renovation.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-29",
@@ -111,7 +114,8 @@ export const tudorRevival: LibraryArticle = {
     "width": 1672,
     "height": 941,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -156,7 +160,8 @@ export const tudorRevival: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -182,7 +187,8 @@ export const tudorRevival: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -209,7 +215,8 @@ export const tudorRevival: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -264,7 +271,8 @@ export const tudorRevival: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

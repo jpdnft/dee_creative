@@ -1,7 +1,7 @@
 import type { LibraryArticle } from "../content/design-library/types.ts";
 
-// Publication requires an explicit code change after separate user authorization.
-export const libraryReleaseAuthorized = false;
+// Publication was explicitly authorized by the user on 2026-11-11.
+export const libraryReleaseAuthorized = true;
 
 export function localLibraryPreview(environment: string | undefined, setting: string | undefined) {
   return environment === "development" && setting === "true";

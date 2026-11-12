@@ -7,7 +7,10 @@ export const contemporary: LibraryArticle = {
   "title": "Contemporary Architecture",
   "excerpt": "Architecture in the present tense: homes shaped by site, daily life, material choices, and building performance.",
   "description": "A guide to contemporary residential architecture, from form and interior space to materials, energy performance, and Pacific Northwest context.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-26",
@@ -112,7 +115,8 @@ export const contemporary: LibraryArticle = {
     "width": 1536,
     "height": 1024,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -172,7 +176,8 @@ export const contemporary: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -198,7 +203,8 @@ export const contemporary: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -223,7 +229,8 @@ export const contemporary: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -264,7 +271,8 @@ export const contemporary: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

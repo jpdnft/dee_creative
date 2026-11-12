@@ -7,7 +7,10 @@ export const bungalow: LibraryArticle = {
   "title": "The Bungalow",
   "excerpt": "A compact house form with a low roof, a welcoming porch, and many possible architectural styles.",
   "description": "Explore the bungalow house type: its origins, roof forms, floor plans, stylistic variations, Portland examples, materials, and renovation choices.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-30",
@@ -85,7 +88,8 @@ export const bungalow: LibraryArticle = {
     "width": 1448,
     "height": 1086,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -151,7 +155,8 @@ export const bungalow: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -177,7 +182,8 @@ export const bungalow: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -220,7 +226,8 @@ export const bungalow: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -262,7 +269,8 @@ export const bungalow: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

@@ -7,7 +7,10 @@ export const traditional: LibraryArticle = {
   "title": "Traditional Interior Design",
   "excerpt": "A flexible Western design language built from classical proportion, familiar furniture forms, layered textiles, and personal history.",
   "description": "Explore traditional interior design: historical influences, furniture, millwork, color and pattern, room planning, Portland homes, and thoughtful renovation.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-03",
@@ -126,7 +129,8 @@ export const traditional: LibraryArticle = {
     "width": 1402,
     "height": 1122,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -183,7 +187,8 @@ export const traditional: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -212,7 +217,8 @@ export const traditional: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -239,7 +245,8 @@ export const traditional: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -293,7 +300,8 @@ export const traditional: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

@@ -8,7 +8,10 @@ export const wainscotingWallPaneling: LibraryArticle = {
   "title": "Wainscoting and Wall Paneling",
   "excerpt": "A guide to the forms, proportions, materials, and craftsmanship that turn a wall treatment into architecture.",
   "description": "Learn the difference between wainscoting and wall paneling, explore seven common approaches, and plan proportions, materials, and details for your home.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-04",
@@ -122,7 +125,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
     "width": 1402,
     "height": 1122,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -200,7 +204,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -230,7 +235,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -261,7 +267,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -287,7 +294,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -310,7 +318,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -407,7 +416,8 @@ export const wainscotingWallPaneling: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

@@ -7,7 +7,10 @@ export const maximalist: LibraryArticle = {
   "title": "Maximalist Interior Design",
   "excerpt": "Color, pattern, art, collections, and architectural character find order through a confident, personal composition.",
   "description": "Explore maximalist interior design: its varied influences, color and pattern, collecting, room planning, renovation, and Portland applications.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-03",
@@ -123,7 +126,8 @@ export const maximalist: LibraryArticle = {
     "width": 1122,
     "height": 1402,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -183,7 +187,8 @@ export const maximalist: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -222,7 +227,8 @@ export const maximalist: LibraryArticle = {
         "width": 1086,
         "height": 1448,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -248,7 +254,8 @@ export const maximalist: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -285,7 +292,8 @@ export const maximalist: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -341,7 +349,8 @@ export const maximalist: LibraryArticle = {
         "width": 1086,
         "height": 1448,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

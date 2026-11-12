@@ -7,7 +7,10 @@ export const midCenturyModern: LibraryArticle = {
   "title": "Mid-Century Modern Architecture: An Open Invitation to Live Differently",
   "excerpt": "How postwar ideas about light, space, construction, and landscape changed the American home.",
   "description": "Explore Mid-Century Modern architecture: postwar origins, open plans, roof forms, materials, regional responses, and thoughtful preservation.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-26",
@@ -112,7 +115,8 @@ export const midCenturyModern: LibraryArticle = {
     "width": 1536,
     "height": 1024,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -154,7 +158,8 @@ export const midCenturyModern: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -180,7 +185,8 @@ export const midCenturyModern: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -206,7 +212,8 @@ export const midCenturyModern: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -232,7 +239,8 @@ export const midCenturyModern: LibraryArticle = {
         "width": 1024,
         "height": 1536,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -272,7 +280,8 @@ export const midCenturyModern: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

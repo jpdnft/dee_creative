@@ -8,7 +8,10 @@ export const fireplacesSurrounds: LibraryArticle = {
   "title": "Fireplaces and Architectural Surrounds",
   "excerpt": "A fireplace can organize a room through its mantel, hearth, materials, built-ins, and relationship to the working fire.",
   "description": "Explore fireplace surrounds, mantels, hearth materials, historic traditions, whole-wall design, renovation, and practical safety constraints.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-07",
@@ -122,7 +125,8 @@ export const fireplacesSurrounds: LibraryArticle = {
     "width": 1402,
     "height": 1122,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -145,7 +149,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -185,7 +190,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -211,7 +217,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -236,7 +243,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1402,
         "height": 1122,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -267,7 +275,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -293,7 +302,8 @@ export const fireplacesSurrounds: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

@@ -8,7 +8,10 @@ export const interiorArchesOpenings: LibraryArticle = {
   "title": "Interior Arches and Architectural Openings",
   "excerpt": "The passages between rooms can frame views, shape movement, and give a home its architectural rhythm.",
   "description": "Explore interior arches and architectural openings, from quiet cased passages to expressive stone, timber, glass, and plaster designs, with guidance on proportion and remodeling.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-06",
@@ -122,7 +125,8 @@ export const interiorArchesOpenings: LibraryArticle = {
     "width": 1402,
     "height": 1122,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -145,7 +149,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -174,7 +179,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -198,7 +204,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -223,7 +230,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -248,7 +256,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -275,7 +284,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -311,7 +321,8 @@ export const interiorArchesOpenings: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

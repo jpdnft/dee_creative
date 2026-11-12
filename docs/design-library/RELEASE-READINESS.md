@@ -1,4 +1,8 @@
-# Design Library release preparation — publication on hold
+# Design Library release record
+
+## Public release authorization — 2026-11-11
+
+The user explicitly authorized publishing the complete 50-article Design Library, pushing the working branch, opening a pull request, and merging it into `main`. All article and image approval dates and publication dates are recorded in the typed article files. The release gate is enabled. The earlier hold notes below document the previous state and are superseded for these 50 articles.
 
 ## Explicit authorization recorded 2026-10-25
 
@@ -42,4 +46,4 @@ Balance, Symmetry, and Asymmetry is also a private draft awaiting editorial appr
 4. Enable only the authorized article records and the library release gate, rebuild, and verify canonical/Open Graph metadata, structured data, sitemap, image delivery, production access, and exclusion of drafts.
 5. Perform the authorized push/deployment and post-deploy checks. A provider dry run and live CDN/adapter behavior remain release-time verification, not a claim made by local tests.
 
-No CMS, MDX package, new dependency, commit, merge, push, or deployment is part of this preparation.
+The historical preparation above did not include a deployment. The 2026-11-11 release authorization at the top supersedes that hold.

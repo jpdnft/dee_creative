@@ -8,7 +8,10 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
   "title": "Balance, Symmetry, and Asymmetry",
   "excerpt": "How visual weight, mirrored arrangements, and composed asymmetry shape rooms that feel settled or intentionally dynamic.",
   "description": "Learn visual balance, bilateral and approximate symmetry, asymmetry, radial balance, hierarchy, and a practical method for composing a room.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-11-08",
@@ -124,7 +127,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
     "width": 1448,
     "height": 1086,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -170,7 +174,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1448,
         "height": 1086,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -196,7 +201,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -230,7 +236,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -255,7 +262,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -291,7 +299,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -350,7 +359,8 @@ export const balanceSymmetryAsymmetry: LibraryArticle = {
         "width": 1536,
         "height": 1024,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

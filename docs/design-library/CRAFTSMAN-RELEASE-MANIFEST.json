@@ -2,8 +2,10 @@
   "article": "craftsman",
   "contentApprovedAt": "2026-10-25",
   "referenceTemplateApprovedAt": "2026-10-25",
-  "publicationAuthorized": false,
-  "editorialSha256": "e05f7746804a87a779b4b1bf3927531440fc1712c275c21143731a689b209d30",
+  "publicationAuthorized": true,
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
+  "editorialSha256": "2d9acede95baa1c03ddae6d66df43ce648bb26ac33880d37251858650145b820",
   "assets": [
     {
       "id": "exterior",

@@ -7,7 +7,10 @@ export const modern: LibraryArticle = {
   "title": "Modern Architecture: Form, Function, and a New Way of Living",
   "excerpt": "How modernist ideas changed the shape, spaces, and materials of the home, with a Pacific Northwest perspective.",
   "description": "A guide to modern architecture: its origins, design principles, materials, major movements, Pacific Northwest interpretations, and life inside modern houses.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-26",
@@ -112,7 +115,8 @@ export const modern: LibraryArticle = {
     "width": 733,
     "height": 403,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -185,7 +189,8 @@ export const modern: LibraryArticle = {
         "width": 570,
         "height": 329,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -212,7 +217,8 @@ export const modern: LibraryArticle = {
         "width": 416,
         "height": 329,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -244,7 +250,8 @@ export const modern: LibraryArticle = {
         "width": 461,
         "height": 329,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -271,7 +278,8 @@ export const modern: LibraryArticle = {
         "width": 734,
         "height": 403,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

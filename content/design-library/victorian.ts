@@ -19,7 +19,7 @@ export const victorian: LibraryArticle = {
   slug: "victorian", category: "architectural-styles", title: "Victorian Architecture",
   excerpt: "One era, several architectural languages: how to read the roofs, rooms, and details of a Victorian house.",
   description: "A guide to Victorian residential architecture, from Italianate and Second Empire to Queen Anne, with Pacific Northwest context, identifying features, colors, and materials.",
-  status: "approved", contentApprovedAt: "2026-10-25", author: "Dee Creative Enterprises", publisher: "Dee Creative Enterprises, LLC", lastReviewed: "2026-10-25",
+  status: "published", contentApprovedAt: "2026-10-25", publicationAuthorizedAt: "2026-11-11", publishedAt: "2026-11-11", author: "Dee Creative Enterprises", publisher: "Dee Creative Enterprises, LLC", lastReviewed: "2026-10-25",
   introduction: "A bracket beneath an eave, a bay that turns toward the street, a porch worked into a delicate screen: Victorian houses invite you to look closely. Yet the label tells you less than it first appears to. A quiet Italianate house and a richly textured Queen Anne can both be Victorian. Understanding the difference makes their details more interesting—and decisions about their future more thoughtful.",
   snapshot: {
     illustrationNote: "Thumbnail illustrations are editorial interpretations; Victoria’s portrait is an imagined historical likeness.",

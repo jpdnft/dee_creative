@@ -347,3 +347,8 @@ Status: Craftsman and Victorian are approved, with publication on hold. The othe
 - Adapted supplied copy and seven images into the third private Design Principles & Philosophies article. The typed article is canonical site copy; supplied Markdown remains editorial input.
 - Checked formal definitions of visual balance against J. Paul Getty Museum and Museum of Modern Art educational materials; historic interior context against National Park Service guidance.
 - Typecheck passed. The private localhost article, category page, and hero image endpoint returned 200. Test suite: 13 passed; the sole failure remains the missing decorative ceilings image in the pre-existing working tree.
+## Full library release check — 2026-11-11
+
+- The user authorized public release of all 50 current articles. All article records satisfy publication eligibility; the missing decorative-ceilings plaster WebP was restored from its tracked version.
+- Typecheck passed. All 19 tests passed, including the updated publication and asset-integrity checks. The production build succeeded with `NEXT_PUBLIC_SITE_URL=https://studiodeepdx.com` and generated all 50 article routes.
+- A local production server returned valid responses for the library landing page, six categories, 50 articles, and all 50 distinct social-sharing hero images. Canonical URLs, Open Graph and Twitter images, sitemap entries, and robots.txt were checked. The dynamic image route emitted a broad-file-pattern build warning; image delivery succeeded in the production smoke check.

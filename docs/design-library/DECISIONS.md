@@ -306,3 +306,9 @@ The final library name, inventory approval, sample content approval, image appro
 - The user approved a consistent sitewide title, description, canonical URL, Open Graph, and Twitter card pattern. The confirmed canonical site URL is `https://studiodeepdx.com`.
 - Use `/images/entry3.jpg` as the main site's default sharing image. Design Library pages use the first image shown on the page: the first category image on the landing page, the first listed article hero on category pages, and each article's hero on article pages.
 - Keep Design Library drafts private and non-indexable. Published article images may be fetched for social sharing only after the existing article and library release gates allow access. This metadata change does not authorize publication or deployment.
+
+## Full Design Library release — 2026-11-11
+
+- The user explicitly authorized publishing all 50 current Design Library articles and merging the working branch into `main`. The publication gate, article statuses, publication dates, and image approvals were updated for this release.
+- The canonical typed article files remain the live source. Untracked source Markdown drafts and unrelated local deletions of original PNGs are excluded from the release. The missing referenced plaster WebP was restored from its tracked version.
+- Future additions are not automatically published; they require a separate request and explicit release authorization under the existing article workflow.

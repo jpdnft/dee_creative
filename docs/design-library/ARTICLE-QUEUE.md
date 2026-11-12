@@ -1,73 +1,77 @@
 # Design Library — Article Queue
 
-**Inventory:** 47 current article entries across six categories; the Shotgun and Dogtrot entries were combined, and Cape Cod and Cottage were added by user request.
-**Initial status:** `planned` for every article except the sample, which remains `planned` until Codex begins.  
+**Inventory:** 50 published articles across six categories as of 2026-11-11.
+**Current status:** The user authorized publication of the entire 50-article library on 2026-11-11.
 **Status progression:** `planned` → `researching` → `draft` → `revision` → `approved` → `published`.  
-**Important:** `approved` means editorial/content approval, **not** permission to publish. Publication requires separate explicit authorization. Do not mark anything approved on your own.
+**Important:** Future articles still require separate publication authorization unless the user changes that policy.
 
 Track each article's slug, status, last review, and review notes in this file or a structured companion index. Keep the list stable unless the user approves changes.
 
 ## A. Architectural Styles (10)
-- [x] Craftsman Architecture — `craftsman` — approved — **reference template; publication on hold**
-- [x] Victorian Architecture — `victorian` — approved — **copy, images, and layout approved; publication on hold**
-- [ ] Modern Architecture — `modern` — draft — **user-supplied draft and five images adapted for private preview; editorial review pending**
-- [ ] Mid-Century Modern Architecture — `mid-century-modern` — draft — **user-supplied draft and selected images adapted for private preview; editorial review pending**
-- [ ] Contemporary Architecture — `contemporary` — draft — **user-supplied draft and five images adapted for private preview; editorial review pending**
-- [ ] Art Deco Architecture — `art-deco` — draft — **user-supplied draft and five images adapted for private preview; editorial review pending**
-- [ ] Tudor Revival Architecture — `tudor-revival` — draft — **user-supplied revised text and five images adapted for private preview; editorial review pending**
-- [ ] Colonial Revival Architecture — `colonial-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
-- [ ] Prairie School Architecture — `prairie-school` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
-- [ ] Mediterranean Revival Architecture — `mediterranean-revival` — draft — **user-supplied text and five images adapted for private preview; editorial review pending**
+- [x] Craftsman Architecture — `craftsman` — published — **Released 2026-11-11**
+- [x] Victorian Architecture — `victorian` — published — **Released 2026-11-11**
+- [x] Modern Architecture — `modern` — published — **Released 2026-11-11**
+- [x] Mid-Century Modern Architecture — `mid-century-modern` — published — **Released 2026-11-11**
+- [x] Contemporary Architecture — `contemporary` — published — **Released 2026-11-11**
+- [x] Art Deco Architecture — `art-deco` — published — **Released 2026-11-11**
+- [x] Tudor Revival Architecture — `tudor-revival` — published — **Released 2026-11-11**
+- [x] Colonial Revival Architecture — `colonial-revival` — published — **Released 2026-11-11**
+- [x] Prairie School Architecture — `prairie-school` — published — **Released 2026-11-11**
+- [x] Mediterranean Revival Architecture — `mediterranean-revival` — published — **Released 2026-11-11**
 
 ## B. House Types & Forms (9)
-- [ ] The Bungalow — `bungalow` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The American Foursquare — `american-foursquare` — draft — **user-supplied text and five official images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Ranch House — `ranch-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Farmhouse — `farmhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Cape Cod House — `cape-cod-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Cottage — `cottage` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Townhouse and Rowhouse — `townhouse-rowhouse` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — draft — **combined user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
-- [ ] The Split-Level House — `split-level-house` — draft — **user-supplied text and five images adapted for private House Types & Forms preview; editorial review pending**
+- [x] The Bungalow — `bungalow` — published — **Released 2026-11-11**
+- [x] The American Foursquare — `american-foursquare` — published — **Released 2026-11-11**
+- [x] The Ranch House — `ranch-house` — published — **Released 2026-11-11**
+- [x] The Farmhouse — `farmhouse` — published — **Released 2026-11-11**
+- [x] The Cape Cod House — `cape-cod-house` — published — **Released 2026-11-11**
+- [x] The Cottage — `cottage` — published — **Released 2026-11-11**
+- [x] The Townhouse and Rowhouse — `townhouse-rowhouse` — published — **Released 2026-11-11**
+- [x] The Shotgun and Dogtrot House — `shotgun-dogtrot-house` — published — **Released 2026-11-11**
+- [x] The Split-Level House — `split-level-house` — published — **Released 2026-11-11**
 
 ## C. Interior Design Styles (7)
-- [ ] Traditional Interior Design — `traditional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Transitional Interior Design — `transitional` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Scandinavian Interior Design — `scandinavian` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Minimalist Interior Design — `minimalist` — draft — **user-supplied text and five images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Maximalist Interior Design — `maximalist` — draft — **user-supplied text and six images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Eclectic Interior Design — `eclectic` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
-- [ ] Industrial Interior Design — `industrial` — draft — **user-supplied text and seven images adapted for private Interior Design Styles preview; editorial review pending**
+- [x] Traditional Interior Design — `traditional` — published — **Released 2026-11-11**
+- [x] Transitional Interior Design — `transitional` — published — **Released 2026-11-11**
+- [x] Scandinavian Interior Design — `scandinavian` — published — **Released 2026-11-11**
+- [x] Minimalist Interior Design — `minimalist` — published — **Released 2026-11-11**
+- [x] Maximalist Interior Design — `maximalist` — published — **Released 2026-11-11**
+- [x] Eclectic Interior Design — `eclectic` — published — **Released 2026-11-11**
+- [x] Industrial Interior Design — `industrial` — published — **Released 2026-11-11**
 
 ## D. Architectural Elements & Details (10)
-- [ ] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — draft — **user-supplied text and eight images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Interior Arches and Architectural Openings — `interior-arches-openings` — draft — **user-supplied text and eight selected images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — draft — **user-supplied text and six images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — draft — **user-supplied text and seven images adapted for private Architectural Elements & Details preview; editorial review pending**
-- [ ] Window Treatments: Curtains, Shades, Shutters, and Architectural Design — `window-treatments` — draft for editorial review
-- [ ] Decorative Lighting Fixtures: Styles, Materials, and Selection — `decorative-lighting-fixtures` — draft for editorial review
-- [ ] Interior Doors, Hardware, and Architectural Character — `interior-doors-hardware` — draft for editorial review
+- [x] Wainscoting and Wall Paneling — `wainscoting-wall-paneling` — published — **Released 2026-11-11**
+- [x] Crown Molding, Baseboards, and Interior Trim — `interior-trim` — published — **Released 2026-11-11**
+- [x] Coffered, Beamed, and Decorative Ceilings — `decorative-ceilings` — published — **Released 2026-11-11**
+- [x] Built-In Bookcases and Architectural Cabinetry — `built-in-bookcases-cabinetry` — published — **Released 2026-11-11**
+- [x] Interior Arches and Architectural Openings — `interior-arches-openings` — published — **Released 2026-11-11**
+- [x] Staircases, Balustrades, and Railings — `staircases-balustrades-railings` — published — **Released 2026-11-11**
+- [x] Fireplaces and Architectural Surrounds — `fireplaces-surrounds` — published — **Released 2026-11-11**
+- [x] Window Treatments: Curtains, Shades, Shutters, and Architectural Design — `window-treatments` — published — **Released 2026-11-11**
+- [x] Decorative Lighting Fixtures: Styles, Materials, and Selection — `decorative-lighting-fixtures` — published — **Released 2026-11-11**
+- [x] Interior Doors, Hardware, and Architectural Character — `interior-doors-hardware` — published — **Released 2026-11-11**
 
 ## E. Materials & Finishes (5)
-- [ ] Interior Wood Species and Their Characteristics — `interior-wood-species` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
-- [ ] Natural Stone in Residential Design — `natural-stone` — draft — **user-supplied text and eight images adapted for private Materials & Finishes preview; editorial review pending**
-- [ ] Plaster, Roman Clay, and Decorative Wall Finishes — `plaster-roman-clay-decorative-finishes` — draft for editorial review
-- [ ] Architectural Tile: Materials, Patterns, and Applications — `architectural-tile` — draft for editorial review
-- [ ] Metal Finishes in Interior Design — `metal-finishes` — draft for editorial review
+- [x] Interior Wood Species and Their Characteristics — `interior-wood-species` — published — **Released 2026-11-11**
+- [x] Natural Stone in Residential Design — `natural-stone` — published — **Released 2026-11-11**
+- [x] Plaster, Roman Clay, and Decorative Wall Finishes — `plaster-roman-clay-decorative-finishes` — published — **Released 2026-11-11**
+- [x] Architectural Tile: Materials, Patterns, and Applications — `architectural-tile` — published — **Released 2026-11-11**
+- [x] Metal Finishes in Interior Design — `metal-finishes` — published — **Released 2026-11-11**
 
 ## F. Design Principles & Philosophies (9)
-- [ ] Color Theory for Interior Design — `color-theory` — draft for editorial review
-- [ ] Scale and Proportion in Interior Spaces — `scale-proportion` — draft for editorial review
-- [ ] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — draft for editorial review
-- [ ] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — draft for editorial review
-- [ ] Lighting Design: Layers, Mood, and Function — `lighting-design` — draft for editorial review
-- [ ] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — draft for editorial review
-- [ ] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — draft for editorial review
-- [ ] Biophilic Design: Connecting Interiors with Nature — `biophilic-design` — draft for editorial review
-- [ ] Wabi-Sabi: Imperfection, Impermanence, and Beauty — `wabi-sabi` — draft for editorial review
+- [x] Color Theory for Interior Design — `color-theory` — published — **Released 2026-11-11**
+- [x] Scale and Proportion in Interior Spaces — `scale-proportion` — published — **Released 2026-11-11**
+- [x] Balance, Symmetry, and Asymmetry — `balance-symmetry-asymmetry` — published — **Released 2026-11-11**
+- [x] Rhythm, Repetition, and Visual Harmony — `rhythm-repetition-harmony` — published — **Released 2026-11-11**
+- [x] Lighting Design: Layers, Mood, and Function — `lighting-design` — published — **Released 2026-11-11**
+- [x] Spatial Planning, Circulation, and Flow — `spatial-planning-flow` — published — **Released 2026-11-11**
+- [x] Feng Shui: Principles, Traditions, and Applications — `feng-shui` — published — **Released 2026-11-11**
+- [x] Biophilic Design: Connecting Interiors with Nature — `biophilic-design` — published — **Released 2026-11-11**
+- [x] Wabi-Sabi: Imperfection, Impermanence, and Beauty — `wabi-sabi` — published — **Released 2026-11-11**
+
+## Release record — 2026-11-11
+
+The user explicitly authorized publishing all 50 articles and merging the working branch into `main`. Earlier draft and publication-hold notes below are historical review records and are superseded for these articles. The typed article files are the authoritative live copy.
 
 ## Review record template
 
@@ -146,4 +150,4 @@ For each article, record:
 - Publication authorization/date (explicit, separate)
 
 ## Workflow guardrail
-Work on only one article at a time. After completing a draft or revisions, stop and wait. Never advance to another article, mark approved, merge to production, or deploy merely because previous work is complete.
+Work on only one new article at a time. After completing a new draft or revision, stop and wait for its review. The 2026-11-11 authorization above covers the current 50 articles; it does not automatically authorize publication of later additions.

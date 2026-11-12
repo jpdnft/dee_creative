@@ -7,7 +7,10 @@ export const colonialRevival: LibraryArticle = {
   "title": "Colonial Revival Architecture",
   "excerpt": "How ordered facades, expressive entrances, and selected historical details shaped a lasting American revival.",
   "description": "Explore Colonial Revival architecture through its origins, defining exterior details, Dutch and Georgian variations, interiors, Portland examples, and sensitive adaptation.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-29",
@@ -111,7 +114,8 @@ export const colonialRevival: LibraryArticle = {
     "width": 1254,
     "height": 1254,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -157,7 +161,8 @@ export const colonialRevival: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -185,7 +190,8 @@ export const colonialRevival: LibraryArticle = {
         "width": 1382,
         "height": 1138,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -223,7 +229,8 @@ export const colonialRevival: LibraryArticle = {
         "width": 1145,
         "height": 1374,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -277,7 +284,8 @@ export const colonialRevival: LibraryArticle = {
         "width": 1254,
         "height": 1254,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {

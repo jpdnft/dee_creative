@@ -59,7 +59,7 @@ test('preview is explicit and development-only, even when a production environme
   assert.equal(localLibraryPreview('development', 'false'), false);
   assert.equal(localLibraryPreview('development', undefined), false);
   assert.equal(localLibraryPreview('development', 'true'), true);
-  assert.equal(libraryReleaseAuthorized, false);
+  assert.equal(libraryReleaseAuthorized, true);
 });
 
 test('article categories resolve to the intended private asset topic folders', () => {
@@ -135,6 +135,8 @@ test('Wabi-Sabi article places all eight supplied illustrations in the page', ()
 
 test('every article image resolves from its category asset folder', async () => {
   for (const article of [craftsman, victorian, modern, midCenturyModern, contemporary, artDeco, tudorRevival, colonialRevival, prairieSchool, mediterraneanRevival, bungalow, americanFoursquare, ranchHouse, townhouseRowhouse, shotgunDogtrotHouse, splitLevelHouse, farmhouse, capeCodHouse, cottage, traditional, transitional, scandinavian, minimalist, maximalist, eclectic, industrial, wainscotingWallPaneling, interiorTrim, decorativeCeilings, builtInBookcasesCabinetry, interiorArchesOpenings, staircasesBalustradesRailings, fireplacesSurrounds, interiorWoodSpecies, naturalStone, plasterRomanClayDecorativeFinishes, architecturalTile, metalFinishes, windowTreatments, decorativeLightingFixtures, interiorDoorsHardware, colorTheory, scaleProportion, balanceSymmetryAsymmetry, rhythmRepetitionHarmony, lightingDesign, spatialPlanningFlow, fengShui, biophilicDesign, wabiSabi]) {
+    assert.equal(article.status, 'published', `${article.slug} must be published`);
+    assert(isPublishedArticle(article), `${article.slug} must meet the publication gate`);
     for (const figure of libraryArticleImages(article)) {
       if (!figure.src) continue;
       const filename = figure.src.split('/').at(-1);
@@ -146,16 +148,17 @@ test('every article image resolves from its category asset folder', async () => 
 
 test('content approval never publishes a draft; all public discovery uses publication eligibility', () => {
   const image = { ...craftsman.hero, kind: 'documentary', src: '/fixture.webp', width: 100, height: 100, credit: 'Fixture', license: 'Test only', sourceUrl: 'https://example.com/photo' };
-  const published = { ...craftsman, hero: image, sections: craftsman.sections.map(section => ({ ...section, figure: undefined })), status: 'published', contentApprovedAt: '2026-10-25', publicationAuthorizedAt: '2026-10-25', publishedAt: '2026-10-25' };
-  const records = [craftsman, { ...published, slug: 'approved', status: 'approved' }, { ...published, slug: 'no-authorization', publicationAuthorizedAt: undefined }, { ...published, slug: 'brief', hero: { ...craftsman.hero, kind: 'brief' } }, { ...published, slug: 'unapproved-image', hero: { ...image, approvedAt: undefined } }, { ...published, slug: 'missing-rights', hero: { ...image, license: undefined } }, published];
+  const published = { ...craftsman, slug: 'published-fixture', hero: image, sections: craftsman.sections.map(section => ({ ...section, figure: undefined })) };
+  const draft = { ...published, slug: 'draft', status: 'draft', publicationAuthorizedAt: undefined, publishedAt: undefined };
+  const records = [draft, { ...published, slug: 'approved', status: 'approved' }, { ...published, slug: 'no-authorization', publicationAuthorizedAt: undefined }, { ...published, slug: 'brief', hero: { ...craftsman.hero, kind: 'brief' } }, { ...published, slug: 'unapproved-image', hero: { ...image, approvedAt: undefined } }, { ...published, slug: 'missing-rights', hero: { ...image, license: undefined } }, published];
   assert.deepEqual(eligibleLibraryArticles(records, false, false), []);
   assert.deepEqual(eligibleLibraryArticles(records, true, false), [published]);
-  assert.equal(isPublishedArticle(craftsman), false);
+  assert.equal(isPublishedArticle(draft), false);
   assert.deepEqual(libraryPublicPaths(records, libraryCategories, false), []);
   const paths = libraryPublicPaths(records, libraryCategories, true);
   assert(paths.includes(libraryArticlePath(published)));
   assert(!paths.some(path => path.endsWith('/approved') || path.endsWith('/brief') || path.endsWith('/no-authorization')));
-  assert.deepEqual(eligibleLibraryArticles([craftsman], false, true), [craftsman]);
+  assert.deepEqual(eligibleLibraryArticles([draft], false, true), [draft]);
 });
 
 test('available articles have coherent references, anchors, categories and figure identifiers', () => {
@@ -175,26 +178,25 @@ test('snapshot thumbnails share article access and individual image approval saf
   const thumbnail = victorian.snapshot.facts[0].image;
   assert(thumbnail);
   assert.equal(libraryArticleImages(victorian).length, 11);
-  assert.equal(accessibleLibraryImage([craftsman, victorian], 'victorian-snapshot-when.webp', true, false), undefined);
+  assert.equal(accessibleLibraryImage([craftsman, victorian], 'victorian-snapshot-when.webp', true, false)?.articleSlug, 'victorian');
   assert.equal(accessibleLibraryImage([craftsman, victorian], 'victorian-snapshot-when.webp', false, true)?.articleSlug, 'victorian');
   const approvedBodyOnly = { ...victorian, snapshot: { ...victorian.snapshot, facts: victorian.snapshot.facts.map(item => ({ ...item, image: { ...item.image, approvedAt: undefined } })), features: victorian.snapshot.features.map(item => ({ ...item, image: { ...item.image, approvedAt: undefined } })) } };
   assert.equal(isPublicationReady(approvedBodyOnly), false, 'Unapproved thumbnails must block release readiness');
   assert.equal(isPublicationReady(victorian), true);
 });
 
-test('approved articles are release-ready but stay private', () => {
+test('published articles are release-ready and their images remain gated by the library release', () => {
   assert.equal(isPublicationReady(craftsman), true);
   assert.equal(isPublicationReady(victorian), true);
   const suppliedWithApproval = { ...craftsman, hero: { ...craftsman.hero, kind: 'supplied', approvedAt: '2026-10-26' } };
   assert.equal(isPublicationReady(suppliedWithApproval), true, 'Studio Dee supplied imagery can be publication-ready after editorial image approval');
   assert.equal(isPublicationReady({ ...suppliedWithApproval, hero: { ...suppliedWithApproval.hero, approvedAt: undefined } }), false, 'Supplied images still require editorial approval');
-  assert.equal(isPublishedArticle(craftsman), false);
+  assert.equal(isPublishedArticle(craftsman), true);
   assert.equal(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', false, false), undefined);
-  assert.equal(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', true, false), undefined);
+  assert(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', true, false));
   assert(accessibleLibraryImage([craftsman, victorian], 'craftsman-exterior.webp', false, true));
   assert.equal(accessibleLibraryImage([craftsman, victorian], '../craftsman-exterior.webp', true, true), undefined);
-  const released = { ...craftsman, status: 'published', publicationAuthorizedAt: '2026-10-25', publishedAt: '2026-10-25' };
-  assert(accessibleLibraryImage([released, victorian], 'craftsman-exterior.webp', true, false));
-  assert.equal(accessibleLibraryImage([released, victorian], 'victorian-exterior.webp', true, false), undefined);
-  assert.equal(accessibleLibraryImage([released, victorian], 'craftsman-exterior.webp', false, false), undefined);
+  const held = { ...craftsman, status: 'approved', publicationAuthorizedAt: undefined, publishedAt: undefined };
+  assert.equal(accessibleLibraryImage([held, victorian], 'craftsman-exterior.webp', true, false), undefined);
+  assert(accessibleLibraryImage([held, victorian], 'victorian-exterior.webp', true, false));
 });

@@ -2,7 +2,7 @@
 
 **Site:** https://studiodeepdx.com/  
 **Business:** Dee Creative Enterprises, LLC  
-**Status:** Planning specification; content inventory proposed, not yet editorially approved  
+**Status:** Fifty-article library authorized for public release on 2026-11-11; retained as the planning reference for future additions
 **Implementation:** Existing Next.js repository, using Codex
 
 ## Purpose
@@ -10,7 +10,7 @@ Build a substantial, beautifully illustrated, editorial-quality reference librar
 
 ## Confirmed decisions
 - One new top-level navigation item, provisionally **The Design Library**, linking directly to `/design-library/`. **No category dropdown** in the primary navigation.
-- Six launch categories; proposed inventory of **46 articles**, tracked in `ARTICLE-QUEUE.md`.
+- Six launch categories; current inventory of **50 articles**, tracked in `ARTICLE-QUEUE.md`.
 - Existing Studio Dee header, footer, typography, colors, navigation behavior, spacing, buttons, branding, and responsive conventions must be reused. Inspect the codebase rather than guessing implementation details.
 - Breadcrumbs on category and article pages, e.g. Home → The Design Library → Architectural Styles → Craftsman Architecture.
 - Editorially polished, substantive articles; each should be comprehensive without padding.
@@ -26,7 +26,7 @@ Build a substantial, beautifully illustrated, editorial-quality reference librar
 5. **Materials & Finishes** — properties, history, appearance, limitations, installation/maintenance considerations.
 6. **Design Principles & Philosophies** — color, proportion, light, space, and historically grounded schools of thought.
 
-The full provisional 46-article list is in `ARTICLE-QUEUE.md`. Do not create all articles in the first phase.
+The current 50-article list and release status are in `ARTICLE-QUEUE.md`.
 
 ## Required pages and navigation
 - Library landing page `/design-library/`: compelling introduction and six category entry points using the existing visual system.

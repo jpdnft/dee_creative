@@ -7,7 +7,10 @@ export const mediterraneanRevival: LibraryArticle = {
   "title": "Mediterranean Revival Architecture",
   "excerpt": "Stucco walls, tile roofs, arches, and courtyards carry Mediterranean traditions into American revival architecture.",
   "description": "Explore Mediterranean Revival architecture, its many origins, defining forms and materials, courtyards, Portland examples, and preservation considerations.",
-  "status": "draft",
+  "status": "published",
+  "contentApprovedAt": "2026-11-11",
+  "publicationAuthorizedAt": "2026-11-11",
+  "publishedAt": "2026-11-11",
   "author": "Dee Creative Enterprises",
   "publisher": "Dee Creative Enterprises, LLC",
   "lastReviewed": "2026-10-30",
@@ -111,7 +114,8 @@ export const mediterraneanRevival: LibraryArticle = {
     "width": 1536,
     "height": 1024,
     "credit": "Image provided by Studio Dee",
-    "license": "Studio Dee authorized use"
+    "license": "Studio Dee authorized use",
+    "approvedAt": "2026-11-11"
   },
   "sections": [
     {
@@ -167,7 +171,8 @@ export const mediterraneanRevival: LibraryArticle = {
         "width": 1383,
         "height": 1137,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -194,7 +199,8 @@ export const mediterraneanRevival: LibraryArticle = {
         "width": 1383,
         "height": 1137,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -220,7 +226,8 @@ export const mediterraneanRevival: LibraryArticle = {
         "width": 1383,
         "height": 1137,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     },
     {
@@ -291,7 +298,8 @@ export const mediterraneanRevival: LibraryArticle = {
         "width": 1383,
         "height": 1137,
         "credit": "Image provided by Studio Dee",
-        "license": "Studio Dee authorized use"
+        "license": "Studio Dee authorized use",
+        "approvedAt": "2026-11-11"
       }
     }
   ],
