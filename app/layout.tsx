@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import { Header } from "@/components/layout/header";
 import { Footer } from "@/components/layout/footer";
 import { site } from "@/lib/site";
@@ -21,5 +22,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   const libraryVisible = libraryReleaseAuthorized || localLibraryPreview(process.env.NODE_ENV, process.env.DESIGN_LIBRARY_PREVIEW);
-  return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header libraryVisible={libraryVisible} />{children}<Footer libraryVisible={libraryVisible} /></body></html>;
+  return <html lang="en"><body><a className="skip-link" href="#main">Skip to content</a><Header libraryVisible={libraryVisible} />{children}<Footer libraryVisible={libraryVisible} /></body><Script id="google-tag-init" strategy="beforeInteractive">{`window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());`}</Script><Script src="https://www.googletagmanager.com/gtm.js?id=GTM-569V8VRS" strategy="beforeInteractive" /></html>;
 }
